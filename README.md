@@ -14,8 +14,10 @@ This application is a **Textual-based GUI** for Named Entity Recognition (NER) a
 - **Data Management**: Built-in tools for data preprocessing and annotation
 - **Multi-Environment**: Separate environments for main app and SpERT to avoid conflicts
 
-**IMPORTANT: If just interested in visualization, I recommend creating the folder spert/data/model_predictions/ and moving the ./test_predictions.json there.**
-
+---
+## ⚠️ IMPORTANT: Visualization-Only Users!
+If you are **just interested in visualization**, I recommend creating the folder `spert/data/model_predictions/` and moving the `./test_predictions.json` there.
+---
 ## Prerequisites
 
 - **Python 3.8+** (Python 3.11 recommended)
