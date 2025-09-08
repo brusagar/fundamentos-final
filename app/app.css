@@ -1,0 +1,42 @@
+Screen {
+    align: center middle;
+}
+
+#menu-grid {
+    grid-size: 1;
+    grid-gutter: 1;
+    padding: 1;
+    width: 40;
+    height: auto;
+    border: solid green;
+}
+
+#menu-label {
+    text-align: center;
+    padding: 1;
+}
+
+.row-editor {
+    layout: grid;
+    grid-size: 2;
+    grid-gutter: 1;
+    padding: 1;
+    width: 100%;
+    height: auto;
+    margin: 1;
+    border: solid $accent;
+}
+
+#results-container {
+    width: 100%;
+    height: auto;
+    padding: 1;
+}
+
+Button {
+    width: 100%;
+}
+
+Input {
+    width: 100%;
+}

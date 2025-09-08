@@ -1,0 +1,16 @@
+# Main Application Requirements
+# Core dependencies for the NLP application GUI
+
+# Textual UI Framework
+textual>=6.0.0,<7.0.0
+textual-autocomplete>=4.0.4,<5.0.0
+
+# Data Processing
+pandas>=2.0.0
+spacy>=3.5.0
+
+# NLP & ML Core
+scikit-learn>=1.3.0
+
+# Optional dependencies for advanced features
+# Install with: pip install -r requirements-optional.txt for coreference resolution

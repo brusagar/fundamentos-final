@@ -1,0 +1,421 @@
+[
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "basi"}
+        ]
+    },
+    {
+        "label": "MAGIC",
+        "pattern": [
+            {"LOWER": "beauty magic"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "bosu"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "beku"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "bisila"}
+        ]
+    },
+    {
+        "label": "MAGIC",
+        "pattern": [
+            {"LOWER": "bulubwalata"}
+        ]
+    },
+    {
+        "label": "MAGIC",
+        "pattern": [
+            {"LOWER": "bwaga'u"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "vaygu'a"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "doga"}
+        ]
+    },
+    {
+        "label": "RITUAL",
+        "pattern": [
+            {"LOWER": "dogina"}
+        ]
+    },
+    {
+        "label": "EVENT",
+        "pattern": [
+            {"LOWER": "gimwali"}
+        ]
+    },
+    {
+        "label": "EVENT",
+        "pattern": [
+            {"LOWER": "eguya'i"}
+        ]
+    },
+    {
+        "label": "LOCATION",
+        "pattern": "Dobu"
+    },
+    {
+        "label": "EVENT",
+        "pattern": "Kula"
+    },
+    {
+        "label": "EVENT",
+        "pattern": [
+            {"LOWER": "kula"},
+            {"LOWER": "ring"}
+        ]
+    },
+    {
+        "label": "MYTH",
+        "pattern": [
+            {"LOWER": "gumagabu"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "gebobo"}
+        ]
+    },
+    {
+        "label": "MYTHICAL_BEING",
+        "pattern": [
+            {"LOWER": "gere'u"}
+        ]
+    },
+    {
+        "label": "RITUAL",
+        "pattern": [
+            {"LOWER": "kabigidoya"}
+        ]
+    },
+    {
+        "label": "LOCATION",
+        "pattern": [
+            {"LOWER": "the"},
+            {"LOWER": "trobriands"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "kalipoulo"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "kaloma"}
+        ]
+    },
+
+    {
+        "label": "RITUAL",
+        "pattern": [
+            {"LOWER": "kaributu"}
+        ]
+    },
+    {
+        "label": "MAGIC",
+        "pattern": [
+            {"LOWER": "kariyala"}
+        ]
+    },
+    {
+        "label": "MYTHICAL_BEING",
+        "pattern": "Kasabwaybwayreta"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "katudababile"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "katudababile"}
+        ]
+    },
+    {
+        "label": "MAGIC",
+        "pattern": [
+            {"LOWER": "ka'ubana'i"}
+        ]
+    },
+    {
+        "label": "MAGIC",
+        "pattern": [
+            {"LOWER": "kayga'u"}
+        ]
+    },
+    {
+        "label": "EVENT",
+        "pattern": [
+            {"LOWER": "katuyausi"}
+        ]
+    },
+    {
+        "label": "EVENT",
+        "pattern": [
+            {"LOWER": "ka'ubana'i"}
+        ]
+    },
+    {
+        "label": "MAGIC",
+        "pattern": [
+            {"LOWER": "layga'u"}
+        ]
+    },
+    {
+        "label": "LOCATION",
+        "pattern": "Kitava"
+    },
+    {
+        "label": "LOCATION",
+        "pattern": "Kiriwina"
+    },
+    {
+        "label": "MAGIC",
+        "pattern": [
+            {"LOWER": "kaytaria"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "korotomna"}
+        ]
+    },
+    {
+        "label": "MYTH",
+        "pattern": "Kudayuri"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "kudu"}
+        ]
+    },
+    {
+        "label": "PERSON",
+        "pattern": [
+            {"LOWER": "the"},
+            {"LOWER": "natives"},
+            {"LOWER": "of"},
+            {"ENT_TYPE": "LOCATION"}
+        ]
+    },
+    {
+        "label": "PERSON",
+        "pattern": [
+            {"LOWER": "the"},
+            {"LOWER": "men"},
+            {"LOWER": "of"},
+            {"ENT_TYPE": "LOCATION"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "kukumali"}
+        ]
+    },
+    {
+        "label": "EVENT",
+        "pattern": [
+            {"LOWER": "laga"}
+        ]
+    },
+    {
+        "label": "RITUAL",
+        "pattern": [
+            {"LOWER": "lilava"}
+        ]
+    },
+    {
+        "label": "OBJECT",
+        "pattern": [
+            {"LOWER": "masawa"}
+        ]
+    },
+    {
+        "label": "MAGIC",
+        "pattern": [
+            {"LOWER": "megwa"}
+        ]
+    },
+    {
+        "label": "LOCATION",
+        "pattern": "Muwa"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "mwali"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "mwasila"
+    },
+    {
+        "label": "PERSON",
+        "pattern": "the magician"
+    },
+    {
+        "label": "ORG",
+        "pattern": "the clan"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "nagega"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "pari"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "pokala"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "puwaya"
+    },
+    {
+        "label": "EVENT",
+        "pattern": "Sagali"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "sago"
+    },
+    {
+        "label": "LOCATION",
+        "pattern": "Sarubwoyna"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "soulava"
+    },
+    {
+        "label": "MYTHICAL_BEING",
+        "pattern": "yoyova"
+    },
+    {
+        "label": "MYTHICAL_BEING",
+        "pattern": "mulukwausi"
+    },
+    {
+        "label": "PERSON",
+        "pattern": "To'ulawa"
+    },
+    {
+        "label": "PERSON",
+        "pattern": "Kenoriya"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "tabuyo"
+    },
+    {
+        "label":"EVENT",
+        "pattern": [
+            {"LOWER": "sagali"}
+        ]
+    },
+    {
+        "label":"MAGIC",
+        "pattern": [
+            {"LOWER": "toginivayu"}
+        ]
+    },
+    {
+        "label": "PERSON",
+        "pattern": "chief"
+    },
+    {
+        "label": "PERSON",
+        "pattern": "toli'uvalaku"
+    },
+    {
+        "label": "PERSON",
+        "pattern": "sorcerer"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "talo'i"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "gifts"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "tawara"
+    },
+    {
+        "label": "EVENT",
+        "pattern": [
+            {"LOWER": "tasasoria"}
+        ]
+    },
+    {
+        "label": "PERSON",
+        "pattern": [
+            {"LOWER": "toliwaga"}
+        ]
+    },
+    {
+        "label": "EVENT",
+        "pattern": "Uvalaku"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "vaga"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "vata'i"
+    },
+    {
+        "label": "MAGIC",
+        "pattern": "vilamalya"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "waga"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "yotile"
+    },
+    {
+        "label": "OBJECT",
+        "pattern": "wayugo"
+    },
+    {
+        "label": "EVENT",
+        "pattern": "Youlawada"
+    }
+]

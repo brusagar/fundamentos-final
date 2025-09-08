@@ -1,0 +1,1978 @@
+The Project Gutenberg eBook of Argonauts of the Western Pacific
+    
+This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+Title: Argonauts of the Western Pacific
+
+Author: Bronislaw Malinowski
+
+Author of introduction, etc.: James George Frazer
+
+Release date: October 26, 2017 [eBook #55822]
+                Most recently updated: October 23, 2024
+
+Language: English
+
+Credits: Produced by Jeroen Hellingman and the Online Distributed
+        Proofreading Team (Italy) for Project Gutenberg.
+
+
+*** START OF THE PROJECT GUTENBERG EBOOK ARGONAUTS OF THE WESTERN PACIFIC ***
+
+                    ARGONAUTS OF THE WESTERN PACIFIC
+
+                          An Account of Native
+                        Enterprise and Adventure
+                        in the Archipelagoes of
+                         Melanesian New Guinea
+
+
+                                   By
+                          Bronislaw Malinowski
+                     PH.D. (Cracow), D.Sc. (London)
+
+                             With a Preface
+                                   By
+                Sir James George, Frazer, F.B.A., F.R.S.
+
+
+             With 5 Maps, 65 Illustrations, and 2 Figures,
+                 London: George Routledge & Sons, Ltd.
+                      New York: E. P. Dutton & Co.
+                                  1922
+
+
+
+
+
+
+
+
+
+                                   To
+                         my friend and teacher
+                    Professor C. G. Seligman, F.R.S.
+
+
+
+
+
+
+
+
+
+PREFACE
+
+By Sir James G. Frazer
+
+
+My esteemed friend, Dr. B. Malinowski has asked me to write a preface
+to his book, and I willingly comply with his request, though I can
+hardly think that any words of mine will add to the value of the
+remarkable record of anthropological research which he has given us
+in this volume. My observations, such as they are, will deal partly
+with the writer's method and partly with the matter of his book.
+
+In regard to method, Dr. Malinowski has done his work, as it appears
+to me, under the best conditions and in the manner calculated to
+secure the best possible results. Both by theoretical training and
+by practical experience he was well equipped for the task which he
+undertook. Of his theoretical training he had given proof in his
+learned and thoughtful treatise on the family among the aborigines
+of Australia [1]; of his practical experience he had produced no
+less satisfactory evidence in his account of the natives of Mailu
+in New Guinea, based on a residence of six months among them. [2]
+In the Trobriand Islands, to the east of New Guinea, to which he
+next turned his attention, Dr. Malinowski lived as a native among
+the natives for many months together, watching them daily at work
+and at play, conversing with them in their own tongue, and deriving
+all his information from the surest sources--personal observation
+and statements made to him directly by the natives in their own
+language without the intervention of an interpreter. In this way he
+has accumulated a large mass of materials, of high scientific value,
+bearing on the social, religious, and economic or industrial life
+of the Trobriand Islanders. These he hopes and intends to publish
+hereafter in full; meantime he has given us in the present volume a
+preliminary study of an interesting and peculiar feature in Trobriand
+society, the remarkable system of exchange, only in part economic or
+commercial, which the islanders maintain among themselves and with
+the inhabitants of neighbouring islands.
+
+Little reflection is needed to convince us of the fundamental
+importance of economic forces at all stages of man's career from the
+humblest to the highest. After all, the human species is part of the
+animal creation, and as such, like the rest of the animals, it reposes
+on a material foundation; on which a higher life, intellectual, moral,
+social, may be built, but without which no such superstructure is
+possible. That material foundation, consisting in the necessity of food
+and of a certain degree of warmth and shelter from the elements, forms
+the economic or industrial basis and prime condition of human life. If
+anthropologists have hitherto unduly neglected it, we may suppose that
+it was rather because they were attracted to the higher side of man's
+nature than because they deliberately ignored and undervalued the
+importance and indeed necessity of the lower. In excuse for their
+neglect we may also remember that anthropology is still a young
+science, and that the multitude of problems which await the student
+cannot all be attacked at once, but must be grappled with one by
+one. Be that as it may, Dr. Malinowski has done well to emphasise the
+great significance of primitive economics by singling out the notable
+exchange system of the Trobriand Islanders for special consideration.
+
+Further, he has wisely refused to limit himself to a mere description
+of the processes of the exchange, and has set himself to penetrate
+the motives which underlie it and the feelings which it excites in
+the minds of the natives. It appears to be sometimes held that pure
+sociology should confine itself to the description of acts and should
+leave the problems of motives and feelings to psychology. Doubtless
+it is true that the analysis of motives and feelings is logically
+distinguishable from the description of acts, and that it falls,
+strictly speaking, within the sphere of psychology; but in practice
+an act has no meaning for an observer unless he knows or infers the
+thoughts and emotions of the agent; hence to describe a series of
+acts, without any reference to the state of mind of the agent, would
+not answer the purpose of sociology, the aim of which is not merely
+to register but to understand the actions of men in society. Thus
+sociology cannot fulfil its task without calling in at every turn
+the aid of psychology.
+
+It is characteristic of Dr. Malinowski's method that he takes full
+account of the complexity of human nature. He sees man, so to say, in
+the round and not in the flat. He remembers that man is a creature of
+emotion at least as much as of reason, and he is constantly at pains
+to discover the emotional as well as the rational basis of human
+action. The man of science, like the man of letters, is too apt to
+view mankind only in the abstract, selecting for his consideration
+a single side of our complex and many-sided being. Of this one-sided
+treatment Molière is a conspicuous example among great writers. All his
+characters are seen only in the flat: one of them is a miser, another
+a hypocrite, another a coxcomb, and soon; but not one of them is a
+man. All are dummies dressed up to look very like human beings; but
+the likeness is only on the surface, all within is hollow and empty,
+because truth to nature has been sacrificed to literary effect. Very
+different is the presentation of human nature in the greater artists,
+such as Cervantes and Shakespeare: their characters are solid, being
+drawn not from one side only but from many. No doubt in science a
+certain abstractness of treatment is not merely legitimate, but
+necessary, since science is nothing but knowledge raised to the
+highest power, and all knowledge implies a process of abstraction
+and generalisation: even the recognition of an individual whom we see
+every day is only possible as the result of an abstract idea of him
+formed by generalisation from his appearances in the past. Thus the
+science of man is forced to abstract certain aspects of human nature
+and to consider them apart from the concrete reality; or rather it
+falls into a number of sciences, each of which considers a single part
+of man's complex organism, it may be the physical, the intellectual,
+the moral, or the social side of his being; and the general conclusions
+which it draws will present a more or less incomplete picture of man
+as a whole, because the lines which compose it are necessarily but
+a few picked out of a multitude.
+
+In the present treatise Dr. Malinowski is mainly concerned with what
+at first sight might seem a purely economic activity of the Trobriand
+Islanders; but, with his usual width of outlook and fineness of
+perception, he is careful to point out that the curious circulation of
+valuables, which takes place between the inhabitants of the Trobriand
+and other islands, while it is accompanied by ordinary trade, is by no
+means itself a purely commercial transaction; he shows that it is not
+based on a simple calculation of utility, of profit and loss, but that
+it satisfies emotional and æsthetic needs of a higher order than the
+mere gratification of animal wants. This leads Dr. Malinowski to pass
+some severe strictures on the conception of the Primitive Economic Man
+as a kind of bogey who, it appears, still haunts economic text-books
+and even extends his blighting influence to the minds of certain
+anthropologists. Rigged out in cast-off garments of Mr. Jeremy Bentham
+and Mr. Gradgrind, this horrible phantom is apparently actuated by no
+other motive than that of filthy lucre, which he pursues relentlessly,
+on Spencerian principles, along the line of least resistance. If
+such a dismal fiction is really regarded by serious inquirers as
+having any counterpart in savage society, and not simply as a useful
+abstraction, Dr. Malinowski's account of the Kula in this book should
+help to lay the phantom by the heels; for he proves that the trade in
+useful objects, which forms part of the Kula system, is in the minds
+of the natives entirely subordinate in importance to the exchange
+of other objects, which serve no utilitarian purpose whatever. In
+its combination of commercial enterprise, social organisation,
+mythical background, and magical ritual, to say nothing of the wide
+geographical range of its operations, this singular institution appears
+to have no exact parallel in the existing anthropological record; but
+its discoverer, Dr. Malinowski, may very well be right in surmising
+that it is probably a type of institution of which analogous, if not
+precisely similar, instances will hereafter be brought to light by
+further research among savage and barbarous peoples.
+
+Not the least interesting and instructive feature of the Kula, as it
+is described for us by Dr. Malinowski, is the extremely important part
+which magic is seen to play in the institution. From his description
+it appears that in the minds of the natives the performance of magical
+rites and the utterance of magical words are indispensable for the
+success of the enterprise in all its phases, from the felling of
+the trees out of which the canoes are to be hollowed, down to the
+moment when, the expedition successfully accomplished, the argosy
+with its precious cargo is about to start on its homeward voyage. And
+incidentally we learn that magical ceremonies and spells are deemed
+no less necessary for the cultivation of gardens and for success in
+fishing, the two forms of industrial enterprise which furnish the
+islanders with their principal means of support; hence the garden
+magician, whose business it is to promote the growth of the garden
+produce by his hocus-pocus, is one of the most important men in the
+village, ranking next after the chief and the sorcerer. In short,
+magic is believed to be an absolutely essential adjunct of every
+industrial undertaking, being just as requisite for its success
+as the mechanical operations involved in it, such as the caulking,
+painting and launching of a canoe, the planting of a garden, and the
+setting of a fish-trap. "A belief in magic," says Dr. Malinowski,
+"is one of the main psychological forces which allow for organisation
+and systematisation of economic effort in the Trobriands."
+
+This valuable account of magic as a factor of fundamental economic
+importance for the welfare and indeed for the very existence of the
+community should suffice to dispel the erroneous view that magic,
+as opposed to religion, is in its nature essentially maleficent and
+anti-social, being always used by an individual for the promotion of
+his own selfish ends and the injury of his enemies, quite regardless
+of its effect on the common weal. No doubt magic may be so employed,
+and has in fact probably been so employed, in every part of the
+world; in the Trobriand Islands themselves it is believed to
+be similarly practised for nefarious purposes by sorcerers, who
+inspire the natives with the deepest dread and the most constant
+concern. But in itself magic is neither beneficent nor maleficent;
+it is simply an imaginary power of controlling the forces of nature,
+and this control may be exercised by the magician for good or evil,
+for the benefit or injury of individuals and of the community. In
+this respect, magic is exactly on the same footing with the sciences,
+of which it is the bastard sister. They, too, in themselves, are
+neither good nor evil, though they become the source of one or other
+according to their application. It would be absurd, for example,
+to stigmatise pharmacy as antisocial, because a knowledge of the
+properties of drugs is often employed to destroy men as well as to
+heal them. It is equally absurd to neglect the beneficent application
+of magic and to single out its maleficent use as the characteristic
+property by which to define it. The processes of nature, over which
+science exercises a real and magic an imaginary control, are not
+affected by the moral disposition, the good or bad intention, of the
+individual who uses his knowledge to set them in motion. The action
+of drugs on the human body is precisely the same whether they are
+administered by a physician or by a poisoner. Nature and her handmaid
+Science are neither friendly nor hostile to morality; they are simply
+indifferent to it and equally ready to do the bidding of the saint
+and of the sinner, provided only that he gives them the proper word
+of command. If the guns are well loaded and well aimed, the fire
+of the battery will be equally destructive, whether the gunners are
+patriots fighting in defence of their country or invaders waging a
+war of unjust aggression. The fallacy of differentiating a science
+or an art according to its application and the moral intention of the
+agent is obvious enough with regard to pharmacy and artillery; it is
+equally real, though to many people apparently it is less obvious,
+with regard to magic.
+
+The immense influence wielded by magic over the whole life and thought
+of the Trobriand Islanders is perhaps the feature of Dr. Malinowski's
+book which makes the most abiding impression on the mind of the
+reader. He tells us that "magic, the attempt of man to govern the
+forces of nature directly by means of a special lore, is all-pervading
+and all-important in the Trobriands"; it is "interwoven into all the
+many industrial and communal activities"; "all the data which have
+been so far mustered disclose the extreme importance of magic in the
+Kula. But if it were a question of treating of any other aspect of the
+tribal life of these natives, it would also be found that, whenever
+they approach any concern of vital importance, they summon magic to
+their aid. It can be said without exaggeration that magic, according
+to their ideas, governs human destinies; that it supplies man with the
+power of mastering the forces of nature; and that it is his weapon and
+armour against the many dangers which crowd in upon him on every side."
+
+Thus in the view of the Trobriand Islanders, magic is a power of
+supreme importance either for good or evil; it can make or mar the life
+of man; it can sustain and protect the individual and the community,
+or it can injure and destroy them. Compared to this universal and
+deep-rooted conviction, the belief in the existence of the spirits of
+the dead would seem to exercise but little influence on the life of
+these people. Contrary to the general attitude of savages towards the
+souls of the departed, they are reported to be almost completely devoid
+of any fear of ghosts. They believe, indeed, that the ghosts return
+to their villages once a year to partake of the great annual feast;
+but "in general the spirits do not influence human beings very much,
+for better or worse"; "there is nothing of the mutual interaction,
+of the intimate collaboration between man and spirit which are the
+essence of religious cult." This conspicuous predominance of magic
+over religion, at least over the worship of the dead, is a very notable
+feature in the culture of a people so comparatively high in the scale
+of savagery as the Trobriand Islanders. It furnishes a fresh proof
+of the extraordinary strength and tenacity of the hold which this
+world-wide delusion has had, and still has, upon the human mind.
+
+We shall doubtless learn much as to the relation of magic and religion
+among the Trobrianders from the full report of Dr. Malinowski's
+researches in the islands. From the patient observation which he has
+devoted to a single institution, and from the wealth of details with
+which he has illustrated it, we may judge of the extent and value
+of the larger work which he has in preparation. It promises to be
+one of the completest and most scientific accounts ever given of a
+savage people.
+
+
+J. G. Frazer.
+
+The Temple, London.
+7th March, 1922.
+
+
+
+
+
+
+
+
+
+FOREWORD
+
+By the Author
+
+
+Ethnology is in the sadly ludicrous, not to say tragic, position,
+that at the very moment when it begins to put its workshop in order, to
+forge its proper tools, to start ready for work on its appointed task,
+the material of its study melts away with hopeless rapidity. Just now,
+when the methods and aims of scientific field ethnology have taken
+shape, when men fully trained for the work have begun to travel into
+savage countries and study their inhabitants--these die away under
+our very eyes.
+
+The research which has been done on native races by men of academic
+training has proved beyond doubt and cavil that scientific, methodic
+inquiry can give us results far more abundant and of better quality
+than those of even the best amateur's work. Most, though not all, of
+the modern scientific accounts have opened up quite new and unexpected
+aspects of tribal life. They have given us, in clear outline, the
+picture of social institutions often surprisingly vast and complex;
+they have brought before us the vision of the native as he is, in
+his religious and magical beliefs and practices. They have allowed
+us to penetrate into his mind far more deeply than we have ever done
+before. From this new material, scientifically hall-marked, students
+of comparative Ethnology have already drawn some very important
+conclusions on the origin of human customs, beliefs and institutions;
+on the history of cultures, and their spread and contact; on the laws
+of human behaviour in society, and of the human mind.
+
+The hope of gaining a new vision of savage humanity through the labours
+of scientific specialists opens out like a mirage, vanishing almost
+as soon as perceived. For though at present, there is still a large
+number of native communities available for scientific study, within
+a generation or two, they or their cultures will have practically
+disappeared. The need for energetic work is urgent, and the time
+is short. Nor, alas, up to the present, has any adequate interest
+been taken by the public in these studies. The number of workers is
+small, the encouragement they receive scanty. I feel therefore no
+need to justify an ethnological contribution which is the result of
+specialised research in the field.
+
+In this volume I give an account of one phase of savage life only, in
+describing certain forms of inter-tribal, trading relations among the
+natives of New Guinea. This account has been culled, as a preliminary
+monograph, from Ethnographic material, covering the whole extent of
+the tribal culture of one district. One of the first conditions of
+acceptable Ethnographic work certainly is that it should deal with
+the totality of all social, cultural and psychological aspects of the
+community, for they are so interwoven that not one can be understood
+without taking into consideration all the others. The reader of this
+monograph will clearly see that, though its main theme is economic--for
+it deals with commercial enterprise, exchange and trade--constant
+reference has to be made to social organisation, the power of magic,
+to mythology and folklore, and indeed to all other aspects as well
+as the main one.
+
+The geographical area of which the book treats is limited to the
+Archipelagoes lying off the eastern end of New Guinea. Even within
+this, the main field of research was in one district, that of the
+Trobriand Islands. This, however, has been studied minutely. I have
+lived in that one archipelago for about two years, in the course
+of three expeditions to New Guinea, during which time I naturally
+acquired a thorough knowledge of the language. I did my work entirely
+alone, living for the greater part of the time right in the villages. I
+therefore had constantly the daily life of the natives before my eyes,
+while accidental, dramatic occurrences, deaths, quarrels, village
+brawls, public and ceremonial events, could not escape my notice.
+
+In the present state of Ethnography, when so much has still to be
+done in paving the way for forthcoming research and in fixing its
+scope, each new contribution ought to justify its appearance in
+several Points. It ought to show some advance in method; it ought
+to push research beyond its previous limits in depth, in width, or
+in both; finally, it ought to endeavour to present its results in a
+manner exact, but not dry. The specialist interested in method, in
+reading this work, will find set out in the Introduction, Divisions
+II-IX and in Chapter XVIII, the exposition of my points of view and
+efforts in this direction. The reader who is concerned with results,
+rather than with the way of obtaining them, will find in Chapters
+IV to XXI a consecutive narrative of the Kula expeditions, and the
+various associated customs and beliefs. The student who is interested,
+not only in the narrative, but in the ethnographic background for it,
+and a clear definition of the institution, will find the first in
+Chapters I and II, and the latter in Chapter III.
+
+To Mr. Robert Mond I tender my sincerest thanks. It is to his generous
+endowment that I owe the possibility of carrying on for several years
+the research of which the present volume is a partial result. To
+Mr. Atlee Hunt, C.M.G., Secretary of the Home and Territories
+Department of the Commonwealth of Australia, I am indebted for the
+financial assistance of the Department, and also for much help given
+on the spot. In the Trobriands, I was immensely helped in my work
+by Mr. B. Hancock, pearl trader, to whom I am grateful not only for
+assistance and services, but for many acts of friendship.
+
+Much of the argument in this book has been greatly improved by
+the criticism given me by my friend, Mr. Paul Khuner, of Vienna,
+an expert in the practical affairs of modern industry and a highly
+competent thinker on economic matters. Professor L. T. Hobhouse has
+kindly read the proofs and given me valuable advice on several points.
+
+Sir James Frazer, by writing his Preface, has enhanced the value of
+this volume beyond its merit and it is not only a great honour and
+advantage for me to be introduced by him, but also a special pleasure,
+for my first love for ethnology is associated with the reading of the
+"Golden Bough," then in its second edition.
+
+Last, not least, I wish to mention Professor C. G. Seligman, to whom
+this book is dedicated. The initiative of my expedition was given by
+him and I owe him more than I can express for the encouragement and
+scientific counsel which he has so generously given me during the
+progress of my work in New Guinea.
+
+B. M.
+
+El Boquin,
+Icod de los Vinos,
+Tenerife.
+April, 1921.
+
+
+
+
+
+
+
+
+
+ACKNOWLEDGEMENTS
+
+
+It is in the nature of the research, that an Ethnographer has to rely
+upon the assistance of others to an extent much greater than is the
+case with other scientific workers. I have therefore to express in
+this special place my obligations to the many who have helped me. As
+said in the Preface, financially I owe most to Mr. Robert Mond, who
+made my work possible by bestowing on me the Robert Mond Travelling
+Scholarship (University of London) of £250 per annum for five years
+(for 1914 and for 1917-1920). I was substantially helped by a grant
+of £250 from the Home and Territories Department of Australia,
+obtained by the good offices of Mr. Atlee Hunt, C.M.G. The London
+School of Economics awarded me the Constance Hutchinson Scholarship
+of £100 yearly for two years, 1915-1916. Professor Seligman, to
+whom in this, as in other matters I owe so much, besides helping
+me in obtaining all the other grants, gave himself £100 towards the
+cost of the expedition and equipped me with a camera, a phonograph,
+anthropometric instruments and other paraphernalia of ethnographic
+work. I went out to Australia with the British Association for the
+Advancement of Science in 1914, as a guest, and at the expense,
+of the Commonwealth Government of Australia.
+
+It may be interesting for intending field-workers to observe
+that I carried out my ethnographic research for six years--1914 to
+1920--making three expeditions to the field of my work, and devoting
+the intervals between expeditions to the working out of my material and
+to the study of special literature, on little more than £250 a year. I
+defrayed out of this, not only all the expenses of travel and research,
+such as fares, wages to native servants, payments of interpreters, but
+I was also able to collect a fair amount of ethnographic specimens,
+of which part has been presented to the Melbourne Museum as the
+Robert Mond Collection. This would not have been possible for me,
+had I not received much help from residents in New Guinea. My friend,
+Mr. B. Hancock, of Gusaweta, Trobriand Islands, allowed me to use his
+house and store as base for my gear and provisions; he lent me his
+cutter on various occasions and provided me with a home, where I could
+always repair in need or sickness. He helped me in my photographic
+work, and gave me a good number of his own photographic plates,
+of which several are reproduced in this book (Plates XI, XXXVII,
+and L-LII).
+
+Other pearl traders and buyers of the Trobriands were also very kind
+to me, especially M. and Mme. Raphael Brudo, of Paris, Messrs. C. and
+G. Auerbach, and the late Mr. Mick George, all of whom helped me in
+various ways and extended to me their kind hospitality.
+
+In my interim studies in Melbourne, I received much help from the
+staff of the excellent Public Library of Victoria, for which I have to
+thank the Librarian, Mr. E. La Touche Armstrong, my friend Mr. E. Pitt,
+Mr. Cooke and others.
+
+Two maps and two plates are reproduced by kind permission of Professor
+Seligman from his "Melanesians of British New Guinea." I have to thank
+the Editor of Man (Captain T. A. Joyce) for his permission to use
+here again the plates which were previously published in that paper.
+
+Mr. William Swan Stallybrass, Senior Managing Director of
+Messrs. Geo. Routledge & Sons, Ltd., has spared no trouble in meeting
+all my wishes as to scientific details in the publication of this book,
+for which I wish to express my sincere thanks.
+
+
+
+
+
+
+
+
+
+PHONETIC NOTE.
+
+
+The native names and words in this book are written according to
+the simple rules, recommended by the Royal Geographical Society
+and the Royal Anthropological Institute. That is, the vowels are to
+be pronounced as in Italian and the consonants as in English. This
+spelling suits the sounds of the Melanesian languages of New Guinea
+sufficiently well. The apostrophe placed between two vowels indicates
+that they should be pronounced separately and not merged into a
+diphthong. The accent is almost always on the penultimate, rarely on
+the anti-penultimate. All the syllables must be pronounced clearly
+and distinctly.
+
+
+
+
+
+
+
+
+
+TABLE OF CONTENTS
+
+
+Preface by Sir James Frazer                                         vii
+
+Foreword by the Author                                               xv
+
+Introduction: The Subject, Method and Scope of This Enquiry
+
+    I--Sailing, and trading in the South Seas; the Kula. II--Method
+    in Ethnography. III--Starting field work. Some perplexing
+    difficulties. Three conditions of success. IV--Life in a
+    tent among the natives. Mechanism of "getting in touch" with
+    them. V--Active methods of research. Order and consistency
+    in savage cultures. Methodological consequences of this
+    truth. VI--Formulating the principles of tribal constitution
+    and of the anatomy of culture. Method of inference from
+    statistic accumulation of concrete data. Uses of synoptic
+    charts. VII--Presentation of the intimate touches of native
+    life; of types of behaviour. Method of systematic fixing of
+    impressions; of detailed, consecutive records. Importance
+    of personal participation in native life. VIII--Recording of
+    stereotyped manners of thinking and feeling. Corpus inscriptionum
+    Kiriwiniensium. IX--Summary of argument. The native's vision of
+    his world                                                         1
+
+I The Country and Inhabitants of the Kula District
+
+    I--Racial divisions in Eastern New Guinea. Seligman's
+    classification. The Kula natives. II--Sub-divisions of the Kula
+    district. III--Scenery at the Eastern end of New Guinea. Villages
+    of the S. Massim; their customs and social institutions. IV--The
+    d'Entrecasteaux Archipelago. The tribes of Dobu. The mythological
+    associations of their country. Some of their customs and
+    institutions. Sorcery. A vision on Sarubwoyna beach. V--Sailing
+    North. The Amphlett Group. Savage monopolists                    27
+
+
+II The Natives of the Trobriand Islands
+
+    I--Arrival in the coral Islands. First impression of
+    the native. Some significant appearances and their deeper
+    meaning. II--Position of women; their life and conduct before
+    and after marriage. III--Further exploration in the villages. A
+    cross country walk. Gardens and gardening. IV--The native's
+    working power; their motives and incentives to work. Magic and
+    work. A digression on Primitive Economics. V--Chieftainship:
+    power through wealth; a plutocratic community. List of the various
+    provinces and political divisions in the Trobriands. VI--Totemism,
+    the solidarity of clans and the bonds of kinship. VII--Spirits of
+    the dead. The overweening importance of magic. Black magic. The
+    prowling sorcerers and the flying witches. The malevolent visitors
+    from the South, and epidemics. VIII--The Eastern neighbours of
+    the Trobrianders. The remaining districts of the Kula            49
+
+III The Essentials of the Kula
+
+    I--A concise definition of the Kula. II--Its economic
+    character. III--The articles exchanged; the conception of
+    vaygu'a. IV--The main rules and aspects of the Kula: the
+    sociological aspect (partnership); direction of movement; nature
+    of Kula ownership; the differential and integral effect of these
+    rules. V--The act of exchange; its regulations; the light it throws
+    on the acquisitive and "communistic" tendencies of the natives;
+    its concrete outlines; the sollicitory gifts. VI--The associated
+    activities and the secondary aspects of the Kula: construction
+    of canoes; subsidiary trade--their true relation to the Kula;
+    the ceremonial, mythology and magic associated with the Kula; the
+    mortuary taboos and distributions, in their relation to the Kula 81
+
+IV Canoes and Sailing
+
+    I--The value and importance of a canoe to a native. Its
+    appearance, the impressions and emotions it arouses in those
+    who use or own it. The atmosphere of romance which surrounds
+    it for the native. II--Analysis of its construction, in
+    relation to its function. The three types of canoes in
+    the Trobriand Islands. III--V--Sociology of a large canoe
+    (masawa). III--(A)--Social organisation of labour in constructing
+    a canoe; the division of functions; the magical regulation of
+    work. IV--(B)--Sociology of canoe ownership; the toli-relationship;
+    the toliwaga, "master" or "owner" of a canoe; the four privileges
+    and functions of a toliwaga. V--(C)--The social division of
+    functions in manning and sailing a canoe. Statistical data about
+    the Trobriand shipping                                          105
+
+V The Ceremonial Building of a Waga
+
+    I--Construction of canoes as part of the Kula proceedings. Magic
+    and mythology. The preparatory and the ceremonial stage of
+    construction. II--The first stage: expelling the wood-sprite
+    Tokway; transport of the log; the hollowing-out of the log and
+    the associated magic. III--The second stage: the inaugural rite
+    of Kula magic; the native at grips with problems of construction;
+    the wayugo creeper; the magical spell uttered over it; caulking;
+    the three magical exorcisms. IV--Some general remarks about the two
+    stages of canoe-building and the concomitant magic. Bulubwalata
+    (evil magic) of canoes. The ornamental prow-boards. The Dobuan
+    and the Muruwan types of overseas canoe                         124
+
+VI Launching of a Canoe and Ceremonial Visiting--Tribal Economics in
+the Trobriands
+
+    I--The procedure and magic at launching. The trial run
+    (tasasoria). Account of the launching and tasasoria seen on the
+    beach of Kualukuba. Reflections on the decay of customs under
+    European influence. II--Digression on the sociology of work:
+    organisation of labour; forms of communal labour; payment for
+    work. III--The custom of ceremonial visiting (kabigidoya);
+    local trade, done on such expeditions. IV--VII--Digression
+    on gifts, payments, and exchange. IV--Attitude of the native
+    towards wealth. Desire of display. Enhancement of social
+    prestige through wealth. The motives of accumulating food
+    stuffs. The vilamalya (magic of plenty). The handling of
+    yams. Psychology of eating. Value of manufactured goods,
+    psychologically analysed. V--Motives for exchange. Giving, as
+    satisfaction of vanity and as display of power. Fallacy of the
+    "economically isolated individual" or "household." Absence of
+    gain in exchange. VI--Exchange of gifts and barter. List of gifts,
+    payments and commercial transactions: 1. Pure gifts; 2. customary
+    payments, repaid irregularly and without strict equivalents;
+    3. payments for services rendered; 4. gifts returned in strictly
+    equivalent form; 5. exchange of material goods against privileges,
+    titles and non-material possessions; 6. ceremonial barter with
+    deferred payment; 7. trade pure and simple. VII--Economic duties
+    corresponding to various social ties; table of eight classes
+    of social relationship, characterised by definite economic
+    obligations                                                     146
+
+VII The Departure of an Overseas Expedition
+
+    Scene laid in Sinaketa. The local chiefs. Stir in the village.
+    The social differentiation of the sailing party. Magical rites,
+    associated with the preparing and loading of a canoe. The
+    sulumwoya rite. The magical bundle (lilava). The compartments
+    of a canoe and the gebobo spell. Farewells on the beach         195
+
+VIII The First Halt of the Fleet on Muwa
+
+    I--The definition of an uvalaku (ceremonial, competitive
+    expedition). II--The sagali (ceremonial distribution) on
+    Muwa. III--The magic of sailing                                 207
+
+IX Sailing on the Sea-arm of Pilolu
+
+    I--The landscape. Mythological geography of the regions
+    beyond. II--Sailing: the winds; navigation; technique of
+    sailing a canoe and its dangers. III--The customs and taboos
+    of sailing. Privileged position of certain sub-clans. IV--The
+    beliefs in dreadful monsters lurking in the sea                 219
+
+
+X The Story of Shipwreck
+
+    I--The flying witches, mulukwausi or yoyova: essentials of
+    the belief; initiation and education of a yoyova (witch);
+    secrecy surrounding this condition; manner of practising this
+    witch-craft; actual cases. II--The flying witches at sea and
+    in ship-wreck. Other dangerous agents. The kayga'u magic; its
+    modes of operation. III--Account of the preparatory rites of
+    kayga'u. Some incantations quoted. IV--The story of ship-wreck
+    and rescue. V--The spell of the rescuing giant fish. The myth
+    and the magical formula of Tokulubwaydoga.                      237
+
+XI In the Amphletts--Sociology of the Kula
+
+    I--Arrival in Gumasila. Example of a Kula conversation.
+    Trobrianders on long visits in the Amphletts. II--Sociology of
+    the Kula: 1. sociological limitations to participation in the
+    Kula; 2. relation of partnership; 3. entering the Kula
+    relationship; 4. participation of women in the Kula. III--The
+    Natives of the Amphletts: their industries and trade; pottery;
+    importing the clay; technology of pot-making; commercial
+    relations with the surrounding districts. IV--Drift of
+    migrations and cultural influences in this province             267
+
+XII In Tewara and Sanaroa--Mythology of the Kula
+
+    I--Sailing under the lee of Koytabu. The cannibals of the
+    unexplored jungle. Trobriand traditions and legends about
+    them. The history and song of Gumagabu. II--Myths and reality:
+    significance imparted to landscape by myth; line of distinction
+    between the mythical and the actual occurrences; magical
+    power and mythical atmosphere; the three strata of Trobriand
+    myths. III--V--The myths of the Kula. III--Survey of Kula mythology
+    and its geographical distribution. The story of Gere'u of Muyuwa
+    (Woodlark Island). The two stories of Tokosikuna of Digumenu and
+    Gumasila. IV--The Kudayuri myth of the flying canoe. Commentary
+    and analysis of this myth. Association between the canoe and the
+    flying witches. Mythology and the Lukuba clan. V--The myth of
+    Kasabwaybwayreta and the necklace Gumakarakedakeda. Comparison of
+    these stories. VI--Sociological analysis of the myths. influence
+    of the Kula myths upon native outlook; myth and custom. VII--The
+    relation between myth and actuality restated. VIII--The story,
+    the natural monuments and the religious ceremonial of the
+    mythical personalities Atu'a'ine, Aturamo'a and their sister
+    Sinatemubadiye'i. Other rocks of similar traditional nature     290
+
+XIII On the Beach of Sarubwoyna
+
+    I--The halt on the Beach. The beauty magic. Some incantations
+    quoted. The spell of the ta'uya (conch shell). II--The magical
+    onset on the Koya. Psychological analysis of this magic.
+    III--The Gwara (taboo) and the Ka'ubana'i spell                 334
+
+XIV The Kula in Dobu--Technicalities of the Exchange
+
+    I--Reception in Dobu. II--The main transactions of the Kula and
+    the subsidiary gifts and exchanges: some general reflections on
+    the driving force of the Kula; regulations of the main transaction
+    vaga (opening gift) and yotile (return gift); the sollicitory gifts
+    (pokala, kwaypolu, kaributu, korotomna); intermediary gifts (basi)
+    and final clinching gift (kudu); the other articles sometimes
+    exchanged in the main transaction of the Kula (doga, samakupa,
+    beku); commercial honour and ethics of the Kula. III--The Kula
+    proceedings in Dobu: wooing the partner; kwoygapani magic;
+    the subsidiary trade; roamings of the Boyowans in the Dobu
+    district                                                        350
+
+XV The Journey Home--The Fishing and Working of the Kaloma Shell
+
+    I--Visits made on the return trip. Some articles acquired. II--The
+    spondylus shell fishing in Sanaroa lagoon and in home waters: its
+    general character and magic; the Kaloma myth; consecutive account
+    of the technicalities, ceremonial and magic of the diving for the
+    shell. III--Technology, economics and sociology of the production
+    of the discs and necklaces from the shell. IV--Tanarere, display
+    of the haul. Arrival of the party home to Sinaketa              366
+
+XVI The Return Visit of the Dobuans to Sinaketa
+
+    I--The uvalaku (ceremonial expedition) from Dobu to Southern
+    Boyowa: the preparations in Dobu and Sanaroa; preparations in
+    Gumasila; the excitement, the spreading and convergence of news;
+    arrival of the Dobuan fleet in Nabwageta. II--Preparations
+    in Sinaketa for the reception of the visiting party. The
+    Dobuans arrive. The scene at Kaykuyawa point. The ceremonial
+    reception. Speeches and gifts. The three days' sojourn of the
+    Dobuans in Sinaketa. Manner of living. Exchange of gifts and
+    barter. III--Return home. Results shown at the tanarere     376
+
+XVII Magic and the Kula
+
+    I--The subject matter of Boyowan magic. Its association with
+    all the vital activities and with the unaccountable aspects of
+    reality. II--V--The native conception of magic. II--The methods of
+    arriving at its knowledge. III--Native views about the original
+    sources of magic. Its primeval character. Inadmissibility
+    to the native of spontaneous generation in magic. Magic a
+    power of man and not a force of nature. Magic and myth and
+    their super-normal atmosphere. IV--The magical acts: spell
+    and rite; relation between these two factors; spells uttered
+    directly without a concomitant rite; spells accompanied by
+    simple rite of impregnation; spells accompanied by a rite of
+    transference; spells accompanied by offerings and invocations;
+    summary of this survey. V--Place where magic is stored in
+    the human anatomy. VI--Condition of the performer. Taboos
+    and observances. Sociological position. Actual descent and
+    magical filiation. VII--Definition of systematic magic. The
+    "systems" of canoe magic and Kula magic. VIII--Supernormal or
+    supernatural character of magic; emotional reaction of the natives
+    to certain forms of magic; the kariyala (magical portent); rôle of
+    ancestral spirits; native terminology. IX--Ceremonial setting of
+    magic. X--Institution of taboo, supported by magic. Kaytubutabu
+    and kaytapaku. XI--Purchase of certain forms of magic. Payments
+    for magical services. XII--Brief summary                        392
+
+XVIII The Power of Words in Magic--Some Linguistic Data
+
+    I--Study of linguistic data in magic to throw light on native
+    ideas about the power of words. II--The text of the wayugo spell
+    with literal translation. III--Linguistic analysis of its u'ula
+    (exordium). IV--Vocal technique of reciting a spell. Analysis
+    of the tapwana (main part) and dogina (final part). V--The text
+    of the Sulumwoya spell and its analysis. VI--XII--Linguistic
+    data referring to the other spells mentioned in this volume and
+    some general inferences. VI--The tokway spell and the opening
+    phrases of the canoe spells. VII--The tapwana (main parts)
+    of the canoe spells. VIII--The end parts (dogina) of these
+    spells. IX--The u'ula of the mwasila spells. X--The tapwana and
+    the dogina of these spells. XI--The kayga'u spells. XII--Summary
+    of the results of this linguistic survey. XIII--Substances
+    used in these magical rites. XIV--XVIII--Analysis of some
+    non-magical linguistic texts, to illustrate ethnographic
+    method and native way of thinking. XIV--General remarks about
+    certain aspects of method. XV--Text No. 1, its literal and free
+    translation. XVI--Commentary. XVII--Texts No. 2 and 3 translated
+    and commented upon                                              428
+
+XIX The Inland Kula
+
+    I--To'uluwa, the chief of Kiriwina, on a visit in Sinaketa. The
+    decay of his power. Some melancholy reflections about the folly
+    of destroying the native order of things and of undermining
+    native authority as now prevailing. II--The division into "Kula
+    communities;" the three types of Kula, with respect to this
+    division. The overseas Kula. III--The inland Kula between two "Kula
+    communities" and within such a unit. IV--The "Kula communities"
+    in Boyowa (Trobriand Islands)                                   464
+
+XX Expeditions Between Kiriwina and Kitava
+
+    I, II--Account of an expedition from Kiriwina to Kitava. I--Fixing
+    dates and preparing districts. II--Preliminaries of the
+    journey. Departure from Kaulukuba Beach. Sailing. Analogies and
+    differences between these expeditions and those of the Sinaketans
+    to Dobu. Entering the village. The youlawada custom. Sojourn in
+    Kitava and return. III--The So'i (mortuary feast) in the Eastern
+    district (Kitava to Muyuwa) and its association with the Kula   478
+
+XXI The Remaining Branches and Offshoots of the Kula
+
+    I--Rapid survey of the routes between Woodlark Island (Murua
+    or Muyuwa) and the Engineer group and between this latter
+    and Dobu. II--The ordinary trade carried on between these
+    communities. III--An offshoot of the Kula; trading expeditions
+    between the Western Trobriand (Kavataria and Kayleula)
+    and the Western d'Entrecasteaux. IV--Production of mwali
+    (armshells). V--Some other offshoots and leakages of the Kula
+    ring. Entry of the Kula vaygu'a into the Ring.                  494
+
+XXII The Meaning of the Kula                                        509
+
+Index                                                               519
+
+
+
+
+
+
+
+
+
+LIST OF ILLUSTRATIONS
+
+
+              A ceremonial act of the kula                 Frontispiece
+
+    Plate                                                   Facing page
+
+    I         The ethnographer's tent on the beach of
+              Nu'agasi                                                6
+    II        The chief's lisiga (personal hut) in Omarakana          6
+    III       Street of Kasana'i (in Kiriwina, Trobriand
+              Island)                                                 7
+    IV        Scene in Yourawotu (Trobriands)                         7
+    V         Scenes on the beach of Silosilo (Southern
+              Massim district)                                       33
+    VI        Village scenes during a so'i feast                     37
+    VII       In the Amphletts                                       46
+    VIII      Group of natives in the village of Tukwa'ukwa          48
+    IX        Men of rank from Kiriwina                              49
+    X         Fishermen from Teyava                                  49
+    XI        A typical nakubukwabuya (unmarried woman)              52
+    XII       Boyowan girls                                          53
+    XIII      Kaydebu dance                                          56
+    XIV       Dancers in full decoration                             57
+    XV        A family group                                         72
+    XVI       Armshells                                              80
+    XVII      Two men wearing armshells                              81
+    XVIII     Two necklaces, made of red spondylus discs             88
+    XIX       Two women adorned with necklaces                       89
+    XX        A Kula gathering on the beach of Sinaketa              98
+    XXI       A masawa canoe                                        106
+    XXII      Putting a canoe into its hangar                       106
+    XXIII     Canoe under sail                                      107
+    XXIV      The fishing canoe (kalipoulo)                         112
+    XXV       The dug-out in the village                            124
+    XXVI      Carving a tabuyo                                      125
+    XXVII     Construction of a waga                                138
+    XXVIII    Sail making                                           139
+    XXIX      Rolls of dried pandanus leaf                          139
+    XXX       Launching of a canoe                                  148
+    XXXI      The tasasoria on the beach of Kaulukuba               148
+    XXXII     A chief's yam-house in Kasana'i                       149
+    XXXIII    Filling a yam-house in Yalumugwa                      149
+    XXIV      Display of pigs and yams at a distribution
+              (sagali)                                              170
+    XXXV      Communal cooking of mona (taro dumplings)             170
+    XXXVI     Scene in the wasi (ceremonial exchange of
+              vegetables for fish)                                  171
+    XXXVII    Vava, direct barter of vegetables for fish            171
+    XXXVIII   Koutau'ya, one of the chiefs of Sinaketa              196
+    XXXIX     A loaded canoe                                        197
+    XL        A waga sailing on a Kula expedition                   224
+    XLI       The rigging of a canoe                                225
+    XLII      Scenery in the Amphletts                              268
+    XLIII     Landing in the main village of Gumasila               269
+    XLIV      Technology of pot-making (I)                          284
+    XLV       Technology of pot-making (II)                         285
+    XLVI      Fine specimens of Amphlett pots                       288
+    XLVII     A canoe in Gumasila loading pots                      289
+    XLVIII    A Kula fleet halting to perform the final
+              rites of mwasila                                      334
+    XLIX      The beauty magic of the mwasila                       335
+    L (A)     Working the kaloma shell (I)                          370
+    L (B)     working the kaloma shell (II)                         371
+    LI        Working the kaloma shell (III)                        372
+    LII       Working the kaloma shell (IV)                         373
+    LIII      On the beach of Nabwageta                             376
+    LIV       The Dobuan canoes pulled up on Sinaketa beach         388
+    LV        Some canoes moored on the shallow lagoon near
+              the shore                                             388
+    LVI       Dobuan visitors in Sinaketa                           389
+    LVII      A magical spell associated with pregnancy             406
+    LVIII     A rite of war magic                                   406
+    LIX       A rite of garden magic                                407
+    LX        Armshells brought from Kitava                         470
+    LXI       Bringing in a soulava                                 471
+    LXII      Offering the soulava                                  471
+    LXIII     Ceremonial destruction during a so'i feast            486
+    LXIV      Nagega canoe                                          496
+    LXV       A corpse covered with valuables                       512
+
+
+MAPS
+
+    I        Eastern New Guinea                                  xxxiii
+    II       Racial distribution in Eastern New Guinea               26
+    III      The Kula district                                       30
+    IV       The Trobriand archipelago                               50
+    V        The Kula ring                                           82
+
+
+TABLES
+
+    I        Chronological list of Kula events witnessed by
+             the writer                                              16
+    II       Time-table of the uvalaku expedition, Dobu to
+             Sinaketa, 1918                                         381
+    III      Table of Kula magic and of the corresponding
+             activities                                         415-418
+
+
+FIGURES IN TEXT
+
+    I        Diagram of canoe stability and construction            109
+    II       Diagrammatic sections of canoes                        111
+
+
+
+
+
+
+
+
+
+INTRODUCTION: THE SUBJECT, METHOD AND SCOPE OF THIS INQUIRY
+
+
+I
+
+The coastal populations of the South Sea Islands, with very few
+exceptions, are, or were before their extinction, expert navigators
+and traders. Several of them had evolved excellent types of large
+sea-going canoes, and used to embark in them on distant trade
+expeditions or raids of war and conquest. The Papuo-Melanesians,
+who inhabit the coast and the out-lying islands of New Guinea,
+are no exception to this rule. In general they are daring sailors,
+industrious manufacturers, and keen traders. The manufacturing centres
+of important articles, such as pottery, stone implements, canoes, fine
+baskets, valued ornaments, are localised in several places, according
+to the skill of the inhabitants, their inherited tribal tradition,
+and special facilities offered by the district; thence they are traded
+over wide areas, sometimes travelling more than hundreds of miles.
+
+Definite forms of exchange along definite trade routes are to be found
+established between the various tribes. A most remarkable form of
+intertribal trade is that obtaining between the Motu of Port Moresby
+and the tribes of the Papuan Gulf. The Motu sail for hundreds of miles
+in heavy, unwieldy canoes, called lakatoi, which are provided with the
+characteristic crab-claw sails. They bring pottery and shell ornaments,
+in olden days, stone blades, to Gulf Papuans, from whom they obtain
+in exchange sago and the heavy dug-outs, which are used afterwards
+by the Motu for the construction of their lakatoi canoes. [3]
+
+Further East, on the South coast, there lives the industrious,
+sea-faring population of the Mailu, who link the East End of New
+Guinea with the central coast tribes by means of annual trading
+expeditions. [4] Finally, the natives of the islands and archipelagoes,
+scattered around the East End, are in constant trading relations with
+one another. We possess in Professor Seligman's book an excellent
+description of the subject, especially of the nearer trades routes
+between the various islands inhabited by the Southern Massim. [5]
+There exists, however, another, a very extensive and highly complex
+trading system, embracing with its ramifications, not only the islands
+near the East End, but also the Louisiades, Woodlark Island, the
+Trobriand Archipelago, and the d'Entrecasteaux group; it penetrates
+into the mainland of New Guinea, and exerts an indirect influence over
+several outlying districts, such as Rossel Island, and some parts of
+the Northern and Southern coast of New Guinea. This trading system,
+the Kula, is the subject I am setting out to describe in this volume,
+and it will be seen that it is an economic phenomenon of considerable
+theoretical importance. It looms paramount in the tribal life of
+those natives who live within its circuit, and its importance is
+fully realised by the tribesmen themselves, whose ideas, ambitions,
+desires and vanities are very much bound up with the Kula.
+
+
+
+
+II
+
+Before proceeding to the account of the Kula, it will be well to
+give a description of the methods used in the collecting of the
+ethnographic material. The results of scientific research in any branch
+of learning ought to be presented in a manner absolutely candid and
+above board. No one would dream of making an experimental contribution
+to physical or chemical science, without giving a detailed account
+of all the arrangements of the experiments; an exact description
+of the apparatus used; of the manner in which the observations were
+conducted; of their number; of the length of time devoted to them,
+and of the degree of approximation with which each measurement was
+made. In less exact sciences, as in biology or geology, this cannot
+be done as rigorously, but every student will do his best to bring
+home to the reader all the conditions in which the experiment or the
+observations were made. In Ethnography, where a candid account of such
+data is perhaps even more necessary, it has unfortunately in the past
+not always been supplied with sufficient generosity, and many writers
+do not ply the full searchlight of methodic sincerity, as they move
+among their facts and produce them before us out of complete obscurity.
+
+It would be easy to quote works of high repute, and with a scientific
+hall-mark on them, in which wholesale generalisations are laid down
+before us, and we are not informed at all by what actual experiences
+the writers have reached their conclusion. No special chapter or
+paragraph is devoted to describing to us the conditions under which
+observations were made and information collected. I consider that
+only such ethnographic sources are of unquestionable scientific
+value, in which we can clearly draw the line between, on the one
+hand, the results of direct observation and of native statements
+and interpretations, and on the other, the inferences of the author,
+based on his common sense and psychological insight. [6] Indeed, Some
+such survey, as that contained in the table, given below (Div. VI of
+this chapter) ought to be forthcoming, so that at a glance the reader
+could estimate with precision the degree of the writer's personal
+acquaintance with the facts which he describes, and form an idea
+under what conditions information had been obtained from the natives.
+
+Again, in historical science, no one could expect to be seriously
+treated if he made any mystery of his sources and spoke of the past
+as if he knew it by divination. In Ethnography, the writer is his own
+chronicler and the historian at the same time, while his sources are no
+doubt easily accessible, but also supremely elusive and complex; they
+are not embodied in fixed, material documents, but in the behaviour
+and in the memory of living men. In Ethnography, the distance is
+often enormous between the brute material of information--as it is
+presented to the student in his own observations, in native statement,
+in the kaleidoscope of tribal life--and the final authoritative
+presentation of the results. The Ethnographer has to traverse this
+distance in the laborious years between the moment when he sets foot
+upon a native beach, and makes his first attempts to get into touch
+with the natives, and the time when he writes down the final version
+of his results. A brief outline of an Ethnographer's tribulations,
+as lived through by myself, may throw more light on the question,
+than any long abstract discussion could do.
+
+
+
+
+III
+
+Imagine yourself suddenly set down surrounded by all your gear,
+alone on a tropical beach close to a native village, while the launch
+or dinghy which has brought you sails away out of sight. Since you
+take up your abode in the compound of some neighbouring white man,
+trader or missionary, you have nothing to do, but to start at once
+on your ethnographic work. Imagine further that you are a beginner,
+without previous experience, with nothing to guide you and no one to
+help you. For the white man is temporarily absent, or else unable or
+unwilling to waste any of his time on you. This exactly describes my
+first initiation into field work on the south coast of New Guinea. I
+well remember the long visits I paid to the villages during the first
+weeks; the feeling of hopelessness and despair after many obstinate
+but futile attempts had entirely failed to bring me into real touch
+with the natives, or supply me with any material. I had periods of
+despondency, when I buried myself in the reading of novels, as a man
+might take to drink in a fit of tropical depression and boredom.
+
+Imagine yourself then, making your first entry into the village, alone
+or in company with your white cicerone. Some natives flock round you,
+especially if they smell tobacco. Others, the more dignified and
+elderly, remain seated where they are. Your white companion has his
+routine way of treating the natives, and he neither understands, nor is
+very much concerned with the manner in which you, as an ethnographer,
+will have to approach them. The first visit leaves you with a hopeful
+feeling that when you return alone, things will be easier. Such was
+my hope at least.
+
+I came back duly, and soon gathered an audience around me. A few
+compliments in pidgin-English on both sides, some tobacco changing
+hands, induced an atmosphere of mutual amiability. I tried then to
+proceed to business. First, to begin with subjects which might arouse
+no suspicion, I started to "do" technology. A few natives were engaged
+in manufacturing some object or other. It was easy to look at it and
+obtain the names of the tools, and even some technical expressions
+about the proceedings, but there the matter ended. It must be borne
+in mind that pidgin-English is a very imperfect instrument for
+expressing one's ideas, and that before one gets a good training in
+framing questions and understanding answers one has the uncomfortable
+feeling that free communication in it with the natives will never be
+attained; and I was quite unable to enter into any more detailed or
+explicit conversation with them at first. I knew well that the best
+remedy for this was to collect concrete data, and accordingly I took
+a village census, wrote down genealogies, drew up plans and collected
+the terms of kinship. But all this remained dead material, which led no
+further into the understanding of real native mentality or behaviour,
+since I could neither procure a good native interpretation of any of
+these items, nor get what could be called the hang of tribal life. As
+to obtaining their ideas about religion, and magic, their beliefs in
+sorcery and spirits, nothing was forthcoming except a few superficial
+items of folk-lore, mangled by being forced into pidgin-English.
+
+Information which I received from some white residents in the district,
+valuable as it was in itself, was more discouraging than anything else
+with regard to my own work. Here were men who had lived for years
+in the place with constant opportunities of observing the natives
+and communicating with them, and who yet hardly knew one thing about
+them really well. How could I therefore in a few months or a year,
+hope to overtake and go beyond them? Moreover, the manner in which
+my white informants spoke about the natives and put their views was,
+naturally, that of untrained minds, unaccustomed to formulate their
+thoughts with any degree of consistency and precision. And they
+were for the most part, naturally enough, full of the biassed and
+pre-judged opinions inevitable in the average practical man, whether
+administrator, missionary, or trader; yet so strongly repulsive to
+a mind striving after the objective, scientific view of things. The
+habit of treating with a self-satisfied frivolity what is really
+serious to the ethnographer; the cheap rating of what to him is a
+scientific treasure, that is to say, the native's cultural and mental
+peculiarities and independence--these features, so well known in the
+inferior amateur's writing, I found in the tone of the majority of
+white residents. [7]
+
+Indeed, in my first piece of Ethnographic research on the South coast,
+it was not until I was alone in the district that I began to make
+some headway; and, at any rate, I found out where lay the secret of
+effective field-work. What is then this ethnographer's magic, by which
+he is able to evoke the real spirit of the natives, the true picture
+of tribal life? As usual, success can only be obtained by a patient
+and systematic application of a number of rules of common sense and
+well-known scientific principles, and not by the discovery of any
+marvellous short-cut leading to the desired results without effort
+or trouble. The principles of method can be grouped under three
+main headings; first of all, naturally, the student must possess
+real scientific aims, and know the values and criteria of modern
+ethnography. Secondly, he ought to put himself in good conditions of
+work, that is, in the main, to live without other white men, right
+among the natives. Finally, he has to apply a number of special
+methods of collecting, manipulating and fixing his evidence. A few
+words must be said about these three foundation stones of fieldwork,
+beginning with the second as the most elementary.
+
+
+
+
+IV
+
+Proper conditions for ethnographic work. These, as said, consist
+mainly in cutting oneself off from the company of other white men,
+and remaining in as close contact with the natives as possible,
+which really can only be achieved by camping right in their villages
+(see Plates I and II). It is very nice to have a base in a white man's
+compound for the stores, and to know there is a refuge there in times
+of sickness and surfeit of native. But it must be far enough away
+not to become a permanent milieu in which you live and from which
+you emerge at fixed hours only to "do the village." It should not
+even be near enough to fly to at any moment for recreation. For the
+native is not the natural companion for a white man, and after you
+have been working with him for several hours, seeing how he does his
+gardens, or letting him tell you items of folk-lore, or discussing
+his customs, you will naturally hanker after the company of your own
+kind. But if you are alone in a village beyond reach of this, you go
+for a solitary walk for an hour or so, return again and then quite
+naturally seek out the natives' society, this time as a relief from
+loneliness, just as you would any other companionship. And by means
+of this natural intercourse, you learn to know him, and you become
+familiar with his customs and beliefs far better than when he is a
+paid, and often bored, informant.
+
+There is all the difference between a sporadic plunging into the
+company of natives, and being really in contact with them. What does
+this latter mean? On the Ethnographer's side, it means that his life
+in the village, which at first is a strange, sometimes unpleasant,
+sometimes intensely interesting adventure, soon adopts quite a natural
+course very much in harmony with his surroundings.
+
+Soon after I had established myself in Omarakana (Trobriand Islands),
+I began to take part, in a way, in the village life, to look forward
+to the important or festive events, to take personal interest in the
+gossip and the developments of the small village occurrences; to wake
+up every morning to a day, presenting itself to me more or less as
+it does to the native. I would get out from under my mosquito net,
+to find around me the village life beginning to stir, or the people
+well advanced in their working day according to the hour and also to
+the season, for they get up and begin their labours early or late,
+as work presses. As I went on my morning walk through the village, I
+could see intimate details of family life, of toilet, cooking, taking
+of meals; I could see the arrangements for the day's work, people
+starting on their errands, or groups of men and women busy at some
+manufacturing tasks (see Plate III). Quarrels, jokes, family scenes,
+events usually trivial, sometimes dramatic but always significant,
+formed the atmosphere of my daily life, as well as of theirs. It
+must be remembered that as the natives saw me constantly every day,
+they ceased to be interested or alarmed, or made self-conscious by
+my presence, and I ceased to be a disturbing element in the tribal
+life which I was to study, altering it by my very approach, as
+always happens with a new-comer to every savage community. In fact,
+as they knew that I would thrust my nose into everything, even where
+a well-mannered native would not dream of intruding, they finished
+by regarding me as part and parcel of their life, a necessary evil
+or nuisance, mitigated by donations of tobacco.
+
+Later on in the day, whatever happened was within easy reach, and
+there was no possibility of its escaping my notice. Alarms about the
+sorcerer's approach in the evening, one or two big, really important
+quarrels and rifts within the community, cases of illness, attempted
+cures and deaths, magical rites which had to be performed, all these I
+had not to pursue, fearful of missing them, but they took place under
+my very eyes, at my own doorstep, so to speak (see Plate IV). And it
+must be emphasised whenever anything dramatic or important occurs it is
+essential to investigate it at the very moment of happening, because
+the natives cannot but talk about it, are too excited to be reticent,
+and too interested to be mentally lazy in supplying details. Also,
+over and over again, I committed breaches of etiquette, which the
+natives, familiar enough with me, were not slow in pointing out. I
+had to learn how to behave, and to a certain extent, I acquired "the
+feeling" for native good and bad manners. With this, and with the
+capacity of enjoying their company and sharing some of their games
+and amusements, I began to feel that I was indeed in touch with the
+natives, and this is certainly the preliminary condition of being
+able to carry on successful field work.
+
+
+
+
+V
+
+But the Ethnographer has not only to spread his nets in the right
+place, and wait for what will fall into them. He must be an active
+huntsman, and drive his quarry into them and follow it up to its most
+inaccessible lairs. And that leads us to the more active methods of
+pursuing ethnographic evidence. It has been mentioned at the end of
+Division III that the Ethnographer has to be inspired by the knowledge
+of the most modern results of scientific study, by its principles
+and aims. I shall not enlarge upon this subject, except by way of one
+remark, to avoid the possibility of misunderstanding. Good training
+in theory, and acquaintance with its latest results, is not identical
+with being burdened with "preconceived ideas." If a man sets out on an
+expedition, determined to prove certain hypotheses, if he is incapable
+of changing his views constantly and casting them off ungrudgingly
+under the pressure of evidence, needless to say his work will be
+worthless. But the more problems he brings with him into the field,
+the more he is in the habit of moulding his theories according to
+facts, and of seeing facts in their bearing upon theory, the better
+he is equipped for the work. Preconceived ideas are pernicious in any
+scientific work, but foreshadowed problems are the main endowment of
+a scientific thinker, and these problems are first revealed to the
+observer by his theoretical studies.
+
+In Ethnology the early efforts of Bastian, Tylor, Morgan, the German
+Völkerpsychologen have remoulded the older crude information of
+travellers, missionaries, etc., and have shown us the importance
+of applying deeper conceptions and discarding crude and misleading
+ones. [8]
+
+The concept of animism superseded that of "fetichism" or
+"devil-worship," both meaningless terms. The understanding of
+the classificatory systems of relationship paved the way for the
+brilliant, modern researches on native sociology in the field-work of
+the Cambridge school. The psychological analysis of the German thinkers
+has brought forth an abundant crop of most valuable information in
+the results obtained by the recent German expeditions to Africa,
+South America and the Pacific, while the theoretical works of Frazer,
+Durkheim and others have already, and will no doubt still for a long
+time inspire field workers and lead them to new results. The field
+worker relies entirely upon inspiration from theory. Of course he may
+be also a theoretical thinker and worker, and there he can draw on
+himself for stimulus. But the two functions are separate, and in actual
+research they have to be separated both in time and conditions of work.
+
+As always happens when scientific interest turns towards and begins
+to labour on a field so far only prospected by the curiosity of
+amateurs, Ethnology has introduced law and order into what seemed
+chaotic and freakish. It has transformed for us the sensational, wild
+and unaccountable world of "savages" into a number of well ordered
+communities, governed by law, behaving and thinking according to
+consistent principles. The word "savage," whatever association it
+might have had originally, connotes ideas of boundless liberty, of
+irregularity, of something extremely and extraordinarily quaint. In
+popular thinking, we imagine that the natives live on the bosom of
+Nature, more or less as they can and like, the prey of irregular,
+phantasmagoric beliefs and apprehensions. Modern science, on the
+contrary, shows that their social institutions have a very definite
+organisation, that they are governed by authority, law and order
+in their public and personal relations, while the latter are,
+besides, under the control of extremely complex ties of kinship
+and clanship. Indeed, we see them entangled in a mesh of duties,
+functions and privileges which correspond to an elaborate tribal,
+communal and kinship organisation (see Plate IV). Their beliefs and
+practices do not by any means lack consistency of a certain type,
+and their knowledge of the outer world is sufficient to guide them
+in many of their strenuous enterprises and activities. Their artistic
+productions again lack neither meaning nor beauty.
+
+It is a very far cry from the famous answer given long ago by a
+representative authority who, asked, what are the manners and customs
+of the natives, answered, "Customs none, manners beastly," to the
+position of the modern Ethnographer! This latter, with his tables
+of kinship terms, genealogies, maps, plans and diagrams, proves an
+extensive and big organisation, shows the constitution of the tribe,
+of the clan, of the family; and he gives us a picture of the natives
+subjected to a strict code of behaviour and good manners, to which
+in comparison the life at the Court of Versailles or Escurial was
+free and easy. [9]
+
+Thus the first and basic ideal of ethnographic field-work is to
+give a clear and firm outline of the social constitution, and
+disentangle the laws and regularities of all cultural phenomena
+from the irrelevances. The firm skeleton of the tribal life has
+to be first ascertained. This ideal imposes in the first place the
+fundamental obligation of giving a complete survey of the phenomena,
+and not of picking out the sensational, the singular, still less
+the funny and quaint. The time when we could tolerate accounts
+presenting us the native as a distorted, childish caricature of
+a human being are gone. This picture is false, and like many other
+falsehoods, it has been killed by Science. The field Ethnographer has
+seriously and soberly to cover the full extent of the phenomena in
+each aspect of tribal culture studied, making no difference between
+What is commonplace, or drab, or ordinary, and what strikes him as
+astonishing and out-of-the-way. At the same time, the whole area of
+tribal culture in all its aspects has to be gone over in research. The
+consistency, the law and order which obtain within each aspect make
+also for joining them into one coherent whole.
+
+An Ethnographer who sets out to study only religion, or only
+technology, or only social organisation cuts out an artificial field
+for inquiry, and he will be seriously handicapped in his work.
+
+
+
+
+VI
+
+Having settled this very general rule, let us descend to more detailed
+consideration of method. The Ethnographer has in the field, according
+to what has just been said, the duty before him of drawing up all
+the rules and regularities of tribal life; all that is permanent
+and fixed; of giving an anatomy of their culture, of depicting the
+constitution of their society. But these things, though crystallised
+and set, are nowhere formulated. There is no written or explicitly
+expressed code of laws, and their whole tribal tradition, the whole
+structure of their society, are embodied in the most elusive of all
+materials; the human being. But not even in human mind or memory are
+these laws to be found definitely formulated. The natives obey the
+forces and commands of the tribal code, but they do not comprehend
+them; exactly as they obey their instincts and their impulses, but
+could not lay down a single law of psychology. The regularities in
+native institutions are an automatic result of the interaction of
+the mental forces of tradition, and of the material conditions of
+environment. Exactly as a humble member of any modern institution,
+whether it be the state, or the church, or the army, is of it and
+in it, but has no vision of the resulting integral action of the
+whole, still less could furnish any account of its organisation,
+so it would be futile to attempt questioning a native in abstract,
+sociological terms. The difference is that, in our society, every
+institution has its intelligent members, its historians, and its
+archives and documents, whereas in a native society there are none
+of these. After this is realised an expedient has to be found to
+overcome this difficulty. This expedient for an Ethnographer consists
+in collecting concrete data of evidence, and drawing the general
+inferences for himself. This seems obvious on the face of it, but was
+not found out or at least practised in Ethnography till field work was
+taken up by men of science. Moreover, in giving it practical effect,
+it is neither easy to devise the concrete applications of this method,
+nor to carry them out systematically and consistently.
+
+Though we cannot ask a native about abstract, general rules, we can
+always enquire how a given case would be treated. Thus for instance,
+in asking how they would treat crime, or punish it, it would be vain
+to put to a native a sweeping question such as, "How do you treat
+and punish a criminal?" for even words could not be found to express
+it in native, or in pidgin. But an imaginary case, or still better,
+a real occurrence, will stimulate a native to express his opinion and
+to supply plentiful information. A real case indeed will start the
+natives on a wave of discussion, evoke expressions of indignation,
+show them taking sides--all of which talk will probably contain a
+wealth of definite views, of moral censures, as well as reveal the
+social mechanism set in motion by the crime committed. From there,
+it will be easy to lead them on to speak of other similar cases,
+to remember other actual occurrences or to discuss them in all their
+implications and aspects. From this material, which ought to cover
+the widest possible range of facts, the inference is obtained by
+simple induction. The scientific treatment differs from that of good
+common sense, first in that a student will extend the completeness and
+minuteness of survey much further and in a pedantically systematic and
+methodical manner; and secondly, in that the scientifically trained
+mind, will push the inquiry along really relevant lines, and towards
+aims possessing real importance. Indeed, the object of scientific
+training is to provide the empirical investigator with a mental chart,
+in accordance with which he can take his bearings and lay his course.
+
+To return to our example, a number of definite cases discussed will
+reveal to the Ethnographer the social machinery for punishment. This
+is one part, one aspect of tribal authority. Imagine further that
+by a similar method of inference from definite data, he arrives at
+understanding leadership in war, in economic enterprise, in tribal
+festivities--there he has at once all the data necessary to answer
+the questions about tribal government and social authority. In actual
+field work, the comparison of such data, the attempt to piece them
+together, will often reveal rifts and gaps in the information which
+lead on to further investigations.
+
+From my own experience, I can say that, very often, a problem seemed
+settled, everything fixed and clear, till I began to write down a
+short preliminary sketch of my results. And only then, did I see the
+enormous deficiencies, which would show me where lay new problems,
+and lead me on to new work. In fact, I spent a few months between my
+first and second expeditions, and over a year between that and the
+subsequent one, in going over all my material, and making parts of
+it almost ready for publication each time, though each time I knew I
+would have to re-write it. Such cross-fertilisation of constructive
+work and observation, I found most valuable, and I do not think I
+could have made real headway without it. I give this bit of my own
+history merely to show that what has been said so far is not only an
+empty programme, but the result of personal experience. In this volume,
+the description is given of a big institution connected with ever so
+many associated activities, and presenting many aspects. To anyone who
+reflects on the subject, it will be clear that the information about
+a phenomenon of such high complexity and of so many ramifications,
+could not be obtained with any degree of exactitude and completeness,
+without a constant interplay of constructive attempts and empirical
+checking. In fact, I have written up an outline of the Kula institution
+at least half a dozen times while in the field and in the intervals
+between my expeditions. Each time, new problems and difficulties
+presented themselves.
+
+The collecting of concrete data over a wide range of facts is thus one
+of the main points of field method. The obligation is not to enumerate
+a few examples only, but to exhaust as far as possible all the cases
+within reach; and, on this search for cases, the investigator will
+score most whose mental chart is clearest. But, whenever the material
+of the search allows it, this mental chart ought to be transformed
+into a real one; it ought to materialise into a diagram, a plan,
+an exhaustive, synoptic table of cases. Long since, in all tolerably
+good modern books on natives, we expect to find a full list or table
+of kinship terms, which includes all the data relative to it, and
+does not just pick out a few strange and anomalous relationships
+or expressions. In the investigation of kinship, the following up
+of one relation after another in concrete cases leads naturally to
+the construction of genealogical tables. Practised already by the
+best early writers, such as Munzinger, and, if I remember rightly,
+Kubary, this method has been developed to its fullest extent in the
+works of Dr. Rivers. Again, studying the concrete data of economic
+transactions, in order to trace the history of a valuable object, and
+to gauge the nature of its circulation, the principle of completeness
+and thoroughness would lead to construct tables of transactions,
+such as we find in the work of Professor Seligman. [10] It is in
+following Professor Seligman's example in this matter that I was able
+to settle certain of the more difficult and detailed rules of the
+Kula. The method of reducing information, if possible, into charts
+or synoptic tables ought to be extended to the study of practically
+all aspects of native life. All types of economic transactions may
+be studied by following up connected, actual cases, and putting them
+into a synoptic chart; again, a table ought to be drawn up of all the
+gifts and presents customary in a given society, a table including the
+sociological, ceremonial, and economic definition of every item. Also,
+systems of magic, connected series of ceremonies, types of legal acts,
+all could be charted, allowing each entry to be synoptically defined
+under a number of headings. Besides this, of course, the genealogical
+census of every community, studied more in detail, extensive maps,
+plans and diagrams, illustrating ownership in garden land, hunting
+and fishing privileges, etc., serve as the more fundamental documents
+of ethnographic research.
+
+A genealogy is nothing else but a synoptic chart of a number of
+connected relations of kinship. Its value as an instrument of research
+consists in that it allows the investigator to put questions which
+he formulates to himself in abstracto, but can put concretely to
+the native informant. As a document, its value consists in that it
+gives a number of authenticated data, presented in their natural
+grouping. A synoptic chart of magic fulfils the same function. As
+an instrument of research, I have used it in order to ascertain,
+for instance, the ideas about the nature of magical power. With a
+chart before me, I could easily and conveniently go over one item
+after the other, and note down the relevant practices and beliefs
+contained in each of them. The answer to my abstract problem could
+then be obtained by drawing a general inference from all the cases,
+and the procedure is illustrated in Chapters XVII and XVIII. [11] I
+cannot enter further into the discussion of this question, which would
+need further distinctions, such as between a chart of concrete, actual
+data, such as is a genealogy, and a chart summarising the outlines
+of a custom or belief, as a chart of a magical system would be.
+
+Returning once more to the question of methodological candour,
+discussed previously in Division II I wish to point out here, that
+the procedure of concrete and tabularised presentation of data ought
+to be applied first to the Ethnographer's own credentials. That
+is, an Ethnographer, who wishes to be trusted, must show clearly
+and concisely, in a tabularised form, which are his own direct
+observations, and which the indirect information that form the bases
+of his account. The Table on the next page will serve as an example
+of this procedure and help the reader of this book to form an idea
+of the trustworthiness of any statement he is specially anxious to
+check. With the help of this Table and the many references scattered
+throughout the text, as to how, under what circumstances, and with what
+degree of accuracy I arrived at a given item of knowledge, there will,
+I hope remain no obscurity whatever as to the sources of the book.
+
+
+
+       CHRONOLOGICAL LIST OF KULA EVENTS WITNESSED BY THE WRITER
+
+First Expedition, August, 1914-March, 1915.
+
+    March, 1915. In the village of Dikoyas (Woodlark Island) a few
+    ceremonial offerings seen. Preliminary information obtained.
+
+Second Expedition, May, 1915-May, 1916.
+
+    June, 1915. A Kabigidoya visit arrives from Vakuta to Kiriwina. Its
+    anchoring at Kavataria witnessed and the men seen at Omarakana,
+    where information collected.
+
+    July, 1915. Several parties from Kitava land on the beach of
+    Kaulukuba. The men examined in Omarakana. Much information
+    collected in that period.
+
+    September, 1915. Unsuccessful attempt to sail to Kitava with
+    To'uluwa, the chief of Omarakana.
+
+    October-November, 1915. Departure noticed of three expeditions
+    from Kiriwina to Kitava. Each time To'uluwa brings home a haul
+    of mwali (armshells).
+
+    November, 1915-March, 1916. Preparations for a big
+    overseas expedition from Kiriwina to the Marshall Bennett
+    Islands. Construction of a canoe; renovating of another;
+    sail making in Omarakana; launching; tasasoria on the beach of
+    Kaulukuba. At the same time, information is being obtained about
+    these and the associated subjects. Some magical texts of canoe
+    building and Kula magic obtained.
+
+Third Expedition, October, 1917-October, 1918.
+
+    November, 1917-December, 1917. Inland Kula; some data obtained
+    in Tukwaukwa.
+
+    December-February, 1918. Parties from Kitava arrive in
+    Wawela. Collection of information about the yoyova. Magic and
+    spells of Kaygau obtained.
+
+    March, 1918. Preparations in Sanaroa; preparations in the
+    Amphletts; the Dobuan fleet arrives in the Amphletts. The uvalaku
+    expedition from Dobu followed to Boyowa.
+
+    April, 1918. Their arrival; their reception in Sinaketa; the
+    Kula transactions; the big intertribal gathering. Some magical
+    formulæ obtained.
+
+    May, 1918. Party from Kitava seen in Vakuta.
+
+    June, July, 1918. Information about Kula magic and customs
+    checked and amplified in Omarakana, especially with regard to
+    its Eastern branches.
+
+    August, September, 1918. Magical texts obtained in Sinaketa.
+
+    October, 1918. Information obtained from a number of natives in
+    Dobu and Southern Massim district (examined in Samarai).
+
+
+
+To summarise the first, cardinal point of method, I may say each
+phenomenon ought to be studied through the broadest range possible of
+its concrete manifestations; each studied by an exhaustive survey of
+detailed examples. If possible, the results ought to be embodied into
+some sort of synoptic chart, both to be used as an instrument of study,
+and to be presented as an ethnological document. With the help of
+such documents and such study of actualities the clear outline of the
+framework of the natives' culture in the widest sense of the word, and
+the constitution of their society, can be presented. This method could
+be called the method of statistic documentation by concrete evidence.
+
+
+
+
+VII
+
+Needless to add, in this respect, the scientific field-work is far
+above even the best amateur productions. There is, however, one point
+in which the latter often excel. This is, in the presentation of
+intimate touches of native life, in bringing home to us these aspects
+of it with which one is made familiar only through being in close
+contact with the natives, one way or the other, for a long period of
+time. In certain results of scientific work--especially that which has
+been called "survey work"--we are given an excellent skeleton, so to
+speak, of the tribal constitution, but it lacks flesh and blood. We
+learn much about the framework of their society, but within it,
+we cannot perceive or imagine the realities of human life, the even
+flow of everyday events, the occasional ripples of excitement over a
+feast, or ceremony, or some singular occurrence. In working out the
+rules and regularities of native custom, and in obtaining a precise
+formula for them from the collection of data and native statements,
+we find that this very precision is foreign to real life, which
+never adheres rigidly to any rules. It must be supplemented by the
+observation of the manner in which a given custom is carried out,
+of the behaviour of the natives in obeying the rules so exactly
+formulated by the ethnographer, of the very exceptions which in
+sociological phenomena almost always occur.
+
+If all the conclusions are solely based on the statements of
+informants, or deduced from objective documents, it is of course
+impossible to supplement them in actually observed data of real
+behaviour. And that is the reason why certain works of amateur
+residents of long standing, such as educated traders and planters,
+medical men and officials, and last, not least, of the few intelligent
+and unbiassed missionaries to whom Ethnography owes so much, this is
+the reason why these works surpass in plasticity and in vividness most
+of the purely scientific accounts. But if the specialised field-worker
+can adopt the conditions of living described above, he is in a far
+better position to be really in touch with the natives than any other
+white resident. For none of them lives right in a native village,
+except for very short periods, and everyone has his own business,
+which takes up a considerable part of his time. Moreover, if, like a
+trader or a missionary or an official he enters into active relations
+with the native, if he has to transform or influence or make use of
+him, this makes a real, unbiassed, impartial observation impossible,
+and precludes all-round sincerity, at least in the case of the
+missionaries and officials.
+
+Living in the village with no other business but to follow native life,
+one sees the customs, ceremonies and transactions over and over again,
+one has examples of their beliefs as they are actually lived through,
+and the full body and blood of actual native life fills out soon the
+skeleton of abstract constructions. That is the reason why, working
+under such conditions as previously described, the Ethnographer is
+enabled to add something essential to the bare outline of tribal
+constitution, and to supplement it by all the details of behaviour,
+setting and small incident. He is able in each case to state whether
+an act is public or private; how a public assembly behaves, and
+what it looks like; he can judge whether an event is ordinary or an
+exciting and singular one; whether natives bring to it a great deal
+of sincere and earnest spirit, or perform it in fun; whether they do
+it in a perfunctory manner, or with zeal and deliberation.
+
+In other words, there is a series of phenomena of great importance
+which cannot possibly be recorded by questioning or computing
+documents, but have to be observed in their full actuality. Let us
+call them the imponderabilia of actual life. Here belong such things
+as the routine of a man's working day, the details of his care of
+the body, of the manner of taking food and preparing it; the tone of
+conversational and social life around the village fires, the existence
+of strong friendships or hostilities, and of passing sympathies and
+dislikes between people; the subtle yet unmistakable manner in which
+personal vanities and ambitions are reflected in the behaviour of
+the individual and in the emotional reactions of those who surround
+him. All these facts can and ought to be scientifically formulated and
+recorded, but it is necessary that this be done, not by a superficial
+registration of details, as is usually done by untrained observers,
+but with an effort at penetrating the mental attitude expressed in
+them. And that is the reason why the work of scientifically trained
+observers, once seriously applied to the study of this aspect, will,
+I believe, yield results of surpassing value. So far, it has been
+done only by amateurs, and therefore done, on the whole, indifferently.
+
+Indeed, if we remember that these imponderable yet all important facts
+of actual life are part of the real substance of the social fabric,
+that in them are spun the innumerable threads which keep together
+the family, the clan, the village community, the tribe--their
+significance becomes clear. The more crystallised bonds of social
+grouping, such as the definite ritual, the economic and legal duties,
+the obligations, the ceremonial gifts and formal marks of regard,
+though equally important for the student, are certainly felt less
+strongly by the individual who has to fulfil them. Applying this to
+ourselves, we all know that "family life" means for us, first and
+foremost, the atmosphere of home, all the innumerable small acts and
+attentions in which are expressed the affection, the mutual interest,
+the little preferences, and the little antipathies which constitute
+intimacy. That we may inherit from this person, that we shall have to
+walk after the hearse of the other, though sociologically these facts
+belong to the definition of "family" and "family life," in personal
+perspective of what family truly is to us, they normally stand very
+much in the background.
+
+Exactly the same applies to a native community, and if the Ethnographer
+wants to bring their real life home to his readers, he must on no
+account neglect this. Neither aspect, the intimate, as little as
+the legal, ought to be glossed over. Yet as a rule in ethnographic
+accounts we have not both but either the one or the other--and, so
+far, the intimate one has hardly ever been properly treated. In all
+social relations besides the family ties, even those between mere
+tribesmen and, beyond that, between hostile or friendly members of
+different tribes, meeting on any sort of social business, there is
+this intimate side, expressed by the typical details of intercourse,
+the tone of their behaviour in the presence of one another. This
+side is different from the definite, crystalised legal frame of the
+relationship, and it has to be studied and stated in its own right.
+
+In the same way, in studying the conspicuous acts of tribal life,
+such as ceremonies, rites, festivities, etc., the details and tone of
+behaviour ought to be given, besides the bare outline of events. The
+importance of this may be exemplified by one instance. Much has
+been said and written about survival. Yet the survival character
+of an act is expressed in nothing as well as in the concomitant
+behaviour, in the way in which it is carried out. Take any example
+from our own culture, whether it be the pomp and pageantry of a
+state ceremony, or a picturesque custom kept up by street urchins,
+its "outline" will not tell you whether the rite flourishes still
+with full vigour in the hearts of those who perform it or assist at
+the performance or whether they regard it as almost a dead thing,
+kept alive for tradition's sake. But observe and fix the data of
+their behaviour, and at once the degree of vitality of the act will
+become clear. There is no doubt, from all points of sociological,
+or psychological analysis, and in any question of theory, the manner
+and type of behaviour observed in the performance of an act is of the
+highest importance. Indeed behaviour is a fact, a relevant fact, and
+one that can be recorded. And foolish indeed and short-sighted would
+be the man of science who would pass by a whole class of phenomena,
+ready to be garnered, and leave them to waste, even though he did
+not see at the moment to what theoretical use they might be put!
+
+As to the actual method of observing and recording in field-work
+these imponderabilia of actual life and of typical behaviour, there
+is no doubt that the personal equation of the observer comes in here
+more prominently, than in the collection of crystalised, ethnographic
+data. But here also the main endeavour must be to let facts speak for
+themselves. If in making a daily round of the village, certain small
+incidents, characteristic forms of taking food, of conversing, of
+doing work (see for instance Plate III) are found occurring over and
+over again, they should be noted down at once. It is also important
+that this work of collecting and fixing impressions should begin
+early in the course of working out a district. Because certain subtle
+peculiarities, which make an impression as long as they are novel,
+cease to be noticed as soon as they become familiar. Others again can
+only be perceived with a better knowledge of the local conditions. An
+ethnographic diary, carried on systematically throughout the course
+of one's work in a district would be the ideal instrument for this
+sort of study. And if, side by side with the normal and typical,
+the ethnographer carefully notes the slight, or the more pronounced
+deviations from it, he will be able to indicate the two extremes
+within which the normal moves.
+
+In observing ceremonies or other tribal events, such, for instance as
+the scene depicted in Plate IV, it is necessary, not only to note down
+those occurrences and details which are prescribed by tradition and
+custom to be the essential course of the act, but also the Ethnographer
+ought to record carefully and precisely, one after the other, the
+actions of the actors and of the spectators. Forgetting for a moment
+that he knows and understands the structure of this ceremony, the
+main dogmatic ideas underlying it, he might try to find himself only
+in the midst of an assembly of human-beings, who behave seriously or
+jocularly, with earnest concentration or with bored frivolity, who
+are either in the same mood as he finds them every day, or else are
+screwed up to a high pitch of excitement, and so on and so on. With his
+attention constantly directed to this aspect of tribal life, with the
+constant endeavour to fix it, to express it in terms of actual fact,
+a good deal of reliable and expressive material finds its way into
+his notes. He will be able to "set" the act into its proper place in
+tribal life, that is to show whether it is exceptional or commonplace,
+one in which the natives behave ordinarily, or one in which their
+whole behaviour is transformed. And he will also be able to bring
+all this home to his readers in a clear, convincing manner.
+
+Again, in this type of work, it is good for the Ethnographer sometimes
+to put aside camera, note book and pencil, and to join in himself
+in what is going on. He can take part in the natives' games, he can
+follow them on their visits and walks, sit down and listen and share
+in their conversations. I am not certain if this is equally easy
+for everyone--perhaps the Slavonic nature is more plastic and more
+naturally savage than that of Western Europeans--but though the degree
+of success varies, the attempt is possible for everyone. Out of such
+plunges into the life of the natives--and I made them frequently not
+only for study's sake but because everyone needs human company--I
+have carried away a distinct feeling that their behaviour, their
+manner of being, in all sorts of tribal transactions, became more
+transparent and easily understandable than it had been before. All
+these methodological remarks, the reader will find again illustrated
+in the following chapters.
+
+
+
+
+VIII
+
+Finally, let us pass to the third and last aim of scientific
+field-work, to the last type of phenomenon which ought to be recorded
+in order to give a full and adequate picture of native culture. Besides
+the firm outline of tribal constitution and crystallised cultural
+items which form the skeleton, besides the data of daily life and
+ordinary behaviour, which are, so to speak, its flesh and blood,
+there is still to be recorded the spirit--the natives' views and
+opinions and utterances. For, in every act of tribal life, there is,
+first, the routine prescribed by custom and tradition, then there
+is the manner in which it is carried out, and lastly there is the
+commentary to it, contained in the natives' mind. A man who submits
+to various customary obligations, who follows a traditional course
+of action, does it impelled by certain motives, to the accompaniment
+of certain feelings, guided by certain ideas. These ideas, feelings,
+and impulses are moulded and conditioned by the culture in which
+we find them, and are therefore an ethnic peculiarity of the given
+society. An attempt must be made therefore, to study and record them.
+
+But is this possible? Are these subjective states not too elusive and
+shapeless? And, even granted that people usually do feel or think
+or experience certain psychological states in association with the
+performance of customary acts, the majority of them surely are not
+able to formulate these states, to put them into words. This latter
+point must certainly be granted, and it is perhaps the real Gordian
+knot in the study of the facts of social psychology. Without trying to
+cut or untie this knot, that is to solve the problem theoretically,
+or to enter further into the field of general methodology, I shall
+make directly for the question of practical means to overcome some
+of the difficulties involved.
+
+First of all, it has to be laid down that we have to study here
+stereotyped manners of thinking and feeling. As sociologists, we
+are not interested in what A or B may feel qua individuals, in the
+accidental course of their own personal experiences--we are interested
+only in what they feel and think qua members of a given community. Now
+in this capacity, their mental states receive a certain stamp, become
+stereotyped by the institutions in which they live, by the influence
+of tradition and folk-lore, by the very vehicle of thought, that is
+by language. The social and cultural environment in which they move
+forces them to think and feel in a definite manner. Thus, a man who
+lives in a polyandrous community cannot experience the same feelings
+of jealousy, as a strict monogynist, though he might have the elements
+of them. A man who lives within the sphere of the Kula cannot become
+permanently and sentimentally attached to certain of his possessions,
+in spite of the fact that he values them most of all. These examples
+are crude, but better ones will be found in the text of this book.
+
+So, the third commandment of field-work runs: Find out the typical
+ways of thinking and feeling, corresponding to the institutions and
+culture of a given community, and formulate the results in the most
+convincing manner. What will be the method of procedure? The best
+ethnographical writers--here again the Cambridge school with Haddon,
+Rivers, and Seligman rank first among English Ethnographers--have
+always tried to quote verbatim statements of crucial importance. They
+also adduce terms of native classification; sociological, psychological
+and industrial termini technici, and have rendered the verbal contour
+of native thought as precisely as possible. One step further in this
+line can be made by the Ethnographer, who acquires a knowledge of
+the native language and can use it as an instrument of inquiry. In
+working in the Kiriwinian language, I found still some difficulty in
+writing down the statement directly in translation which at first I
+used to do in the act of taking notes. The translation often robbed
+the text of all its significant characteristics--rubbed off all its
+points--so that gradually I was led to note down certain important
+phrases just as they were spoken, in the native tongue. As my knowledge
+of the language progressed, I put down more and more in Kiriwinian,
+till at last I found myself writing exclusively in that language,
+rapidly taking notes, word for word, of each statement. No sooner had
+I arrived at this point, than I recognised that I was thus acquiring
+at the same time an abundant linguistic material, and a series of
+ethnographic documents which ought to be reproduced as I had fixed
+them, besides being utilised in the writing up of my account. [12]
+This corpus inscriptionum Kiriwiniensium can be utilised, not only
+by myself, but by all those who, through their better penetration
+and ability of interpreting them, may find points which escape my
+attention, very much as the other corpora form the basis for the
+various interpretations of ancient and prehistoric cultures; only,
+these ethnographic inscriptions are all decipherable and clear,
+have been almost all translated fully and unambiguously, and have
+been provided with native cross-commentaries or scholia obtained from
+living sources.
+
+No more need be said on this subject here, as later on a whole chapter
+(Chapter XVIII) is devoted to it, and to its exemplification by several
+native texts. The Corpus will of course be published separately at
+a later date.
+
+
+
+
+IX
+
+Our considerations thus indicate that the goal of ethnographic
+field-work must be approached through three avenues:
+
+1. The organisation of the tribe, and the anatomy of its culture
+must be recorded in firm, clear outline. The method of concrete,
+statistical documentation is the means through which such an outline
+has to be given.
+
+2. Within this frame, the imponderabilia of actual life, and the
+type of behaviour have to be filled in. They have to be collected
+through minute, detailed observations, in the form of some sort of
+ethnographic diary, made possible by close contact with native life.
+
+3. A collection of ethnographic statements, characteristic narratives,
+typical utterances, items of folk-lore and magical formulæ has to be
+given as a corpus inscriptionum, as documents of native mentality.
+
+These three lines of approach lead to the final goal, of which an
+Ethnographer should never lose sight. This goal is, briefly, to grasp
+the native's point of view, his relation to life, to realise his vision
+of his world. We have to study man, and we must study what concerns
+him most intimately, that is, the hold which life has on him. In
+each culture, the values are slightly different; people aspire after
+different aims, follow different impulses, yearn after a different
+form of happiness. In each culture, we find different institutions
+in which man pursues his life-interest, different customs by which he
+satisfies his aspirations, different codes of law and morality which
+reward his virtues or punish his defections. To study the institutions,
+customs, and codes or to study the behaviour and mentality without the
+subjective desire of feeling by what these people live, of realising
+the substance of their happiness--is, in my opinion, to miss the
+greatest reward which we can hope to obtain from the study of man.
+
+These generalities the reader will find illustrated in the following
+chapters. We shall see there the savage striving to satisfy certain
+aspirations, to attain his type of value, to follow his line of
+social ambition. We shall see him led on to perilous and difficult
+enterprises by a tradition of magical and heroical exploits, shall
+see him following the lure of his own romance. Perhaps as we read
+the account of these remote customs there may emerge a feeling of
+solidarity with the endeavours and ambitions of these natives. Perhaps
+man's mentality will be revealed to us, and brought near, along
+some lines which we never have followed before. Perhaps through
+realising human nature in a shape very distant and foreign to us,
+we shall have some light shed on our own. In this, and in this case
+only, we shall be justified in feeling that it has been worth our
+while to understand these natives, their institutions and customs,
+and that we have gathered some profit from the Kula.

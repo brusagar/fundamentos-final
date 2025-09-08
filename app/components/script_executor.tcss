@@ -1,0 +1,35 @@
+#main-content {
+    height: 1fr;
+}
+
+#executor-title {
+    text-align: center;
+    text-style: bold;
+    margin: 1;
+}
+
+#input-container {
+    margin: 1;
+}
+
+#file-list {
+    height: auto;
+    min-height: 6;
+    max-height: 15;
+    border: solid $primary;
+    margin: 1 0;
+    scrollbar-gutter: stable;
+}
+
+#output-log {
+    height: auto;
+    min-height: 10;
+    border: solid $accent;
+    margin: 1 0;
+}
+
+#no-files-message {
+    text-style: italic;
+    color: $warning;
+    margin: 1;
+}

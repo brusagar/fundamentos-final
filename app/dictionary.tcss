@@ -1,0 +1,184 @@
+Screen {
+    background: $panel;
+}
+
+Input#dictionary-search {
+    dock: top;
+    margin: 1 0;
+}
+
+#results {
+    width: 100%;
+    height: auto;
+    margin-top: 1;
+}
+
+#results-container {
+    background: $surface;
+    margin: 0 0 1 0;
+    height: 100%;
+    overflow: hidden auto;
+    border: tall transparent;
+}
+
+#results-container:focus {
+    border: tall $border;
+}
+
+#menu-grid {
+    grid-size: 2;
+    grid-gutter: 1;
+    padding: 1;
+    width: 40;
+    height: auto;
+    margin: 1 0;
+    grid-rows: 4;
+}
+
+#menu-label {
+    text-align: center;
+    padding: 1;
+    column-span: 2;
+}
+
+#dictionary-container {
+    width: 100%;
+    height: auto;
+    padding: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+#word-input {
+    margin: 1 0;
+}
+
+Input {
+    width: auto;
+    margin: 1;
+}
+
+Select {
+    width: 30;
+    margin: 1;
+}
+
+Label {
+    padding: 1 2;
+}
+
+Markdown {
+    margin: 1;
+    padding: 1;
+}
+
+#entity-container {
+    width: 100%;
+    padding: 1;
+}
+
+#entity-container.hidden {
+    display: none;
+}
+
+#entity-input {
+    dock: top;
+    margin: 1 1;
+}
+
+#entity-results {
+    margin: 1 0;
+    padding: 1;
+    background: $surface;
+    border: tall transparent;
+    overflow: hidden auto;
+}
+
+#entity-results:focus {
+    border: tall $border;
+}
+
+#file-selection {
+    width: 100%;
+    margin: 1 1;
+    height: auto;
+}
+
+#file-label {
+    margin-bottom: 1;
+}
+
+#file-select {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+#trainer-container {
+    width: 100%;
+    height: 100%;
+    padding: 2;
+}
+
+#trainer-title {
+    text-align: center;
+    padding: 1;
+    text-style: bold;
+    background: $boost;
+}
+
+#data-prep-title, #training-config-title {
+    text-align: left;
+    padding: 1 0;
+    text-style: bold;
+    color: $accent;
+}
+
+#data-prep-row, #config-row, #params-row, #paths-row, #control-row {
+    align: center middle;
+    height: auto;
+    margin: 1;
+}
+
+#csv-input {
+    width: 1fr;
+    margin: 0 1;
+}
+
+#train-progress {
+    margin: 1;
+}
+
+#executor-title {
+    text-align: center;
+    padding: 1;
+    background: $boost;
+}
+
+#input-container {
+    margin: 1 2;
+    height: auto;
+    min-height: 15;
+}
+
+#input-container Input {
+    margin-bottom: 1;
+    width: 100%;
+}
+
+#input-container Label {
+    margin-bottom: 1;
+}
+
+#button-container {
+    align-horizontal: center;
+    margin: 1;
+}
+
+#output-log {
+    height: 1fr;
+    min-height: 8;
+    border: solid green;
+    margin: 1;
+}

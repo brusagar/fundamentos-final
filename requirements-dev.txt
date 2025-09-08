@@ -1,0 +1,61 @@
+# Development Dependencies for Main Application (.venv)
+# This file contains ALL dependencies needed for development of the main NLP app
+
+# === CORE APPLICATION DEPENDENCIES ===
+# UI Framework
+textual>=6.0.0,<7.0.0
+textual-autocomplete>=4.0.4,<5.0.0
+textual-dev>=1.7.0
+textual-serve>=1.1.2
+
+# Data Processing & NLP
+pandas>=2.0.0
+spacy>=3.5.0
+scikit-learn>=1.3.0
+tqdm>=4.0.0
+
+# === OPTIONAL NLP FEATURES ===
+# Uncomment as needed for your development setup
+
+# Advanced coreference resolution (choose one):
+# spacy-experimental>=0.6.0  # Recommended
+# stanza>=1.4.0             # Advanced but memory-intensive
+# transformers>=4.20.0      # Experimental, requires torch
+
+# === DEVELOPMENT TOOLS ===
+# These should already be installed in your dev environment
+rich>=14.0.0
+click>=8.2.0
+
+# === AUTO-DETECTED DEPENDENCIES ===
+# These are pulled in automatically by the above packages
+# Listed here for reference and version pinning
+
+# Web/HTTP related (for textual-serve)
+aiohttp>=3.12.0
+aiohttp-jinja2>=1.6
+aiosignal>=1.3.0
+aiohappyeyeballs>=2.6.0
+
+# Utility packages
+attrs>=25.0.0
+frozenlist>=1.6.0
+idna>=3.10
+Jinja2>=3.1.0
+MarkupSafe>=3.0.0
+multidict>=6.4.0
+propcache>=0.3.0
+yarl>=1.20.0
+
+# Text processing
+markdown-it-py>=3.0.0
+mdit-py-plugins>=0.4.0
+mdurl>=0.1.0
+uc-micro-py>=1.0.0
+linkify-it-py>=2.0.0
+
+# Other utilities
+Pygments>=2.19.0
+platformdirs>=4.3.0
+typing_extensions>=4.13.0
+msgpack>=1.1.0

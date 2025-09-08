@@ -1,0 +1,5 @@
+sentence,entity1,entity1_label,entity2,entity2_label,relation
+"John works at Microsoft",John,PERSON,Microsoft,ORG,works_for
+"Paris is in France",Paris,LOC,France,LOC,located_in
+"Paris is in fhfhf",Paris,LOC,France,LOC,located_in
+"Barack Obama was born in Hawaii",Barack Obama,PERSON,Hawaii,LOC,born_in
