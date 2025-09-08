@@ -20,7 +20,7 @@ If you are **just interested in visualization**, I recommend creating the folder
 ---
 ## Prerequisites
 
-- **Python 3.8+** (Python 3.11 recommended)
+- **Python 3.11 recommended**
 - **Git**
 - **Terminal/Command Line Access**
 
