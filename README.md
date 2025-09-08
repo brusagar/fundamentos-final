@@ -368,14 +368,6 @@ SpERT manages its own dependencies including:
 - **Coreference Resolution**: Install `requirements-coref.txt` for advanced NLP features
 - **GPU Support**: CUDA-compatible PyTorch versions (configured in SpERT environment)
 
-## Performance Tips
-
-- **Use Browser Mode**: Generally faster and more responsive than terminal mode
-- **Separate Environments**: Keeps dependencies isolated and prevents conflicts
-- **GPU Training**: Configure CUDA in SpERT for faster model training
-- **Batch Processing**: Process multiple documents using the application's batch features
-- **Memory Management**: Use smaller batch sizes if you encounter memory issues
-
 ## Advanced Usage
 
 ### Custom Model Integration
@@ -411,5 +403,3 @@ This is a research/educational project. Feel free to:
 ---
 
 **🚀 You're now ready to start using the Relations and NER NLP Application!**
-
-For questions or issues, please check the troubleshooting section above or refer to the application's built-in help documentation.
