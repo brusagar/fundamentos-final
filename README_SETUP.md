@@ -13,8 +13,10 @@ This application is a Textual-based GUI for Named Entity Recognition (NER) and R
 
 ## Prerequisites
 
-- Recommended Python3.11 
+- Python 3.8+ 
 - Git
+- Virtual environment support (venv)
+- At least 4GB RAM (8GB+ recommended for training)
 
 ## Project Structure After Setup
 
@@ -27,11 +29,11 @@ fundamentos-final/
 │   ├── utils/                     # Utility functions
 │   ├── models/                    # Data models
 │   └── data/                      # Application data
-├── spert/                         # SpERT framework (cloned separately)
+├── spert/                         # SpERT framework
 │   ├── .spert_env/               # Separate SpERT environment
 │   ├── spert/                    # SpERT core modules
 │   ├── data/                     # Training/prediction data
-│   ├── configs/                  # Configuration files (your custom configs go here)
+│   ├── configs/                  # Configuration files (includes your custom configs)
 │   └── scripts/                  # Utility scripts
 ├── requirements.txt              # Main app dependencies
 ├── requirements-dev.txt          # Development dependencies
@@ -39,24 +41,20 @@ fundamentos-final/
 └── README.md
 ```
 
-## Step 1: Clone This Repository
+## Step 1: Clone and Set Up SpERT
 
+### 1.1 Clone Original SpERT Repository
 ```bash
-# Clone this repository
-git clone https://github.com/brusagar/fundamentos-final.git
-cd fundamentos-final
-```
-
-## Step 2: Clone and Set Up SpERT
-
-```bash
-# Clone SpERT framework
+# Clone SpERT from the official repository
 git clone https://github.com/lavis-nlp/spert.git
 cd spert
+```
 
+### 1.2 Set Up SpERT Environment
+```bash
 # Create separate virtual environment for SpERT
 python -m venv .spert_env
-source .spert_env/bin/activate  
+source .spert_env/bin/activate  # On Windows: .spert_env\Scripts\activate
 
 # Install SpERT dependencies
 pip install -r requirements.txt
@@ -70,18 +68,22 @@ bash ./scripts/fetch_models.sh
 
 # Deactivate SpERT environment
 deactivate
-
-# Return to project root
-cd ..
 ```
 
-## Step 3: Set Up Main Application Environment
+## Step 2: Set Up Main Application Environment
 
+### 2.1 Create Main Application Structure
 ```bash
+# Navigate back to your project root or clone this repository
+cd /path/to/your/project
+
 # Create main application virtual environment
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
 
+### 2.2 Install Main Application Dependencies
+```bash
 # Install core dependencies
 pip install -r requirements.txt
 
@@ -92,11 +94,41 @@ pip install -r requirements-dev.txt
 pip install -r requirements-coref.txt
 ```
 
-## Step 4: Configure SpERT for Your Project
+### 2.3 Dependency Files Content
 
-Add your configuration files to `spert/configs/`. You can create custom configs or modify the examples:
+**requirements.txt:**
+```pip-requirements
+# Main Application Requirements
+textual>=6.0.0,<7.0.0
+textual-autocomplete>=4.0.4,<5.0.0
+pandas>=2.0.0
+spacy>=3.5.0
+scikit-learn>=1.3.0
+```
 
-**Create spert/configs/argonauts_config_train.conf:**
+**requirements-dev.txt:**
+```pip-requirements
+# Development Dependencies (RECOMMENDED)
+textual>=6.0.0,<7.0.0
+textual-autocomplete>=4.0.4,<5.0.0
+textual-dev>=1.7.0
+textual-serve>=1.1.2
+pandas>=2.0.0
+spacy>=3.5.0
+scikit-learn>=1.3.0
+tqdm>=4.0.0
+rich>=14.0.0
+click>=8.2.0
+# ... additional dev dependencies
+```
+
+## Step 3: Configure SpERT for Your Project
+
+### 3.1 Add Your Custom Configuration Files
+
+The application uses configuration files located in `spert/configs/`. You can add your custom training and prediction configurations to this directory.
+
+**Example training config (spert/configs/argonauts_config_train.conf):**
 ```properties
 label = relation_train
 model_type = spert
@@ -128,7 +160,7 @@ save_path = data/save/
 no_overlapping = true
 ```
 
-**Create spert/configs/argonauts_predict.conf:**
+**Example prediction config (spert/configs/argonauts_predict.conf):**
 ```properties
 model_type = spert
 model_path = data/save/relation_train/[YOUR_TIMESTAMP]/final_model
@@ -146,11 +178,33 @@ sampling_processes = 4
 max_pairs = 1000
 ```
 
-Feel free to modify them as you wish. To try different models or maybe different training parameters.
+### 3.2 Configuration Notes
 
-## Step 5: Running the Application
+**Important:** All configuration files should be placed in `spert/configs/` directory. The application's trainer and predictor components automatically scan this directory for:
+- Training configs: Files containing `*train*.conf` 
+- Prediction configs: Files containing `*predict*.conf`
 
-### Environment Management
+You can copy the example configurations provided by SpERT and modify them for your specific needs:
+
+```bash
+# Navigate to SpERT configs directory
+cd spert/configs
+
+# List existing example configs
+ls *.conf
+
+# Create your custom configs based on examples
+cp example_train.conf argonauts_config_train.conf
+cp example_predict.conf argonauts_predict.conf
+
+# Edit the configs as needed
+nano argonauts_config_train.conf
+nano argonauts_predict.conf
+```
+
+## Step 4: Running the Application
+
+### 4.1 Environment Management
 
 **To work on the main application:**
 ```bash
@@ -165,7 +219,7 @@ cd spert
 source .spert_env/bin/activate
 ```
 
-### Running the Textual Application
+### 4.2 Running the Application
 
 **Method 1: Browser-based (RECOMMENDED)**
 ```bash
@@ -198,36 +252,34 @@ source .venv/bin/activate
 python app/app.py
 ```
 
-## Step 6: Training and Prediction Workflow
+## Step 5: Training and Prediction Workflow
 
-ONLY IF YOU WANT TO TRY MANUALLY OR WANT TO TRY DIFFERENT MODELS. THE APP TAKES CARE OF TRIANING AND PREDICTIONS.
-
-### Training a Model
+### 5.1 Training a Model
 ```bash
 # Activate SpERT environment
 cd spert
 source .spert_env/bin/activate
 
-# Train using your configuration (configs are now in spert/configs/)
+# Train using your configuration
 python spert.py train --config configs/argonauts_config_train.conf
 ```
 
-### Making Predictions
+### 5.2 Making Predictions
 ```bash
 # Still in SpERT environment
 python spert.py predict --config configs/argonauts_predict.conf
 ```
 
-### Updating Prediction Config
+### 5.3 Updating Prediction Config
 After training, update the model paths in `spert/configs/argonauts_predict.conf`:
 ```properties
 model_path = data/save/relation_train/[YOUR_ACTUAL_TIMESTAMP]/final_model
 tokenizer_path = data/save/relation_train/[YOUR_ACTUAL_TIMESTAMP]/final_model
 ```
 
-## Step 7: Data Preparation
+## Step 6: Data Preparation
 
-### Required Data Files
+### 6.1 Required Data Files
 
 Ensure you have these files in your `spert/data/` directory:
 - `train.json` - Training data
@@ -236,7 +288,7 @@ Ensure you have these files in your `spert/data/` directory:
 - `types.json` - Entity and relation type definitions
 - `raw_text.json` - Raw text for prediction
 
-### Data Format Examples
+### 6.2 Data Format Examples
 
 **types.json:**
 ```json
@@ -244,31 +296,13 @@ Ensure you have these files in your `spert/data/` directory:
   "entities": [
     {"type": "PERSON", "short": "PER"},
     {"type": "LOCATION", "short": "LOC"},
-    {"type": "ORGANIZATION", "short": "ORG"},
-    {"type": "EVENT", "short": "EVT"}
+    {"type": "ORGANIZATION", "short": "ORG"}
   ],
   "relations": [
     {"type": "located_in", "short": "located_in"},
-    {"type": "works_for", "short": "works_for"},
-    {"type": "part_of", "short": "part_of"}
+    {"type": "works_for", "short": "works_for"}
   ]
 }
-```
-
-**Example prediction output (spert/data/model_predictions/predictions.json):**
-```json
-[
-  {
-    "tokens": ["Moving", "Westwards", "from", "Digumenu", "..."],
-    "entities": [
-      {"type": "LOCATION", "start": 3, "end": 4},
-      {"type": "EVENT", "start": 8, "end": 9}
-    ],
-    "relations": [
-      {"type": "part_of", "head": 0, "tail": 1}
-    ]
-  }
-]
 ```
 
 ## Troubleshooting
@@ -291,9 +325,7 @@ which python
 
 **3. SpaCy model missing:**
 ```bash
-# Install English model in SpERT environment
-cd spert
-source .spert_env/bin/activate
+# Install English model
 python -m spacy download en_core_web_sm
 ```
 
@@ -303,38 +335,29 @@ python -m spacy download en_core_web_sm
 cpu = true
 ```
 
-**5. Configuration file not found:**
-- Ensure configs are in `spert/configs/`, not in root `configs/`
-- Use relative paths in SpERT commands: `configs/your_config.conf`
+**5. Version conflicts:**
+- Keep SpERT in separate environment (.spert_env)
+- Use exact versions from requirements-spert.txt if issues persist
 
-**6. Version conflicts:**
-- Keep SpERT in separate environment (`.spert_env`)
-- Use exact versions from SpERT requirements if issues persist
+## Development Tips
 
-## Dependencies
-
-### Main Application (requirements-dev.txt)
-```pip-requirements
-textual>=6.0.0,<7.0.0
-textual-autocomplete>=4.0.4,<5.0.0
-textual-dev>=1.7.0
-textual-serve>=1.1.2
-pandas>=2.0.0
-spacy>=3.5.0
-scikit-learn>=1.3.0
-tqdm>=4.0.0
-rich>=14.0.0
-click>=8.2.0
-```
-
-### SpERT Environment
-SpERT uses its own `requirements.txt` with specific versions for:
-- PyTorch/Transformers
-- BERT models
-- Scientific computing libraries
+1. **Use browser mode** (`textual serve`) for better development experience
+2. **Keep environments separate** to avoid dependency conflicts
+3. **Test with small datasets** first before full training
+4. **Monitor GPU memory** usage during training
+5. **Save configuration changes** before switching between environments
 
 ## Additional Resources
 
 - [SpERT Paper](https://arxiv.org/abs/1909.07755)
 - [Textual Documentation](https://textual.textualize.io/)
 - [Transformers Library](https://huggingface.co/docs/transformers/)
+
+## Support
+
+If you encounter issues:
+1. Check that all virtual environments are properly activated
+2. Verify all required dependencies are installed
+3. Ensure configuration file paths are correct
+4. Check that SpaCy models are downloaded
+5. Review log files in `spert/data/log/` for detailed error messages
