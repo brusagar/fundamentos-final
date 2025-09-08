@@ -65,8 +65,8 @@ cd spert
 python -m venv .spert_env
 source .spert_env/bin/activate  # On Windows: .spert_env\Scripts\activate
 
-# Install SpERT dependencies
-pip install -r requirements.txt
+# Install custom SpERT dependencies
+pip install -r ./requirements-spert.txt
 python -m spacy download en_core_web_sm
 
 # Return to main project
@@ -83,9 +83,6 @@ source .venv/bin/activate
 
 # Install dependencies
 pip install -r requirements-dev.txt
-
-# Test the application
-python -m textual serve app/app.py
 ```
 
 ## Running the Application
@@ -96,10 +93,8 @@ python -m textual serve app/app.py
 source .venv/bin/activate
 
 # Serve in browser (opens automatically)
-python -m textual serve app/app.py
+textual serve app/app.py
 
-# Alternative if textual command doesn't work:
-python -m textual serve app/app.py --port 8080
 ```
 
 ### Method 2: Terminal Interface
@@ -108,7 +103,7 @@ python -m textual serve app/app.py --port 8080
 source .venv/bin/activate
 
 # Run in terminal
-python -m textual run app/app.py
+textual run app/app.py
 ```
 
 ### Method 3: Direct Python Execution
