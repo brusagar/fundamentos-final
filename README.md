@@ -1,4 +1,4 @@
-# Relations and NER NLP Application - Complete Setup Guide
+# Relations and NER NLP Application
 
 This guide provides step-by-step instructions to set up the Relations and NER NLP application with SpERT integration from scratch.
 
