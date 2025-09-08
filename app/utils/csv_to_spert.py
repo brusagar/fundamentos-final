@@ -1,12 +1,30 @@
 import pandas as pd
 import json
 import os
+import sys
 import random
 from sklearn.model_selection import train_test_split
 from collections import Counter
 
-df = pd.read_csv("first_annotations.csv")  
-# required columns: sentence, entity1, entity1_label, entity2, entity2_label, relation
+# Get CSV file path from command line argument or use default
+csv_file = sys.argv[1] if len(sys.argv) > 1 else "app/data/annotated_csv_data/first_annotations.csv"
+
+# Get output directory from command line argument or use default
+output_dir = sys.argv[2] if len(sys.argv) > 2 else "spert/data"
+
+print(f"Reading CSV from: {csv_file}")
+print(f"Output directory: {output_dir}")
+
+try:
+    df = pd.read_csv(csv_file)  
+    # required columns: sentence, entity1, entity1_label, entity2, entity2_label, relation
+    print(f"Successfully loaded {len(df)} rows from CSV")
+except FileNotFoundError:
+    print(f"Error: CSV file not found at {csv_file}")
+    sys.exit(1)
+except Exception as e:
+    print(f"Error reading CSV file: {e}")
+    sys.exit(1)
 
 data = []
 entity_types = set()
@@ -65,7 +83,7 @@ for _, row in df.iterrows():
         "relations": relations
     })
 
-os.makedirs("data", exist_ok=True)
+os.makedirs(output_dir, exist_ok=True)
 
 # Stratify by relation type if possible
 stratify_labels = []
@@ -86,9 +104,10 @@ dev_data, test_data = train_test_split(temp_data, test_size=0.5, random_state=42
 
 splits = {"train.json": train_data, "dev.json": dev_data, "test.json": test_data}
 for filename, split_data in splits.items():
-    path = os.path.join("data", filename)
+    path = os.path.join(output_dir, filename)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(split_data, f, ensure_ascii=False, indent=2)
+    print(f"Saved {len(split_data)} examples to {path}")
 
 
 types = {
@@ -109,8 +128,10 @@ for rt in sorted(relation_types):
         "symmetric": False
     }
 
-with open("data/types.json", "w", encoding="utf-8") as f:
+with open(os.path.join(output_dir, "types.json"), "w", encoding="utf-8") as f:
     json.dump(types, f, ensure_ascii=False, indent=2)
+
+print(f"Saved types.json to {os.path.join(output_dir, 'types.json')}")
 
 
 def count_relations(dataset):

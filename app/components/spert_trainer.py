@@ -104,33 +104,11 @@ class SpertTrainerScreen(Screen):
             # Disable button during processing
             self.query_one("#prepare-button", Button).disabled = True
             
-            # Read the original csv_to_spert.py script and modify it to use the specified CSV file
-            with open(csv_to_spert_path, 'r', encoding='utf-8') as f:
-                original_script = f.read()
+            # Execute the data preparation script with command line arguments
+            spert_data_dir = root_dir / "spert" / "data"
+            cmd = [str(python_path), str(csv_to_spert_path), str(csv_path), str(spert_data_dir)]
             
-            # Replace the hardcoded CSV filename with the user-specified one
-            # Also update the data directory to be inside spert/
-            modified_script = original_script.replace(
-                'df = pd.read_csv("first_annotations.csv")',
-                f'df = pd.read_csv("{csv_path}")'
-            ).replace(
-                'os.makedirs("data", exist_ok=True)',
-                'os.makedirs("spert/data", exist_ok=True)'
-            ).replace(
-                'path = os.path.join("data", filename)',
-                'path = os.path.join("spert/data", filename)'
-            ).replace(
-                'with open("data/types.json", "w", encoding="utf-8") as f:',
-                'with open("spert/data/types.json", "w", encoding="utf-8") as f:'
-            )
-            
-            # Create temporary script
-            temp_script_path = root_dir / "temp_csv_to_spert.py"
-            with open(temp_script_path, 'w', encoding='utf-8') as f:
-                f.write(modified_script)
-            
-            # Execute the data preparation script
-            cmd = [str(python_path), str(temp_script_path)]
+            log.write(f"Running command: {' '.join(cmd)}\n\n")
             
             process = subprocess.Popen(
                 cmd,
@@ -160,10 +138,6 @@ class SpertTrainerScreen(Screen):
                 log.write("- spert/data/dev.json\n")
                 log.write("- spert/data/test.json\n")
                 log.write("- spert/data/types.json\n")
-            
-            # Clean up temporary script
-            if temp_script_path.exists():
-                temp_script_path.unlink()
             
             # Re-enable button
             self.query_one("#prepare-button", Button).disabled = False
