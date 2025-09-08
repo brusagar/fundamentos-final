@@ -1,0 +1,514 @@
+[
+  {
+    "tokens": ["A", "child", "belongs", "to", "the", "clan", "and", "village", "community", "of", "village", "mother", ",", "and", "wealth", ",", "as", "well", "as", "social", "position", ",", "are", "inherited", ",", "not", "from", "father", "to", "son", ",", "but", "from", "maternal", "uncle", "to", "nephew", "."],
+    "entities": [
+      {
+        "type": "PERSON",
+        "start": 1,
+        "end": 2,
+        "confidence": 0.9234
+      },
+      {
+        "type": "ORG",
+        "start": 4,
+        "end": 6,
+        "confidence": 0.8567
+      }
+    ],
+    "relations": [
+      {
+        "type": "belongs_to",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8234
+      }
+    ]
+  },
+  {
+    "tokens": ["In", "olden", "days", ",", "the", "chief", "of", "Omarakana", "had", "up", "to", "as", "many", "as", "forty", "consorts", ",", "and", "received", "perhaps", "as", "much", "as", "thirty", "to", "fifty", "per", "cent", "."],
+    "entities": [
+      {
+        "type": "PERSON",
+        "start": 4,
+        "end": 6,
+        "confidence": 0.9456
+      },
+      {
+        "type": "LOCATION",
+        "start": 7,
+        "end": 8,
+        "confidence": 0.9123
+      }
+    ],
+    "relations": [
+      {
+        "type": "belongs_to",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8876
+      }
+    ]
+  },
+  {
+    "tokens": ["In", "the", "southern", "part", "of", "Boyowa", ",", "there", "is", "first", "the", "province", "of", "Luba", ",", "occupying", "the", "waist", "of", "the", "island", ",", "the", "part", "where", "waist", "narrows", "down", "to", "a", "long", "isthmus", "."],
+    "entities": [
+      {
+        "type": "GPE",
+        "start": 5,
+        "end": 6,
+        "confidence": 0.9345
+      },
+      {
+        "type": "LOCATION",
+        "start": 13,
+        "end": 14,
+        "confidence": 0.8789
+      }
+    ],
+    "relations": [
+      {
+        "type": "belongs_to",
+        "head": 1,
+        "tail": 0,
+        "confidence": 0.8123
+      }
+    ]
+  },
+  {
+    "tokens": ["The", "flying", "witches", ",", "so", "characteristic", "of", "the", "Eastern", "New", "Guinea", "type", "of", "culture", ",", "here", "have", "one", "of", "witches", "strongholds", "."],
+    "entities": [
+      {
+        "type": "MYTHICAL_BEING",
+        "start": 1,
+        "end": 3,
+        "confidence": 0.9567
+      },
+      {
+        "type": "LOCATION",
+        "start": 8,
+        "end": 11,
+        "confidence": 0.9234
+      }
+    ],
+    "relations": [
+      {
+        "type": "belongs_to",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.7891
+      }
+    ]
+  },
+  {
+    "tokens": ["The", "highest", "sub", "-", "clan", "is", "that", "of", "the", "Tabalu", ",", "belonging", "to", "the", "Malasi", "totem", "clan", "."],
+    "entities": [
+      {
+        "type": "NORP",
+        "start": 8,
+        "end": 10,
+        "confidence": 0.9123
+      },
+      {
+        "type": "LOCATION",
+        "start": 14,
+        "end": 15,
+        "confidence": 0.8456
+      }
+    ],
+    "relations": [
+      {
+        "type": "belongs_to",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8567
+      }
+    ]
+  },
+  {
+    "tokens": ["It", "is", "very", "interesting", "to", "note", "that", "the", "tauva'u", "are", "believed", "to", "come", "from", "the", "Northern", "coast", "of", "Normanby", "Island", ",", "from", "the", "district", "of", "Du'a'u", ",", "and", "more", "especially", "from", "a", "place", "called", "Sewatupa", "."],
+    "entities": [
+      {
+        "type": "MYTHICAL_BEING",
+        "start": 7,
+        "end": 9,
+        "confidence": 0.8945
+      },
+      {
+        "type": "LOCATION",
+        "start": 14,
+        "end": 20,
+        "confidence": 0.9234
+      },
+      {
+        "type": "LOCATION",
+        "start": 34,
+        "end": 35,
+        "confidence": 0.8123
+      }
+    ],
+    "relations": [
+      {
+        "type": "come_from",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8456
+      },
+      {
+        "type": "come_from",
+        "head": 0,
+        "tail": 2,
+        "confidence": 0.7891
+      }
+    ]
+  },
+  {
+    "tokens": ["A", "Kula", "community", "consists", "of", "a", "village", "or", "a", "number", "of", "villages", ",", "who", "go", "out", "together", "on", "big", "overseas", "expeditions", ",", "and", "who", "act", "as", "a", "body", "in", "the", "Kula", "transactions", "."],
+    "entities": [
+      {
+        "type": "EVENT",
+        "start": 1,
+        "end": 3,
+        "confidence": 0.9123
+      },
+      {
+        "type": "EVENT",
+        "start": 5,
+        "end": 12,
+        "confidence": 0.8567
+      }
+    ],
+    "relations": [
+      {
+        "type": "consists_on",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8234
+      }
+    ]
+  },
+  {
+    "tokens": ["All", "very", "rapid", "and", "violent", "diseases", ",", "more", "especially", "such", "as", "show", "no", "direct", ",", "perceptible", "symptoms", ",", "are", "attributed", "to", "the", "mulukwausi", ",", "as", "diseases", "are", "called", "."],
+    "entities": [
+      {
+        "type": "MYTHICAL_BEING",
+        "start": 21,
+        "end": 23,
+        "confidence": 0.9456
+      },
+      {
+        "type": "MISC",
+        "start": 25,
+        "end": 26,
+        "confidence": 0.8789
+      }
+    ],
+    "relations": [
+      {
+        "type": "do",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8123
+      }
+    ]
+  },
+  {
+    "tokens": ["Only", "in", "extreme", "cases", ",", "does", "a", "chief", "inflict", "direct", "punishment", "on", "a", "culprit", "."],
+    "entities": [
+      {
+        "type": "PERSON",
+        "start": 6,
+        "end": 8,
+        "confidence": 0.9234
+      },
+      {
+        "type": "MISC",
+        "start": 9,
+        "end": 11,
+        "confidence": 0.8456
+      }
+    ],
+    "relations": [
+      {
+        "type": "do",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8567
+      }
+    ]
+  },
+  {
+    "tokens": ["From", "each", "subject", "village", ",", "chief", "takes", "a", "wife", ",", "whose", "family", ",", "according", "to", "the", "Trobriand", "law", ",", "has", "to", "supply", "chief", "with", "large", "amounts", "of", "crops", "."],
+    "entities": [
+      {
+        "type": "MISC",
+        "start": 10,
+        "end": 12,
+        "confidence": 0.8789
+      },
+      {
+        "type": "PERSON",
+        "start": 24,
+        "end": 28,
+        "confidence": 0.9123
+      }
+    ],
+    "relations": [
+      {
+        "type": "give",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8234
+      }
+    ]
+  },
+  {
+    "tokens": ["The", "partners", "in", "villages", "to", "the", "North", "of", "Sinaketa", ",", "in", "the", "district", "of", "Luba", ",", "Kulumata", ",", "or", "Kiriwina", "all", "supply", "me", "with", "arm", "-", "shells", "."],
+    "entities": [
+      {
+        "type": "GPE",
+        "start": 5,
+        "end": 9,
+        "confidence": 0.9234
+      },
+      {
+        "type": "OBJECT",
+        "start": 24,
+        "end": 27,
+        "confidence": 0.8567
+      }
+    ],
+    "relations": [
+      {
+        "type": "give",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8123
+      }
+    ]
+  },
+  {
+    "tokens": ["An", "overseas", "expedition", "from", "Dobu", "in", "the", "d'Entrecasteaux", "Archipelago", ",", "arrives", "at", "my", "village", "."],
+    "entities": [
+      {
+        "type": "EVENT",
+        "start": 1,
+        "end": 5,
+        "confidence": 0.9456
+      },
+      {
+        "type": "LOCATION",
+        "start": 12,
+        "end": 14,
+        "confidence": 0.8789
+      }
+    ],
+    "relations": [
+      {
+        "type": "go_to",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8567
+      }
+    ]
+  },
+  {
+    "tokens": ["The", "spirits", "migrate", "immediately", "after", "death", "to", "the", "island", "of", "Tuma", ",", "lying", "in", "the", "North", "-", "West", "of", "Boyowa", "."],
+    "entities": [
+      {
+        "type": "MYTHICAL_BEING",
+        "start": 0,
+        "end": 2,
+        "confidence": 0.9234
+      },
+      {
+        "type": "LOCATION",
+        "start": 7,
+        "end": 11,
+        "confidence": 0.9567
+      }
+    ],
+    "relations": [
+      {
+        "type": "go_to",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8876
+      }
+    ]
+  },
+  {
+    "tokens": ["A", "commoner", "in", "the", "Trobriands", "would", "have", "a", "few", "partners", "only", ",", "whereas", "a", "chief", "would", "number", "hundreds", "of", "partners", "."],
+    "entities": [
+      {
+        "type": "PERSON",
+        "start": 1,
+        "end": 2,
+        "confidence": 0.9123
+      },
+      {
+        "type": "PERSON",
+        "start": 7,
+        "end": 10,
+        "confidence": 0.8456
+      }
+    ],
+    "relations": [
+      {
+        "type": "has",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8234
+      }
+    ]
+  },
+  {
+    "tokens": ["The", "chief", "has", "the", "best", "sorcerers", "of", "the", "district", "always", "at", "chief", "beck", "and", "call", "."],
+    "entities": [
+      {
+        "type": "PERSON",
+        "start": 0,
+        "end": 2,
+        "confidence": 0.9456
+      },
+      {
+        "type": "PERSON",
+        "start": 3,
+        "end": 6,
+        "confidence": 0.8789
+      }
+    ],
+    "relations": [
+      {
+        "type": "has",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8567
+      }
+    ]
+  },
+  {
+    "tokens": ["The", "most", "important", "chief", "is", ",", "as", "said", ",", "the", "one", "who", "resides", "in", "Omarakana", "and", "rules", "Kiriwina", ",", "agriculturally", "the", "richest", "and", "most", "important", "district", "."],
+    "entities": [
+      {
+        "type": "PERSON",
+        "start": 1,
+        "end": 4,
+        "confidence": 0.9234
+      },
+      {
+        "type": "LOCATION",
+        "start": 14,
+        "end": 15,
+        "confidence": 0.9567
+      }
+    ],
+    "relations": [
+      {
+        "type": "inhabit",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8876
+      }
+    ]
+  },
+  {
+    "tokens": ["If", "anyone", "offends", "chief", ",", "or", "trespasses", "upon", "chief", "authority", ",", "the", "chief", "summons", "the", "sorcerer", ",", "and", "orders", "that", "the", "culprit", "shall", "die", "by", "black", "magic", "."],
+    "entities": [
+      {
+        "type": "PERSON",
+        "start": 11,
+        "end": 13,
+        "confidence": 0.9456
+      },
+      {
+        "type": "PERSON",
+        "start": 14,
+        "end": 16,
+        "confidence": 0.8789
+      }
+    ],
+    "relations": [
+      {
+        "type": "invokes",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8567
+      }
+    ]
+  },
+  {
+    "tokens": ["Again", ",", "in", "certain", "magical", "ceremonies", "in", "the", "Trobriands", ",", "the", "towosi", "(", "garden", "magician", ")", "has", "to", "carry", "a", "mounted", "axe", "blade", "on", "magician", "shoulders", "."],
+    "entities": [
+      {
+        "type": "LOCATION",
+        "start": 10,
+        "end": 12,
+        "confidence": 0.8234
+      },
+      {
+        "type": "ORG",
+        "start": 13,
+        "end": 15,
+        "confidence": 0.9123
+      }
+    ],
+    "relations": [
+      {
+        "type": "is",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.7891
+      }
+    ]
+  },
+  {
+    "tokens": ["The", "Kula", "is", "thus", "an", "extremely", "big", "and", "complex", "institution", ",", "both", "in", "institution", "geographical", "extent", ",", "and", "in", "the", "manifoldness", "of", "institution", "component", "pursuits", "."],
+    "entities": [
+      {
+        "type": "EVENT",
+        "start": 0,
+        "end": 2,
+        "confidence": 0.9567
+      },
+      {
+        "type": "EVENT",
+        "start": 7,
+        "end": 10,
+        "confidence": 0.8456
+      }
+    ],
+    "relations": [
+      {
+        "type": "is",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8789
+      }
+    ]
+  },
+  {
+    "tokens": ["Returning", "again", "to", "the", "personal", "aspect", "of", "the", "Kula", ",", "let", "us", "take", "a", "concrete", "example", ",", "that", "of", "an", "average", "man", "who", "lives", ",", "let", "us", "assume", ",", "in", "the", "village", "of", "Sinaketa", ",", "an", "important", "Kula", "centre", "in", "the", "Southern", "Trobriands", "."],
+    "entities": [
+      {
+        "type": "LOCATION",
+        "start": 33,
+        "end": 34,
+        "confidence": 0.9234
+      },
+      {
+        "type": "LOCATION",
+        "start": 40,
+        "end": 43,
+        "confidence": 0.8567
+      }
+    ],
+    "relations": [
+      {
+        "type": "located_in",
+        "head": 0,
+        "tail": 1,
+        "confidence": 0.8123
+      }
+    ]
+  }
+]
