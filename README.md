@@ -4,99 +4,129 @@ This guide provides step-by-step instructions to set up the Relations and NER NL
 
 ## Overview
 
-This application is a Textual-based GUI for Named Entity Recognition (NER) and Relation Extraction using SpERT (Span-based Entity and Relation Transformer). It includes:
+This application is a **Textual-based GUI** for Named Entity Recognition (NER) and Relation Extraction using **SpERT** (Span-based Entity and Relation Transformer). It provides an interactive terminal interface that can also run in your browser.
 
-- **Main Application**: Textual-based GUI for text processing and analysis
-- **SpERT Integration**: Span-based entity and relation extraction
-- **Training Pipeline**: Custom model training capabilities
-- **Prediction Interface**: Interactive prediction and analysis tools
+### Key Features
+- **Textual GUI**: Modern terminal-based interface with browser support
+- **SpERT Integration**: State-of-the-art span-based entity and relation extraction
+- **Training Pipeline**: Custom model training with your own data
+- **Interactive Prediction**: Real-time analysis and visualization
+- **Data Management**: Built-in tools for data preprocessing and annotation
+- **Multi-Environment**: Separate environments for main app and SpERT to avoid conflicts
 
 ## Prerequisites
 
-- Recommended Python3.11 
-- Git
+- **Python 3.8+** (Python 3.11 recommended)
+- **Git**
+- **Terminal/Command Line Access**
 
 ## Project Structure After Setup
 
 ```
-fundamentos-final/
-├── .venv/                          # Main app virtual environment
-├── app/                            # Main application code
-│   ├── app.py                     # Main application entry point
-│   ├── components/                # UI components
-│   ├── utils/                     # Utility functions
-│   ├── models/                    # Data models
-│   └── data/                      # Application data
-├── spert/                         # SpERT framework (cloned separately)
-│   ├── .spert_env/               # Separate SpERT environment
-│   ├── spert/                    # SpERT core modules
-│   ├── data/                     # Training/prediction data
-│   ├── configs/                  # Configuration files (your custom configs go here)
-│   └── scripts/                  # Utility scripts
+fundamentos-final/                 # Your main repository
+├── .venv/                         # Main app virtual environment
+├── app/                           # Main application code
+│   ├── app.py                    # Main application entry point
+│   ├── components/               # UI components and screens
+│   ├── utils/                    # Utility functions
+│   ├── models/                   # Data models
+│   └── data/                     # Application data and samples
 ├── requirements.txt              # Main app dependencies
-├── requirements-dev.txt          # Development dependencies
+├── requirements-dev.txt          # Development dependencies (includes textual-dev)
 ├── requirements-coref.txt        # Optional coreference dependencies
-└── README.md
+├── .gitignore                    # Git ignore file (includes spert/)
+└── README.md                     # This file
+
+spert/                            # SpERT framework (cloned separately)
+├── .spert_env/                   # Separate SpERT virtual environment
+├── spert/                        # SpERT core modules
+├── data/                         # Training/prediction data
+├── configs/                      # Configuration files (your custom configs)
+└── scripts/                      # SpERT utility scripts
 ```
 
-## Step 1: Clone This Repository
+## Quick Start
+
+### 1. Clone This Repository
 
 ```bash
-# Clone this repository
 git clone https://github.com/brusagar/fundamentos-final.git
 cd fundamentos-final
 ```
 
-## Step 2: Clone and Set Up SpERT
+### 2. Set Up SpERT (For Training/Prediction)
 
 ```bash
-# Clone SpERT framework
+# Clone SpERT framework (separate from main repo)
 git clone https://github.com/lavis-nlp/spert.git
 cd spert
 
-# Create separate virtual environment for SpERT
+# Create SpERT environment
 python -m venv .spert_env
-source .spert_env/bin/activate  
+source .spert_env/bin/activate  # On Windows: .spert_env\Scripts\activate
 
 # Install SpERT dependencies
 pip install -r requirements.txt
-
-# Install SpaCy model for tokenization
 python -m spacy download en_core_web_sm
 
-# Optional: Download sample datasets and models
-bash ./scripts/fetch_datasets.sh
-bash ./scripts/fetch_models.sh
-
-# Deactivate SpERT environment
+# Return to main project
 deactivate
-
-# Return to project root
 cd ..
 ```
 
-## Step 3: Set Up Main Application Environment
+### 3. Set Up Main Application
 
 ```bash
-# Create main application virtual environment
+# Create and activate virtual environment
 python -m venv .venv
 source .venv/bin/activate
 
-# Install core dependencies
-pip install -r requirements.txt
-
-# Install development dependencies (RECOMMENDED - includes textual-dev, textual-serve)
+# Install dependencies
 pip install -r requirements-dev.txt
 
-# Optional: Install coreference resolution dependencies
-pip install -r requirements-coref.txt
+# Test the application
+python -m textual serve app/app.py
 ```
 
-## Step 4: Configure SpERT for Your Project
+## Running the Application
 
-Add your configuration files to `spert/configs/`. You can create custom configs or modify the examples:
+### Method 1: Browser Interface (RECOMMENDED)
+```bash
+# Activate main app environment
+source .venv/bin/activate
 
-**Create spert/configs/argonauts_config_train.conf:**
+# Serve in browser (opens automatically)
+python -m textual serve app/app.py
+
+# Alternative if textual command doesn't work:
+python -m textual serve app/app.py --port 8080
+```
+
+### Method 2: Terminal Interface
+```bash
+# Activate main app environment
+source .venv/bin/activate
+
+# Run in terminal
+python -m textual run app/app.py
+```
+
+### Method 3: Direct Python Execution
+```bash
+# Activate main app environment
+source .venv/bin/activate
+
+# Run directly
+python app/app.py
+```
+
+## SpERT Configuration and Usage
+
+### Creating Configuration Files
+
+The application expects SpERT configuration files in `spert/configs/`. Create these files for your specific use case:
+
+**Training Configuration (`spert/configs/argonauts_config_train.conf`):**
 ```properties
 label = relation_train
 model_type = spert
@@ -128,11 +158,11 @@ save_path = data/save/
 no_overlapping = true
 ```
 
-**Create spert/configs/argonauts_predict.conf:**
+**Prediction Configuration (`spert/configs/argonauts_predict.conf`):**
 ```properties
 model_type = spert
-model_path = data/save/relation_train/[YOUR_TIMESTAMP]/final_model
-tokenizer_path = data/save/relation_train/[YOUR_TIMESTAMP]/final_model
+model_path = data/save/relation_train/[TIMESTAMP]/final_model
+tokenizer_path = data/save/relation_train/[TIMESTAMP]/final_model
 dataset_path = data/raw_text.json
 types_path = data/types.json
 predictions_path = data/predictions.json
@@ -146,175 +176,176 @@ sampling_processes = 4
 max_pairs = 1000
 ```
 
-Feel free to modify them as you wish. To try different models or maybe different training parameters.
+### Manual Training and Prediction (Optional)
 
-## Step 5: Running the Application
+The application handles training and prediction through its GUI, but you can also run SpERT manually:
 
-### Environment Management
-
-**To work on the main application:**
 ```bash
-# Activate main app environment
-source .venv/bin/activate
-```
-
-**To work with SpERT (training/prediction):**
-```bash
-# Navigate to SpERT directory and activate SpERT environment
-cd spert
-source .spert_env/bin/activate
-```
-
-### Running the Textual Application
-
-**Method 1: Browser-based (RECOMMENDED)**
-```bash
-# Activate main app environment
-source .venv/bin/activate
-
-# Run in browser
-textual serve app/app.py
-# OR if textual command doesn't work:
-python -m textual serve app/app.py
-```
-
-**Method 2: Terminal-based**
-```bash
-# Activate main app environment
-source .venv/bin/activate
-
-# Run in terminal
-textual run app/app.py
-# OR:
-python -m textual run app/app.py
-```
-
-**Method 3: Direct Python**
-```bash
-# Activate main app environment
-source .venv/bin/activate
-
-# Run directly
-python app/app.py
-```
-
-## Step 6: Training and Prediction Workflow
-
-ONLY IF YOU WANT TO TRY MANUALLY OR WANT TO TRY DIFFERENT MODELS. THE APP TAKES CARE OF TRIANING AND PREDICTIONS.
-
-### Training a Model
-```bash
-# Activate SpERT environment
+# Switch to SpERT environment
 cd spert
 source .spert_env/bin/activate
 
-# Train using your configuration (configs are now in spert/configs/)
+# Train a model
 python spert.py train --config configs/argonauts_config_train.conf
-```
 
-### Making Predictions
-```bash
-# Still in SpERT environment
+# Make predictions
 python spert.py predict --config configs/argonauts_predict.conf
+
+# Return to main app
+deactivate
+cd ..
 ```
 
-### Updating Prediction Config
-After training, update the model paths in `spert/configs/argonauts_predict.conf`:
-```properties
-model_path = data/save/relation_train/[YOUR_ACTUAL_TIMESTAMP]/final_model
-tokenizer_path = data/save/relation_train/[YOUR_ACTUAL_TIMESTAMP]/final_model
-```
-
-## Step 7: Data Preparation
+## Data Requirements and Format
 
 ### Required Data Files
 
-Ensure you have these files in your `spert/data/` directory:
-- `train.json` - Training data
-- `dev.json` - Validation data  
-- `test.json` - Test data
-- `types.json` - Entity and relation type definitions
-- `raw_text.json` - Raw text for prediction
+For SpERT training and prediction, ensure you have these files in your `spert/data/` directory:
+
+- **`train.json`** - Training data in SpERT format
+- **`dev.json`** - Validation data for training
+- **`test.json`** - Test data for evaluation
+- **`types.json`** - Entity and relation type definitions
+- **`raw_text.json`** - Raw text for prediction (generated by app)
 
 ### Data Format Examples
 
-**types.json:**
+**Entity and Relation Types (`spert/data/types.json`):**
 ```json
 {
   "entities": [
-    {"type": "PERSON", "short": "PER"},
-    {"type": "LOCATION", "short": "LOC"},
-    {"type": "ORGANIZATION", "short": "ORG"},
-    {"type": "EVENT", "short": "EVT"}
+    {"type": "PERSON", "short": "PER", "verbose": "Person names"},
+    {"type": "LOCATION", "short": "LOC", "verbose": "Geographic locations"},
+    {"type": "ORGANIZATION", "short": "ORG", "verbose": "Organizations"},
+    {"type": "EVENT", "short": "EVT", "verbose": "Historical events"}
   ],
   "relations": [
-    {"type": "located_in", "short": "located_in"},
-    {"type": "works_for", "short": "works_for"},
-    {"type": "part_of", "short": "part_of"}
+    {"type": "located_in", "short": "located_in", "verbose": "Spatial relation"},
+    {"type": "works_for", "short": "works_for", "verbose": "Employment relation"},
+    {"type": "part_of", "short": "part_of", "verbose": "Part-whole relation"}
   ]
 }
 ```
 
-**Example prediction output (spert/data/model_predictions/predictions.json):**
+**Training Data Example (`spert/data/train.json`):**
 ```json
 [
   {
-    "tokens": ["Moving", "Westwards", "from", "Digumenu", "..."],
+    "tokens": ["John", "works", "for", "Google", "in", "California"],
     "entities": [
-      {"type": "LOCATION", "start": 3, "end": 4},
-      {"type": "EVENT", "start": 8, "end": 9}
+      {"type": "PERSON", "start": 0, "end": 1},
+      {"type": "ORGANIZATION", "start": 3, "end": 4},
+      {"type": "LOCATION", "start": 5, "end": 6}
     ],
     "relations": [
-      {"type": "part_of", "head": 0, "tail": 1}
+      {"type": "works_for", "head": 0, "tail": 1},
+      {"type": "located_in", "head": 1, "tail": 2}
     ]
   }
 ]
 ```
 
+### Using the Application's Data Tools
+
+The application includes built-in tools for:
+- **Text Preprocessing**: Clean and prepare raw text data
+- **Entity Search**: Find and annotate entities using gazetteers
+- **Manual Annotation**: Interactive entity and relation annotation
+- **Data Conversion**: Convert between different formats (CSV, JSON, SpERT format)
+
+## Application Features
+
+### Main Interface Components
+
+1. **Text Preprocessor**: Clean and chunk large text files
+2. **Entity Search**: Automated entity recognition using pattern matching
+3. **Sentence Editor**: Manual annotation interface for entities and relations
+4. **SpERT Trainer**: Configure and run model training
+5. **SpERT Predictor**: Run predictions on new text
+6. **Processing Preview**: Visualize preprocessing results
+
+### Workflow Example
+
+1. **Import Text**: Load your raw text data
+2. **Preprocess**: Clean and chunk text into manageable segments
+3. **Entity Recognition**: Use automated tools to identify potential entities
+4. **Manual Annotation**: Review and correct entity/relation annotations
+5. **Export Training Data**: Convert annotations to SpERT format
+6. **Train Model**: Use SpERT trainer with your custom data
+7. **Predict**: Apply trained model to new text
+8. **Visualize Results**: View predictions in the application interface
+
 ## Troubleshooting
 
 ### Common Issues and Solutions
 
-**1. Textual command not found:**
+**❌ `textual` command not found**
 ```bash
 # Solution: Use Python module syntax
 python -m textual serve app/app.py
 python -m textual run app/app.py
 ```
 
-**2. Import errors:**
+**❌ Import errors or module not found**
 ```bash
-# Ensure you're in the correct virtual environment
+# Check you're in the correct environment
 which python
-# Should show .venv/bin/python or .spert_env/bin/python
+# Should show .venv/bin/python for main app
+# Or .spert_env/bin/python for SpERT
+
+# Reinstall dependencies if needed
+pip install -r requirements-dev.txt
 ```
 
-**3. SpaCy model missing:**
+**❌ SpaCy model missing**
 ```bash
-# Install English model in SpERT environment
+# Install in SpERT environment
 cd spert
 source .spert_env/bin/activate
 python -m spacy download en_core_web_sm
 ```
 
-**4. CUDA/GPU issues:**
+**❌ CUDA/GPU issues**
 ```bash
-# Force CPU usage in config files
+# Force CPU usage in SpERT config files
+# Add this line to your .conf files:
 cpu = true
 ```
 
-**5. Configuration file not found:**
-- Ensure configs are in `spert/configs/`, not in root `configs/`
-- Use relative paths in SpERT commands: `configs/your_config.conf`
+**❌ Permission denied or command not found**
+```bash
+# On Windows, use:
+.venv\Scripts\activate
+.spert_env\Scripts\activate
 
-**6. Version conflicts:**
-- Keep SpERT in separate environment (`.spert_env`)
-- Use exact versions from SpERT requirements if issues persist
+# On Linux/Mac, ensure script permissions:
+chmod +x .venv/bin/activate
+```
+
+**❌ Port already in use (browser mode)**
+```bash
+# Use different port
+python -m textual serve app/app.py --port 8081
+```
+
+**❌ Configuration file errors**
+- Ensure config files are in `spert/configs/`, not root `configs/`
+- Use forward slashes in paths, even on Windows
+- Check file paths exist relative to `spert/` directory
+
+### Getting Help
+
+If you encounter issues:
+1. Check the error message carefully
+2. Ensure you're in the correct virtual environment
+3. Verify all file paths in configuration files
+4. Try running the application in different modes (browser vs terminal)
+5. Check the application logs in `textual.log`
 
 ## Dependencies
 
-### Main Application (requirements-dev.txt)
-```pip-requirements
+### Main Application Environment (`.venv`)
+```txt
 textual>=6.0.0,<7.0.0
 textual-autocomplete>=4.0.4,<5.0.0
 textual-dev>=1.7.0
@@ -327,14 +358,59 @@ rich>=14.0.0
 click>=8.2.0
 ```
 
-### SpERT Environment
-SpERT uses its own `requirements.txt` with specific versions for:
-- PyTorch/Transformers
-- BERT models
-- Scientific computing libraries
+### SpERT Environment (`.spert_env`)
+SpERT manages its own dependencies including:
+- PyTorch and Transformers
+- BERT and other transformer models
+- Scientific computing libraries (NumPy, SciPy)
+- SpaCy for tokenization
 
-## Additional Resources
+### Optional Extensions
+- **Coreference Resolution**: Install `requirements-coref.txt` for advanced NLP features
+- **GPU Support**: CUDA-compatible PyTorch versions (configured in SpERT environment)
 
-- [SpERT Paper](https://arxiv.org/abs/1909.07755)
-- [Textual Documentation](https://textual.textualize.io/)
-- [Transformers Library](https://huggingface.co/docs/transformers/)
+## Performance Tips
+
+- **Use Browser Mode**: Generally faster and more responsive than terminal mode
+- **Separate Environments**: Keeps dependencies isolated and prevents conflicts
+- **GPU Training**: Configure CUDA in SpERT for faster model training
+- **Batch Processing**: Process multiple documents using the application's batch features
+- **Memory Management**: Use smaller batch sizes if you encounter memory issues
+
+## Advanced Usage
+
+### Custom Model Integration
+- Replace BERT with other transformer models in SpERT configs
+- Experiment with different model architectures
+- Fine-tune hyperparameters for your specific domain
+
+### Data Pipeline Automation
+- Use the application's scripting features for batch processing
+- Integrate with external data sources
+- Export results in various formats (JSON, CSV, CoNLL)
+
+### Development and Extension
+- Modify UI components in `app/components/`
+- Add new preprocessing utilities in `app/utils/`
+- Extend data models in `app/models/`
+
+## Contributing
+
+This is a research/educational project. Feel free to:
+- Fork the repository
+- Submit bug reports
+- Suggest new features
+- Contribute improvements
+
+## Resources and References
+
+- **SpERT Paper**: [Span-based Joint Entity and Relation Extraction with Transformer Pre-training](https://arxiv.org/abs/1909.07755)
+- **Textual Framework**: [Official Documentation](https://textual.textualize.io/)
+- **Transformers Library**: [Hugging Face Documentation](https://huggingface.co/docs/transformers/)
+- **SpERT Repository**: [Original SpERT Implementation](https://github.com/lavis-nlp/spert)
+
+---
+
+**🚀 You're now ready to start using the Relations and NER NLP Application!**
+
+For questions or issues, please check the troubleshooting section above or refer to the application's built-in help documentation.
