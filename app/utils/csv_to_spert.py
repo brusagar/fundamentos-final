@@ -5,15 +5,9 @@ import random
 from sklearn.model_selection import train_test_split
 from collections import Counter
 
-# ===============================
-# 1️⃣ Load CSV
-# ===============================
 df = pd.read_csv("first_annotations.csv")  
 # required columns: sentence, entity1, entity1_label, entity2, entity2_label, relation
 
-# ===============================
-# 2️⃣ Convert CSV to SPERT JSON
-# ===============================
 data = []
 entity_types = set()
 relation_types = set()
@@ -71,9 +65,6 @@ for _, row in df.iterrows():
         "relations": relations
     })
 
-# ===============================
-# 3️⃣ Split into train/dev/test
-# ===============================
 os.makedirs("data", exist_ok=True)
 
 # Stratify by relation type if possible
@@ -99,9 +90,7 @@ for filename, split_data in splits.items():
     with open(path, "w", encoding="utf-8") as f:
         json.dump(split_data, f, ensure_ascii=False, indent=2)
 
-# ===============================
-# 4️⃣ Generate types.json
-# ===============================
+
 types = {
     "entities": {},
     "relations": {}
@@ -123,9 +112,7 @@ for rt in sorted(relation_types):
 with open("data/types.json", "w", encoding="utf-8") as f:
     json.dump(types, f, ensure_ascii=False, indent=2)
 
-# ===============================
-# 5️⃣ Print relation distribution
-# ===============================
+
 def count_relations(dataset):
     counter = Counter()
     for ex in dataset:

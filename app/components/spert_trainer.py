@@ -9,14 +9,12 @@ import subprocess
 from typing import Dict, Any
 
 class SpertTrainerScreen(Screen):
-    """Screen for configuring and running SpERT training"""
+    """SpERT model training interface"""
 
     def compose(self) -> ComposeResult:
-        """Create trainer interface"""
         with Vertical(id="trainer-container"):
             yield Label("SpERT Training Configuration", id="trainer-title")
 
-            # Data Preparation Section
             yield Label("Data Preparation", id="data-prep-title")
             with Horizontal(id="data-prep-row"):
                 yield Label("CSV File:", id="csv-label")
@@ -26,7 +24,6 @@ class SpertTrainerScreen(Screen):
                 )
                 yield Button("Prepare Data", id="prepare-button", variant="success")
 
-            # Training Configuration Section
             yield Label("Training Configuration", id="training-config-title")
             with Horizontal(id="params-row"):
                 yield Label("Config:", id="config-label")
@@ -43,7 +40,6 @@ class SpertTrainerScreen(Screen):
             yield RichLog(id="output-log", wrap=True)
 
     def on_mount(self) -> None:
-        """Initialize screen"""
         self.training_process = None
         self.stop_button = self.query_one("#stop-button", Button)
         self.stop_button.disabled = True
@@ -61,7 +57,6 @@ class SpertTrainerScreen(Screen):
         return [(f.name, f.name) for f in csv_files]
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
-        """Handle button presses"""
         if event.button.id == "prepare-button":
             self.prepare_data()
         elif event.button.id == "train-button":
@@ -73,8 +68,6 @@ class SpertTrainerScreen(Screen):
 
     @work(thread=True)
     def prepare_data(self) -> None:
-        """Prepare SpERT training data from CSV using csv_to_spert script"""
-        # Get paths
         root_dir = Path(__file__).parent.parent.parent
         csv_to_spert_path = root_dir / "app" / "utils" / "csv_to_spert.py"
         venv_path = root_dir / ".venv"

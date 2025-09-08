@@ -20,7 +20,6 @@ marriage, with sagali (food distributions), with payments for magic,
 all these are some of the most picturesque characteristics of the
 Trobriand garden, road and village, and must impress themselves upon
 even a superficial observer.
-
 The second fallacy, that man keeps all he needs and never spontaneously
 gives it away, must therefore be completely discarded. Not that the
 natives do not possess a strongly retentive tendency. To imagine that
@@ -42,7 +41,6 @@ all forms of exchange in the Trobriands, there is not even a trace
 of gain, nor is there any reason for looking at it from the purely
 utilitarian and economic standpoint, since there is no enhancement
 of mutual utility through the exchange.
-
 Thus, it is quite a usual thing in the Trobriands for a type of
 transaction to take place in which A gives twenty baskets of yams to
 B, receiving for it a small polished blade, only to have the whole
@@ -56,7 +54,6 @@ wasi--exchange of fish for yams, to be described presently--through
 a practically useless gift, a burdensome obligation is imposed, and
 one might speak of an increase of burdens rather than an increase
 of utilities.
-
 The view that the native can live in a state of individual search
 for food, or catering for his own household only, in isolation from
 any interchange of goods, implies a calculating, cold egotism, the
@@ -68,7 +65,6 @@ any consideration as to whether the gifts are necessary or even useful,
 giving for the sake of giving is one of the most important features of
 Trobriand sociology, and, from its very general and fundamental nature,
 I submit that it is a universal feature of all primitive societies.
-
 I have dwelt at length on economic facts which on the surface are not
 directly connected with the Kula. But if we realise that in these
 facts we may be able to read the native's attitude towards wealth
@@ -77,12 +73,7 @@ Kula is the highest and the most dramatic expression of the native's
 conception of value, and if we want to understand all the customs and
 actions of the Kula in their real bearings we must, first and foremost,
 grasp the psychology that lies at its basis.
-
-
-
-
 VI
-
 I have on purpose spoken of forms of exchange, of gifts and
 counter-gifts, rather than of barter or trade, because, although there
 exist forms of barter pure and simple, there are so many transitions
@@ -99,7 +90,6 @@ returned, which shade into each other, there come forms of exchange,
 where more or less strict equivalence is observed, arriving finally
 at real barter. In the following survey I shall roughly classify each
 transaction according to the principle of its equivalence.
-
 Such tabularised accounts cannot give the same clear vision of
 facts as a concrete description might do, and they even produce
 the impression of artificiality, but, and this must be emphatically
@@ -125,12 +115,8 @@ and customary phrases by direct cross-questioning. The most conclusive
 and deepest insight, however, must always be obtained by a study of
 behaviour, by analysis of ethnographic custom and concrete cases of
 traditional rules.
-
-
-
 LIST OF GIFTS, PAYMENTS, AND COMMERCIAL TRANSACTIONS.
-
-1. Pure Gifts.--By this, as just mentioned, we understand an act,
+. Pure Gifts.--By this, as just mentioned, we understand an act,
 in which an individual gives an object or renders a service without
 expecting or getting any return. This is not a type of transaction
 very frequently met in Trobriand tribal life. It must be remembered
@@ -144,7 +130,6 @@ obligation. Moreover, since gifts in the Trobriands are conceived
 as definite acts with a social meaning, rather than transmissions of
 objects, it results that where social duties do not directly impose
 them, gifts are very rare.
-
 The most important type of free gift are the presents characteristic
 of relations between husband and wife, and parents and children. Among
 the Trobrianders, husband and wife own their things separately. There
@@ -153,14 +138,13 @@ has a special part of the household goods under control. When one
 of them dies, his or her relations inherit the things. But though
 the possessions are not joint, they very often give presents to one
 another, more especially a husband to his wife.
-
 As to the parents' gifts to the children, it is clear that in a
 matrilineal society, where the mother is the nearest of kin to
 her children in a sense quite different to that in our society,
 they share in and inherit from her all her possessions. It is more
 remarkable that the father, who, according to native belief and law,
 is only the mother's husband, and not the kinsman of the children, is
-the only relation from whom free gifts are expected. [57] The father
+the only relation from whom free gifts are expected. [] The father
 will give freely of his valuables to a son, and he will transmit to
 him his relationships in the Kula, according to the definite rules by
 which it is done (see Chapter XI, Division II). Also, one of the most
@@ -183,7 +167,6 @@ are generally used by white men for trade, has largely contributed to
 the tenacity of the idea of the communistic native. In fact, many a
 man will carefully conceal any surplus so as to avoid the obligation
 of sharing it and yet escape the opprobrium attaching to meanness.
-
 There is no comprehensive name for this class of free gifts in native
 terminology. The verb "to give" (sayki) would simply be used, and on
 inquiry as to whether there was repayment for such a gift, the natives
@@ -202,7 +185,6 @@ presently, that given in return for sexual intercourse. Economically
 the two are entirely different, since those of husband to wife are
 casual gifts within a permanent relationship, whereas the others are
 definite payment for favours given on special occasions.
-
 The most remarkable fact, however, is that the same explanation
 is given for the free gifts given by the father to his children;
 that is to say, a gift given by a father to his son is said to be a
@@ -215,7 +197,6 @@ a very strong direct emotional attitude between father and child. The
 father wants always to give things to his child, as I have said,
 (compare Chapter II, Division VI), and this is very well realised by
 the natives themselves.
-
 As a matter of fact, the psychology underlying these conditions is
 this: normally a man is emotionally attached to his wife, and has a
 very strong personal affection towards his children, and expresses
@@ -232,8 +213,7 @@ statements of natives, and the views contained in their terms and
 phraseology by direct observation of full-blooded life, in which we
 see man not only laying down rules and theories, but behaving under
 the impulse of instinct and emotion.
-
-2. Customary payments, re-paid irregularly, and without strict
+. Customary payments, re-paid irregularly, and without strict
 equivalence.--The most important of these are the annual payments
 received at harvest time by a man from his wife's brothers
 (cf. Chapter II, Divisions IV and V). These regular and unfailing
@@ -244,8 +224,7 @@ life-long obligation of every man to work for his kinswomen and their
 families. When a boy begins to garden, he does it for his mother. When
 his sisters grow up and marry, he works for them. If he has neither
 mother nor sisters, his nearest female blood relation will claim the
-proceeds of his labour. [58]
-
+proceeds of his labour. []
 The reciprocity in these gifts never amounts to their full value,
 but the recipient is supposed to give a valuable (vaygu'a) or a pig
 to his wife's brother from time to time. Again if he summons his
@@ -263,14 +242,12 @@ much bigger harvest gifts, and they also have to keep pigs, and grow
 betel and coco-nut palms for him. For all this, they are rewarded by
 correspondingly large presents of valuables, which again, however,
 do not fully repay them for their contributions.
-
 The tributes given by vassal village communities to a chief
 and usually repaid by small counter-gifts, also belong to this
 class. Besides these, there are the contributions given by one kinsman
 to another, when this latter has to carry out a mortuary distribution
 (sagali). Such contributions are sometimes, but irregularly and
 spasmodically, repaid by objects of small value.
-
 The natives do not embrace this class under one term, but the
 word urigubu, which designates harvest gifts from the wife's
 brothers, stands for one of the most important conceptions of native
@@ -292,8 +269,7 @@ various counter-gifts given by a chief to those who pay him tribute,
 according to whether they consist of pig's flesh or yams or fruit. I
 am not mentioning all these native words, in order not to overload
 the account with details, which would be irrelevant here.
-
-3. Payment for services rendered. This class differs from the foregoing
+. Payment for services rendered. This class differs from the foregoing
 one in that here the payment is within limits defined by custom. It has
 to be given each time the service is performed, but we cannot speak
 here of direct economic equivalence, since one of the terms of the
@@ -308,7 +284,6 @@ rain and fair weather are very considerable. I have already described
 the payments given to a canoe-builder. I shall have to speak later
 on of those received by the specialists who make the various types
 of vaygu'a.
-
 Here also belong the payments, always associated with love
 intrigues. Disinterested love is quite unknown among these people
 of great sexual laxity. Every time a girl favours her lover, some
@@ -320,7 +295,6 @@ II, Division II. A few areca-nuts, some betel pepper, a bit of tobacco,
 some turtle-shell rings, or spondylus discs, such are the small tokens
 of gratitude and appreciation never omitted by the youth. An attractive
 girl need never go unprovided with the small luxuries of life.
-
 The big mortuary distributions of food, sagali, have already been
 mentioned several times. On their economic side, these distributions
 are payments for funerary services. The deceased man's nearest maternal
@@ -330,13 +304,11 @@ hair. He pays some other special people for wailing and grave digging;
 a still smaller group for cutting out the dead man's ulna and using
 it as a lime spoon; and the widow or widower for the prolonged and
 scrupulously to be observed period of strict mourning.
-
 All these details show how universal and strict is the idea that
 every social obligation or duty, though it may not on any account
 be evaded, has yet to be re-paid by a ceremonial gift. The function
 of these ceremonial re-payments is, on the surface of it, to thicken
 the social ties from which arise the obligations.
-
 The similarity of the gifts and payments which we have put into
 this category is expressed by the native use of the word mapula
 (repayment, equivalent) in connection with all these gifts. Thus
@@ -346,7 +318,7 @@ or why some valuable object is given to a specialist, they would
 say: "This is the mapula for what he has done." Another interesting
 identification contained in linguistic usage is the calling of both
 magical payments and payments to specialists: a 'restorative,' or,
-literally, a  'poultice.' Certain extra fees given to a magician are
+literally, a 'poultice.' Certain extra fees given to a magician are
 described as 'katuwarina kaykela' or 'poultice for his leg'; as the
 magician, especially he of the garden or the sorcerer, has to take
 long walks in connection with his magic. The expression 'poultice of
@@ -370,7 +342,6 @@ they work. The sexual gifts are called buwana or sebuwana. I shall
 not enumerate the various terminological distinctions of sagali gifts,
 as this would be impossible to do, without entering upon the enormous
 subject of mortuary duties and distributions.
-
 The classification of love gifts and sagali gifts in the same category
 with gifts to magicians and specialists, is a generalisation in which
 the natives would not be able to follow us. For them, the gifts given
@@ -383,8 +354,7 @@ word mapula. But within this class, the sub-divisions corresponding
 to native terminology represent important distinctions made by the
 natives between the three sub-classes; love gifts, sagali gifts,
 and gifts for magical and professional services.
-
-4. Gifts returned in economically equivalent form.--We are enumerating
+. Gifts returned in economically equivalent form.--We are enumerating
 the various types of exchange, as they gradually assume the appearance
 of trade. In this fourth class have been put such gifts as must be
 re-paid with almost strict equivalence. But it must be stressed
@@ -400,13 +370,11 @@ trade. The above described gifts at the presentation of new canoes
 to one community by another, on visits which are going to be returned
 soon. Payments for the lease of a garden plot are at least in certain
 districts of the Trobriands returned by a gift of equivalent value.
-
 Sociologically, this class of gifts is characteristic of the
 relationship between friends (luba'i). Thus the kabigidoya takes
 place between friends, the Kula takes place between overseas partners
 and inland friends, but of course relations-in-law also belong par
 excellence to this category.
-
 Other types of equivalent gifts which have to be mentioned here
 shortly, are the presents given by one household to another, at
 the milamala, the festive period associated with the return of the
@@ -414,11 +382,9 @@ ancestral spirits to their villages. Offerings of cooked food are
 ceremonially exposed in houses for the use of the spirits, and after
 these have consumed the spiritual substance, the material one is
 given to a neighbouring household. These gifts are always reciprocal.
-
 Again, a series of mutual gifts exchanged immediately after marriage
 between a man and his wife's father (not matrilineal kinsman in this
 case), have to be put into this category.
-
 The economic similarity of these gifts is not expressed in terminology
 or even in linguistic use. All the gifts I have enumerated have
 their own special names, which I shall not adduce here, so as not
@@ -428,8 +394,7 @@ generalisation is based upon the very interesting fact, that all
 through the tribal life we find scattered cases of direct exchange
 of equivalent gifts. Nothing perhaps could show up so clearly, how
 much the natives value the give and take of presents for its own sake.
-
-5. Exchange of Material Goods against Privileges, Titles and
+. Exchange of Material Goods against Privileges, Titles and
 non-material Possessions. Under this heading, I class transactions
 which approach trade, in so far as two owners, each possessing
 something they value highly, exchange it for something they value
@@ -441,7 +406,6 @@ to a garden plot, which latter very often is a mere title only. But
 in spite of this smaller measure of equivalence, their character of
 trade is more marked, just because of the element of mutual desire
 to carry out the transaction and of the mutual advantage.
-
 Two important types of transaction belong to this class. One of them
 is the acquisition by a man of the goods or privileges which are due
 to him by inheritance from his maternal uncle or elder brother, but
@@ -452,7 +416,6 @@ payments, and very substantial ones, have to be given to him, and
 he gradually relinquishes his rights, giving the garden land, bit
 by bit, teaching the magic in instalments. After the final payment,
 the title of ownership is definitely handed over to the younger man.
-
 I have drawn attention already in the general description of the
 Trobriand Sociology (Chapter II, Division VI) to the remarkable
 contrast between matrilineal inheritance and that between father
@@ -466,7 +429,6 @@ to enter on the exchange, and it has to be considered advantageous
 to both before it can be completed. The acquisition of magic is of
 course different, because that must naturally always be taught by
 the elder man to the younger in his life time.
-
 The other type of transaction belonging to this class, is the payment
 for dances. Dances are "owned"; that is, the original inventor
 has the right of "producing" his dance and song in his village
@@ -474,16 +436,13 @@ community. If another village takes a fancy to this song and dance,
 it has to purchase the right to perform it. This is done by handing
 ceremonially to the original village a substantial payment of food
 and valuables, after which the dance is taught to the new possessors.
-
 In some rare cases, the title to garden-lands would pass from one
 community to another. For this again, the members and headman of the
 acquiring community would have to pay substantially to those who hand
 over their rights.
-
 Another transaction which has to be mentioned here is the hire of
 a canoe, where a temporary transference of ownership takes place in
 return for a payment.
-
 The generalisation by which this class has been formed, although it
 does not run counter to native terminology and ideas, is beyond their
 own grasp, and contains several of their sub-divisions, differentiated
@@ -493,7 +452,6 @@ very big and important transaction. For example, when a small pig is
 purchased by food or minor objects of value, they call this barter
 (gimwali) but when a more valuable pig is exchanged for vaygu'a,
 they call it laga.
-
 The important conception of gradual acquisition in advance of
 matrilineal inheritance, is designated by the term pokala, a word
 which we have already met as signifying the tributes to the chief. It
@@ -505,10 +463,8 @@ present, it would be incorrect to strain after any connection
 between them, and indeed this is an example how necessary it is to
 be careful not to rely too much on native terminology for purposes
 of classification.
-
 The term for the hire of a canoe is toguna waga.
-
-6. Ceremonial barter with deferred payment.--In this class we have to
+. Ceremonial barter with deferred payment.--In this class we have to
 describe payments which are ceremonially offered, and must be received
 and re-paid later on. The exchange is based on a permanent partnership,
 and the articles have to be roughly equivalent in value. Remembering
@@ -517,7 +473,6 @@ this big, ceremonial, circulating exchange belongs to this class. It
 is ceremonial barter based on permanent partnership, where a gift
 offered is always accepted, and after a time has to be re-paid by an
 equivalent counter-gift.
-
 There is also a ceremonial form of exchange of vegetable food for fish,
 based on a standing partnership, and on the obligation to accept and
 return an initial gift. This is called wasi. The members of an inland
@@ -529,7 +484,6 @@ a big quantity of vegetable food into the Lagoon village (see Plate
 XXXVI), each man putting his share before his partner's house. This
 is an invitation, which never can be rejected, to return the gift by
 its fixed equivalent in fish.
-
 As soon as weather and previous engagements allow, the fishermen go
 out to sea and notice is given to the inland village of the fact. The
 inlanders arrive on the beach, awaiting the fishermen, Who come back
@@ -546,24 +500,22 @@ of conventionally sanctioned eatables. Often when such a big fishing
 takes place, great quantities of fish perish by becoming rotten
 before they reach the man for whom they are finally destined. But
 being rotten in no way detracts from the value of fish in a sagali.
-
 The equivalence of fish, given in return for vegetable food, is
 measured only roughly. A standard sized bunch of taro, or one of the
 ordinary baskets of taytu (small yams) will be repaid by a bundle of
 fish, some three to five kilograms in weight. The equivalence of the
 two payments, as well as the advantage obtained by one party at least,
-make this exchange approach barter. [59] But the element of trust
+make this exchange approach barter. [] But the element of trust
 enters into it largely, in the fact that the equivalence is left to
 the repayer; and again, the initial gift which as a rule is always
 given by the inlanders, cannot be refused. And all these features
 distinguish this exchange from barter.
-
 Similar to this ceremonial exchange are certain arrangements in which
 food is brought by individuals to the industrial villages of Kuboma,
 and the natives of that place return it by manufactured objects when
 these are made. In certain cases of production of vaygu'a (valuables)
 it is difficult to judge whether we have to do with the payment for
-services rendered (Class 3), or with the type of ceremonial barter
+services rendered (Class ), or with the type of ceremonial barter
 belonging to this class. There is hardly any need to add that the two
 types of exchange contained in this class, the Kula and the wasi (fish
 barter) are kept very distinct in the minds of the natives. Indeed,
@@ -581,13 +533,11 @@ attitude towards what they consider an honourable, ceremonial type of
 barter. The rigid exclusion of haggling, the formalities observed in
 handing over the gift, the obligation of accepting the initial gift
 and of returning it later on, all these express this attitude.
-
-7. Trade, Pure and Simple.--The main characteristic of this form
+. Trade, Pure and Simple.--The main characteristic of this form
 of exchange is found in the element of mutual advantage: each side
 acquires what is needed, and gives away a less useful article. Also
 we find here the equivalence between the articles adjusted during
 the transaction by haggling or bargaining.
-
 This bartering, pure and simple, takes place mainly between the
 industrial communities of the interior, which manufacture on a large
 scale the wooden dishes, combs, lime pots, armlets and baskets and
@@ -604,7 +554,6 @@ dishes. This one is worth forty nuts, and some betel-nut, and some
 betel pepper." The others then may answer, "Oh, no, I do not want
 it. You ask too much." "What will you give us?" An offer may be made,
 and rejected by the pedlars, and so on, till a bargain is struck.
-
 Again, at certain times, people from other villages may need some of
 the objects made in Kuboma, and will go there, and try to purchase
 some manufactured goods. People of rank as a rule will do it in the
@@ -613,7 +562,6 @@ and expecting a repayment. Others simply go and barter. As we saw
 in the description of the kabigidoya, the Sinaketans and Vakutans
 go there and purchase goods before each Kula expedition to serve for
 the subsidiary trade.
-
 Thus the conception of pure barter (gimwali) stands out very clearly,
 and the natives make a definite distinction between this and other
 forms of exchange. Embodied in a word, this distinction is made more
@@ -628,7 +576,6 @@ of ceremony, the permissibility of haggling, the free manner in which
 it can be done between any two strangers. They state correctly and
 clearly its general conditions, and they tell readily which articles
 may be exchanged by gimwali.
-
 Of course certain characteristics of pure barter, which we can
 perceive clearly as inherent in the facts, are quite beyond their
 theoretical grasp. Thus for instance, that the element of mutual
@@ -647,14 +594,12 @@ thrown down by the giver, sometimes actually, sometimes only given in
 an abrupt manner, and often it is not even picked up by the receiver,
 but by some insignificant person in his following. In the gimwali,
 on the contrary, there is a pronounced interest shown in the exchange.
-
 There is one instance of gimwali which deserves special attention. It
 is a barter of fish for vegetables, and stands out in sharp contrast
 therefore to the wasi, the ceremonial fish and yam exchange. It is
 called vava, and takes place between villages which have no standing
 wasi partnership and therefore simply gimwali their produce when
 necessary (see Plate XXXVII).
-
 This ends the short survey of the different types of exchange. It was
 necessary to give it, even though in a condensed form, in order to
 provide a background for the Kula. It gives us an idea of the great
@@ -662,12 +607,7 @@ range and variety of the material give and take associated with the
 Trobriand tribal life. We see also that the rules of equivalence,
 as well as the formalities accompanying each transaction, are very
 well defined.
-
-
-
-
 VII
-
 It is easy to see that almost all the categories of gifts, which I
 have classified according to economic principles, are also based
 on some sociological relationship. Thus the first type of gifts,
@@ -676,7 +616,6 @@ husband and wife, and in that between parents and children. Again,
 the second class of gifts, that is, the obligatory ones, given without
 systematic repayment, are associated with relationship-in-law, mainly,
 though the chief's tributes also belong to this class.
-
 If we drew up a scheme of sociological relations, each type of them
 would be defined by a special class of economic duties. There would
 be some parallelism between such a sociological classification of
@@ -686,7 +625,6 @@ scheme of exchanges, classified according to the social relationship,
 to which they correspond. This will give us good insight into the
 economics of Trobriand sociology, as well as another view of the
 subject of payments and presents.
-
 Going over the sociological outline in Chapter II, Divisions V and VI,
 we see that the family, the clan and sub-clan, the village community,
 the district and the tribe are the main social divisions of the
@@ -702,7 +640,6 @@ and the wife's matrilineal kinsmen forms the third class of personal
 ties corresponding to family. These three types of personal bonds are
 clearly distinguished in terminology, in the current linguistic usage,
 in custom, and in explicitly formulated ideas.
-
 To the grouping into clans and sub-clans, there pertain the ties
 existing between clansmen and more especially between members of
 the same sub-clan, and on the other hand, the relationship between a
@@ -720,8 +657,7 @@ in olden days allowed of a free though not unlimited intercourse, and
 therefore of commercial relations. We have, therefore, eight types of
 personal relationship to distinguish. In the following table we see
 them enumerated with a short survey of their economic characteristics.
-
-1. Matrilineal kinship.--The underlying idea that this means identity
+. Matrilineal kinship.--The underlying idea that this means identity
 of blood and of substance is by no means forcibly expressed on its
 economic side. The right of inheritance, the common participation
 in certain titles of ownership, and a limited right to use one
@@ -734,14 +670,12 @@ from the older to the younger generation of matrilineal kinsmen. The
 economic identity of matrilineal kinsmen comes into prominence at the
 tribal distributions--sagali--where all of them have to share in the
 responsibilities of providing food.
-
-2. Marriage ties.--(Husband and wife; and derived from that, father and
+. Marriage ties.--(Husband and wife; and derived from that, father and
 children). It is enough to tabulate this type of relationship here,
 and to remind the reader that it is characterised by free gifts, as
 has been minutely described in the foregoing classification of gifts,
-under (1).
-
-3. Relationship-in-law.--These ties are in their economic aspect not
+under ().
+. Relationship-in-law.--These ties are in their economic aspect not
 reciprocal or symmetrical. That is, one side in it, the husband of
 the woman, is the economically favoured recipient, while the wife's
 brothers receive from him gifts of smaller value in the aggregate. As
@@ -751,37 +685,31 @@ filled every year by his wife's brothers. They also have to perform
 certain services for him. For all this, they receive a gift of vaygu'a
 (valuables) from time to time, and some food in payment for services
 rendered.
-
-4. Clanship.--The main economic identification of this group takes
+. Clanship.--The main economic identification of this group takes
 place during the sagali, although the responsibility for the food
 rests only with those actually related by blood with the deceased
 man. All the members of the sub-clan, and to a smaller extent members
 of the same clan within a village community, have to contribute by
 small presents given to the organisers of the sagali.
-
-5. The Relationship of Personal Friendship.--Two men thus bound as
+. The Relationship of Personal Friendship.--Two men thus bound as
 a rule will carry on Kula between themselves, and, if they belong to
 an inland and Lagoon village respectively, they will be partners in
 the exchange of fish and vegetables (wasi).
-
-6. Fellow-citizenship in a Village Community.--There are many types
+. Fellow-citizenship in a Village Community.--There are many types
 of presents given by one community to another. And, economically, the
 bonds of fellow-citizenship mean the obligation to contribute one's
 share to such a present. Again, at the mortuary divisions, sagali,
 the fellow-villagers of clans, differing from the deceased man's,
 receive a series of presents for the performance of mortuary duties.
-
-7. Relationship between Chiefs and Commoners.--The tributes and
+. Relationship between Chiefs and Commoners.--The tributes and
 services given to a chief by his vassals on the one hand, and
 the small but frequent gifts which he gives them, and the big and
 important contribution which he makes to all tribal enterprises are
 characteristic of this relationship.
-
-8. Relationship between any two tribesmen.--This is characterised by
+. Relationship between any two tribesmen.--This is characterised by
 payments and presents, by occasional trade between two individuals,
 and by the sporadic free gifts of tobacco or betel-nut which no man
 would refuse to another unless they were on terms of hostility.
-
 With this, the survey of gifts and presents is finished. The general
 importance of give and take to the social fabric of Boyowan society,
 the great amount of distinctions and sub-divisions of the various

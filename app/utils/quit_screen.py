@@ -15,8 +15,6 @@ from textual.widgets import Input, Button, Markdown, Label
 from textual import work
 
 class QuitScreen(ModalScreen):
-    """Screen with a dialog to quit."""
-
     def compose(self) -> ComposeResult:
         yield Grid(
             Label("Are you sure you want to quit?", id="question"),

@@ -36,7 +36,6 @@ class EntityProcessor:
             entities = pred.get('entities', [])
             relations = pred.get('relations', [])
             
-            # Map entity indices to their information
             entity_map = {}
             for idx, entity in enumerate(entities):
                 text = ' '.join(tokens[entity['start']:entity['end']])
@@ -47,16 +46,13 @@ class EntityProcessor:
                 
                 entity_map[idx] = (text, entity_type)
             
-            # Process contexts and relations for each entity
             for idx, (text, _) in entity_map.items():
-                # Get other entities in this sentence
                 other_entities = [
                     {'text': e_text, 'type': e_type}
                     for i, (e_text, e_type) in entity_map.items()
                     if i != idx
                 ]
                 
-                # Get relations for this entity
                 entity_relations = []
                 for relation in relations:
                     if relation['head'] == idx:

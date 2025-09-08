@@ -3,6 +3,7 @@ from textual.containers import Vertical, Horizontal, VerticalScroll
 from textual.widgets import Button, Input, Label, Select, Markdown, TextArea, Checkbox, Footer
 from textual.screen import Screen
 from textual.binding import Binding
+from textual import events
 from pathlib import Path
 import re
 import json
@@ -13,7 +14,7 @@ import tempfile
 
 
 class TextPreprocessorScreen(Screen):
-    """Screen for preprocessing raw text files before SpERT processing"""
+    """Text preprocessing interface for preparing raw text files"""
 
     BINDINGS = [
         Binding(key="p,P", action="preview", description="Preview Processing"),
@@ -24,35 +25,26 @@ class TextPreprocessorScreen(Screen):
     ]
 
     def compose(self) -> ComposeResult:
-        """Create text preprocessor interface"""
         with Vertical(id="preprocessor-container"):
-            # Scrollable main content area
             with VerticalScroll(id="main-content"):
-                # Title
                 yield Label("Text Preprocessor", id="preprocessor-title")
 
-                # File selection
                 yield Label("Select Text File:", id="file-label")
                 yield Select(
                     self.get_text_files(),
                     id="file-select"
                 )
 
-                # Text preview (always visible)
                 yield Label("Text Preview:", id="preview-label")
                 with VerticalScroll(id="preview-container"):
                     yield TextArea("Select a file to see preview...", id="text-preview", read_only=True)
 
-                # Processing options (always visible)
                 with Vertical(id="options-container"):
                     yield Label("Processing Options:", id="options-title")
                     
-                    # Gutenberg cleaning option
                     yield Checkbox("Clean Gutenberg text (remove headers/footers)", id="clean-gutenberg", value=False)
                     
-                    # Group all processing options in a horizontal grid layout
                     with Horizontal(id="options-grid"):
-                        # Left column - Boundaries
                         with Vertical(id="boundaries-column"):
                             with Horizontal(id="start-row"):
                                 yield Label("Start Line:", id="start-label")
@@ -182,41 +174,26 @@ class TextPreprocessorScreen(Screen):
             # Only allow focus changes when not actively editing
             self.focus_next()
 
-    def on_key(self, event) -> None:
-        """Handle key presses globally"""
+    def on_key(self, event: events.Key) -> None:
         focused = self.app.focused
-        
-        # Handle escape specially - only blur if editing, don't trigger other actions
         if event.key == "escape":
             if focused and isinstance(focused, (Input, TextArea)):
                 focused.blur()
-                event.prevent_default()
-                event.stop()
-                return
             else:
-                # Not editing, so go back
                 self.app.pop_screen()
-                event.prevent_default()
-                event.stop()
-                return
-        
-        # Handle shortcuts only when NOT editing text
-        if focused and isinstance(focused, (Input, TextArea)):
-            # Don't interfere with text input
             return
         
-        # Handle shortcuts when not editing
+        if focused and isinstance(focused, (Input, TextArea)):
+            return
+        
         if event.key.lower() == 'p':
             event.prevent_default()
-            event.stop()
             self.action_preview()
         elif event.key.lower() == 's':
-            event.prevent_default() 
-            event.stop()
+            event.prevent_default()
             self.action_save()
         elif event.key.lower() == 'b':
             event.prevent_default()
-            event.stop()
             self.action_back()
 
     def on_select_changed(self, event: Select.Changed) -> None:

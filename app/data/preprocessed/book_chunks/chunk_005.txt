@@ -1,14 +1,10 @@
 CANOES AND SAILING
-
-
 I
-
 A canoe is an item of material culture, and as such it can
 be described, photographed and even bodily transported into a
 museum. But--and this is a truth too often overlooked--the ethnographic
 reality of the canoe would not be brought much nearer to a student
 at home, even by placing a perfect specimen right before him.
-
 The canoe is made for a certain use, and with a definite purpose;
 it is a means to an end, and we, who study native life, must not
 reverse this relation, and make a fetish of the object itself. In
@@ -20,7 +16,6 @@ information regarding the ceremonies and customs of its construction,
 a sort of typical life history of a native craft--all that brings us
 nearer still to the understanding of what his canoe truly means to
 the native.
-
 Even this, however, does not touch the most vital reality of a native
 canoe. For a craft, whether of bark or wood, iron or steel, lives in
 the life of its sailors, and it is more to a sailor than a mere bit
@@ -28,13 +23,12 @@ of shaped matter. To the native, not less than to the white seaman, a
 craft is surrounded by an atmosphere of romance, built up of tradition
 and of personal experience. It is an object of cult and admiration,
 a living thing, possessing its own individuality.
-
 We Europeans--whether we know native craft by experience or through
 descriptions--accustomed to our extraordinarily developed means of
 water transport, are apt to look down on a native canoe and see it
 in a false perspective--regarding it almost as a child's plaything,
 an abortive, imperfect attempt to tackle the problem of sailing,
-which we ourselves have satisfactorily solved. [41] But to the native
+which we ourselves have satisfactorily solved. [] But to the native
 his cumbersome, sprawling canoe is a marvellous, almost miraculous
 achievement, and a thing of beauty (see Plates XXI, XXIII, XL,
 XLVII, LV). He has spun a tradition around it, and he adorns it
@@ -47,7 +41,6 @@ the tradition of the natives, in their customs, in their behaviour,
 and in their direct statements, there can be found the deep love,
 the admiration, the specific attachment as to something alive and
 personal, so characteristic of the sailors' attitude towards his craft.
-
 And it is in this emotional attitude of the natives towards their
 canoes that I see the deepest ethnographic reality, which must
 guide us right through the study of other aspects--the customs and
@@ -55,7 +48,6 @@ technicalities of construction and of use; the economic conditions
 and the associated beliefs and traditions. Ethnology or Anthropology,
 the science of Man, must not shun him in his innermost self, in his
 instinctive and emotional life.
-
 A look at the pictures (for instance Plates XXI, XXIV, XXXIX, or XLVII)
 will give us some idea of the general structure of the native canoes:
 the body is a long, deep well, connected with an outrigger float,
@@ -79,7 +71,6 @@ swishing and crackling noise, and the canoe begins to make way; when
 the water rushes away below with a hiss, and the yellow sail glows
 against the intense blue of sea and sky--then indeed the romance of
 sailing seems to open through a new vista.
-
 The natural reflection on this description is that it presents the
 feelings of the Ethnographer, not those of the native. Indeed there
 is a great difficulty in disentangling our own sensations from a
@@ -89,7 +80,6 @@ were to try to share and understand their feelings, he will find
 that he can gauge them correctly. Soon he will learn to distinguish
 when the native's behaviour is in harmony with his own, and when,
 as it sometimes happens, the two are at variance.
-
 Thus, in this case, there is no mistaking the natives' great admiration
 of a good canoe; of their quickness in appreciating differences in
 speed, buoyancy and stability, and of their emotional reaction to
@@ -105,7 +95,6 @@ the Lagoon, boys and young men will often sail out in small canoes
 on mere pleasure cruises, when they race each other, explore less
 familiar nooks of the Lagoon, and in general undoubtedly enjoy the
 outing, in just the same manner as we would do.
-
 Seen from outside, after you have grasped its construction and
 appreciated through personal experience its fitness for its purpose,
 the canoe is no less attractive and full of character than from
@@ -113,13 +102,12 @@ within. When, on a trading expedition or as a visiting party, a fleet
 of native canoes appears in the offing, with their triangular sails
 like butterfly wings scattered over the water (see Plate XLVIII),
 with the harmonious calls of conch shells blown in unison, the effect
-is unforgettable. [42] When the canoes then approach, and you see
+is unforgettable. [] When the canoes then approach, and you see
 them rocking in the blue water in all the splendour of their fresh
 white, red, and black paint, with their finely designed prow-boards,
 and clanking array of large, white cowrie shells (see Plates XLIX,
 LV)--you understand well the admiring love which results in all this
 care bestowed by the native on the decoration of his canoe.
-
 Even when not in actual use, when lying idle beached on the sea front
 of a village, the canoe is a characteristic element in the scenery,
 not without its share in the village life. The very big canoes are in
@@ -132,12 +120,7 @@ gazing at the sea. The smaller canoes, beached near the sea-front in
 long parallel rows, are ready to be launched at any moment. With their
 curved outline and intricate framework of poles and sticks, they form
 one of the most characteristic settings of a native coastal village.
-
-
-
-
 II
-
 A few words must be said now about the technological essentials of
 the canoe. Here again, a simple enumeration of the various parts
 of the canoe, and a description of them, a pulling to pieces of a
@@ -145,23 +128,21 @@ lifeless object will not satisfy us. I shall instead try to show how,
 given its purpose on the one hand, and the limitations in technical
 means and in material on the other, the native ship-builders have
 coped with the difficulties before them.
-
 A sailing craft requires a water-tight, immersible vessel of some
 considerable volume. This is supplied to our natives by a hollowed-out
 log. Such a log might carry fairly heavy loads, for wood is light,
 and the hollowed space adds to its buoyancy. Yet it possesses no
 lateral stability, as can easily be seen. A look at the diagrammatic
-section of a canoe Fig. I (1), shows that a weight with its centre of
+section of a canoe Fig. I (), shows that a weight with its centre of
 gravity in the middle, that is, distributed symmetrically, will not
 upset the equilibrium, but any load placed so as to produce a momentum
 of rotation (that is, a turning force) at the sides (as indicated by
 arrows at A or B) will cause the canoe to turn round and capsize.
-
-If, however, as shown in Fig. I (2), another smaller, solid log (C)
+If, however, as shown in Fig. I (), another smaller, solid log (C)
 be attached to the dug-out, a greater stability is achieved, though
 not a symmetrical one. If we press down the one side of the canoe
 (A) this will cause the canoe to turn round a longitudinal axis,
-so that its other side (B) is raised, Fig. I (3). The log (C) will
+so that its other side (B) is raised, Fig. I (). The log (C) will
 be lifted out of the water, and its weight will produce a momentum
 (turning force) proportional to the displacement, and the rest of the
 canoe will come to equilibrium. This momentum is represented in the
@@ -169,7 +150,7 @@ diagram by the arrow R. Thus a great stability relative to any stress
 exercised upon A, will be achieved. A stress on B causes the log to
 be immersed, to which its buoyancy opposes a slight resistance. But
 it can easily be seen that the stability on this side is much smaller
-than on the other. This asymmetrical [43] stability plays a great
+than on the other. This asymmetrical [] stability plays a great
 part in the technique of sailing. Thus, as we shall see, the canoe
 is always so sailed that its outrigger float (C) remains in the wind
 side. The pressure of the sail then lifts the canoe, so that A is
@@ -177,8 +158,7 @@ pressed into the water, and B and C are lifted, a position in which
 they are extremely stable, and can stand great force of wind. Whereas
 the slightest breeze would cause the canoe to turn turtle, if it fell
 on the other side, and thus pressed B--C into the water.
-
-Another look at Fig. I (2) and (3) will help us to realise that the
+Another look at Fig. I () and () will help us to realise that the
 stability of the canoe will depend upon (i) the volume, and especially
 the depth of the dug-out; (ii) the distance B--C between the dug-out
 and the log; (iii) the size of the log C. The greater all these three
@@ -186,18 +166,16 @@ magnitudes are, the greater the stability of the canoes. A shallow
 canoe, without much freeboard, will be easily forced into the water;
 moreover, if sailed in rough weather, waves will break over it,
 and fill it with water.
-
 (i) The volume of the dug-out log naturally depends upon the length,
 and thickness of the log. Fairly stable canoes are made of simply
 scooped-out logs. There are limits, however, to the capacity of these,
 which are very soon reached. But by building out the side, by adding
-one or several planks to them, as shown in Figure I (4) the volume and
+one or several planks to them, as shown in Figure I () the volume and
 the depth can be greatly increased without much increase in weight. So
 that such a canoe has a good deal of freeboard to prevent water from
 breaking in. The longitudinal boards in Kiriwinian canoes are closed
 in at each end by transversal prow-boards, which are also carved with
 more or less perfection (see Plates XXIV c, XLVII).
-
 (ii) The greater the distance B--C between dug-out and outrigger float,
 the greater the stability of the canoe. Since the momentum of rotation
 is the product of B--C (Fig. I), and the weight of the log C, it is
@@ -210,42 +188,37 @@ great. In the Trobriands the distance B--C is about one-quarter, or
 less, of the total length of the canoe. In the big, sea-going canoes,
 it is always covered with a platform. In certain other districts, the
 distance is much bigger, and the canoes have another type of rigging.
-
 (iii) The size of the log (C) of which the float is formed. This,
 in sea-going canoes, is usually of considerable dimensions. But, as
 a solid piece of wood becomes heavy if soaked by water, too thick a
 log would not be good.
-
 These are all the essentials of construction in their functional
 aspect, which will make clear further descriptions of sailing,
 of building, and of using. For, indeed, though I have said that
 technicalities are of secondary importance, still without grasping
 them, we cannot understand references to the managing and rigging of
 the canoes.
-
 The Trobrianders use their craft for three main purposes, and
 these correspond to the three types of canoe. Coastal transport,
 especially in the Lagoon, requires small, light, handy canoes called
-kewo'u (see Fig. II (1), and Plates XXIV, top foreground, and XXXVI,
+kewo'u (see Fig. II (), and Plates XXIV, top foreground, and XXXVI,
 to the right); for fishing, bigger and more seaworthy canoes called
-kalipoulo (see Fig. II (2), and Plates XXIV, and XXXVI, to the left,
+kalipoulo (see Fig. II (), and Plates XXIV, and XXXVI, to the left,
 also XXXVII) are used; finally, for deep sea sailing, the biggest type
 is needed, with a considerable carrying capacity, greater displacement,
-and stronger construction. These are called masawa (see Fig. II (3)
+and stronger construction. These are called masawa (see Fig. II ()
 and Plates XXI, XXIII, etc.). The word waga is a general designation
 for all kinds of sailing craft.
-
 Only a few words need to be said about the first two types, so as to
 make, by means of comparison, the third type clearer. The construction
-of the smallest canoes is sufficiently illustrated by the diagram (1)
+of the smallest canoes is sufficiently illustrated by the diagram ()
 in Fig. II. From this it is clear that it is a simple dug-out log,
 connected with a float. It never has any built-up planking, and no
 carved boards, nor as a rule any platform. In its economic aspect, it
 is always owned by one individual, and serves his personal needs. No
 mythology or magic is attached to it.
-
-Type (2), as can be seen in Fig. II (2), differs in construction from
-(1), in so far that it has its well enclosed by built-out planking and
+Type (), as can be seen in Fig. II (), differs in construction from
+(), in so far that it has its well enclosed by built-out planking and
 carved prow-boards. A framework of six ribs helps to keep the planks
 firmly attached to the dug-out and to hold them together. It is used in
 fishing villages. These villages are organised into several fishing
@@ -258,10 +231,9 @@ definite rights of a number of men, combined with the paramount right
 and title of one. There is a good deal of fishing magic, taboos and
 customs connected with the construction of these canoes, and also
 with their use, and they form the subject of a number of minor myths.
-
 By far the most elaborate technically, the most seaworthy and
 carefully built, are the sea-going canoes of the third type (see
-Fig. II (3)). These are undoubtedly the greatest achievement of
+Fig. II ()). These are undoubtedly the greatest achievement of
 craftsmanship of these natives. Technically, they differ from
 the previously described kinds, in the amount of time spent over
 their construction and the care given to details, rather than in
@@ -276,26 +248,18 @@ is often quite indifferent, here is perfect. Ownership of these canoes
 is even more complex, and its construction is permeated with tribal
 customs, ceremonial, and magic, the last based on mythology. The
 magic is always performed in direct association with Kula expeditions.
-
-
-
-
 III
-
 After having thus spoken about, first, the general impression made by
 a canoe and its psychological import, and then about the fundamental
 features of its technology, we have to turn to the social implications
 of a masawa (sea-going canoe).
-
 The canoe is constructed by a group of people, it is owned, used and
 enjoyed communally, and this is done according to definite rules. There
 is therefore a social organisation underlying the building, the
 owning, and the sailing of a canoe. Under these three headings, we
 shall give an outline of the canoe's sociology, always bearing in mind
 that these outlines have to be filled in in the subsequent account.
-
 (A) Social organisation of labour in constructing a Canoe.
-
 In studying the construction of a canoe, we see the natives engaged
 in an economic enterprise on a big scale. Technical difficulties
 face them, which require knowledge, and can only be overcome by
@@ -307,23 +271,20 @@ authority who takes the initiative and gives decisions; and there
 must be also someone with a technical capacity, who directs the
 construction. Finally, in Kiriwina, communal labour, and the services
 of experts have to be paid for, and there must be someone who has
-the means and is prepared to do it. [44] This economic organisation
-rests on two fundamental facts--(1) the sociological differentiation
-of functions, and (2) the magical regulation of work.
-
-(1) The sociological differentiation of functions.--First of all there
+the means and is prepared to do it. [] This economic organisation
+rests on two fundamental facts--() the sociological differentiation
+of functions, and () the magical regulation of work.
+() The sociological differentiation of functions.--First of all there
 is the owner of the canoe, that is, the chief, or the headman of a
 village or of a smaller sub-division, who takes the responsibility
 for the undertaking. He pays for the work, engages the expert, gives
 orders, and commands communal labour.
-
 Besides the owner, there is next another office of great sociological
 importance, namely, that of the expert. He is the man who knows how
 to construct the canoe, how to do the carvings, and, last, not least,
 how to perform the magic. All these functions of the expert may be,
 but not necessarily are, united in one person. The owner is always
 one individual, but there may be two or even three experts.
-
 Finally, the third sociological factor in canoe-building, consists
 of the workers. And here there is a further division. First there
 is a smaller group, consisting of the relations and close friends of
@@ -331,8 +292,7 @@ the owner or of the expert, who help throughout the whole process of
 construction; and, secondly, there is, besides them, the main body of
 villagers, who take part in the work at those stages where communal
 labour is necessary.
-
-(2) The magical regulation of work.--The belief in the efficiency of
+() The magical regulation of work.--The belief in the efficiency of
 magic is supreme among the natives of Boyowa, and they associate it
 with all their vital concerns. In fact, we shall find magic interwoven
 into all the many industrial and communal activities to be described
@@ -346,7 +306,6 @@ to the natives and the rôle it plays in all their vital pursuits,
 and a special chapter will be devoted to magical ideas and magical
 practices in Kiriwina. Here, however, it is necessary to sketch the
 main outlines, at least as far as canoe magic is concerned.
-
 First of all, it must be realised that the natives firmly believe
 in the value of magic, and that this conviction, when put to the
 test of their actions, is quite unwavering, even nowadays when so
@@ -367,13 +326,11 @@ the case of canoes, the Trobrianders would be so firmly persuaded that
 a canoe built without magic would be unseaworthy, slow in sailing,
 and unlucky in the Kula, that no one would dream of omitting the
 magic rites.
-
 In the myths related elsewhere (Chap. XII) we shall see plainly the
 power ascribed to magic in imparting speed and other qualities to a
 canoe. According to native mythology, which is literally accepted,
 and strongly believed, canoes could be even made to fly, had not the
 necessary magic fallen into oblivion.
-
 It is also important to understand rightly the natives' ideas
 about the relation between magical efficiency and the results
 of craftsmanship. Both are considered indispensable, but both
@@ -386,7 +343,6 @@ is obviously badly built, the natives will know why it sails slowly
 and is unwieldy. But if one of two canoes, both apparently equally
 well constructed surpasses the other in some respect, this will be
 attributed to magic.
-
 Finally, speaking from a sociological point of view, what is the
 economic function of magic in the process of canoe making? Is it
 simply an extraneous action, having nothing to do with the real work
@@ -402,22 +358,15 @@ difficult character. The belief that the magician is a man endowed
 with special powers, controlling the canoe, makes him a natural
 leader whose command is obeyed, who can fix dates, apportion work,
 and keep the worker up to the mark.
-
 Magic, far from being a useless appendage, or even a burden on
 the work, supplies the psychological influence, which keeps people
 confident about the success of their labour, and provides them with
-a sort of natural leader. [45] Thus the organisation of labour in
+a sort of natural leader. [] Thus the organisation of labour in
 canoe-building rests on the one hand on the division of functions,
 those of the owner, the expert and the helpers, and on the other on
 the co-operation between labour and magic.
-
-
-
-
 IV
-
 (B) Sociology of Canoe Ownership.
-
 Ownership, giving this word its broadest sense, is the relation,
 often very complex, between an object and the social community in
 which it is found. In ethnology it is extremely important not to
@@ -432,14 +381,12 @@ meaningless, when applied to a native society. Or indeed, what is
 worse, such an application smuggles a number of preconceived ideas
 into our description, and before we have begun to give an account of
 the native conditions, we have distorted the reader's outlook.
-
 Ownership has naturally in every type of native society, a different
 specific meaning, as in each type, custom and tradition attach a
 different set of functions, rites and privileges to the word. Moreover,
 the social range of those who enjoy these privileges varies. Between
 pure individual ownership and collectivism, there is a whole scale
 of intermediate blendings and combinations.
-
 In the Trobriands, there is a word which may be said approximately to
 denote ownership, the prefix toli--followed by the name of the object
 owned. Thus the compound word (pronounced without hiatus) toli-waga,
@@ -454,7 +401,6 @@ of people may lay claim to ownership, claim to be toli--with regard
 to it. In the second place, people having the full de facto right of
 using an object, might not be allowed to call themselves toli--of this
 object. This will be made clear in the concrete example of the canoe.
-
 The word toli--in this example is restricted to one man only, who calls
 himself toli-waga. Sometimes his nearest maternal relatives, such as
 his brothers and maternal nephews, might call themselves collectively
@@ -469,7 +415,6 @@ with that of its toli; they will identify his magical powers and
 its good luck in sailing and in the Kula; they will often speak of
 So-and-so's sailing here and there, of his being very fast in sailing,
 etc., using in this the man's name for that of the canoe.
-
 Turning now to the detailed determination of this relationship, the
 most important point about it is that it always rests in the person
 of the chief or headman. As we have seen in our short account of the
@@ -488,18 +433,15 @@ of tribal enterprises, the chief or headman is able to bear the burden
 of expense, and he also derives the main benefit from the affair. In
 the case of the canoe, the chief, as we saw, acts as main organiser
 in the construction, and he also enjoys the title of toli.
-
 This strong economic position runs side by side with his direct
 power, due to high rank, or traditional authority. In the case of
 a small headman, it is due to the fact that he is at the head of a
 big kinship group (the totemic sub-clan). Both combined, allow him
 to command labour and to reward for it.
-
 This title of toliwaga, besides the general social distinction which
 it confers, implies further a definite series of social functions
 with regard to its individual bearer.
-
-(1) There are first the formal and ceremonial privileges. Thus, the
+() There are first the formal and ceremonial privileges. Thus, the
 toliwaga has the privilege of acting as spokesman of his community
 in all matters of sailing or construction. He assembles the council,
 informal or formal as the case may be, and opens the question of
@@ -512,8 +454,7 @@ position of master and leader of ceremonies, of general spokesman,
 lasts right through the successive stages of the building of the
 canoe, and its subsequent use, and we shall meet with it in all the
 ceremonial phases of the Kula.
-
-(2) The economic uses and advantages derived from a canoe are not
+() The economic uses and advantages derived from a canoe are not
 limited to the toliwaga. He, however, gets the lion's share. He has,
 of course, in all circumstances, the privilege of absolute priority
 in being included in the party. He also receives always by far the
@@ -529,9 +470,8 @@ reason of this is, that the chief or headman who borrows, may at that
 time not be able to have his own canoe repaired, or construct another
 new one. The payment for hire is called toguna, and it consists of
 a vaygu'a. Besides this, the best vaygu'a obtained on the expedition
-would be kula'd to the man from whom the canoe was hired. [46]
-
-(3) The toliwaga has definite social privileges, and exercises definite
+would be kula'd to the man from whom the canoe was hired. []
+() The toliwaga has definite social privileges, and exercises definite
 functions, in the running of a canoe. Thus, he selects his companions,
 who will sail in his canoe, and has the nominal right to choose or
 reject those who may go on the expedition with him. Here again the
@@ -555,8 +495,7 @@ the chief's privilege of choice is limited by two conditions, the
 rank and the seamanship of those he may select. As we have seen,
 he fulfils definite functions in the construction of the canoe. We
 shall see later on that he has also definite functions in sailing.
-
-(4) A special feature, implied in the title of toliwaga, is the
+() A special feature, implied in the title of toliwaga, is the
 performance of magical duties. It will be made clear that magic during
 the process of construction is done by the expert, but magic done in
 connection with sailing and Kula is done by the toliwaga. The latter
@@ -564,15 +503,9 @@ must, by definition, know canoe magic. The rôle of magic in this,
 and the taboos, ceremonial activities, and special customs associated
 with it, will come out clearly in the consecutive account of a Kula
 expedition.
-
-
-
-
 V
-
 (C) The Social Division of Functions in the Manning and Sailing of
 the Canoe.
-
 Very little is to be said under this heading here, since to understand
 this we must know more about the technicalities of sailing. We shall
 deal with this subject later on (Chap. IX, Div. II), and there
@@ -587,7 +520,6 @@ lead and give orders, provided that he is a good sailor. Otherwise the
 best sailor from the crew will say what is to be done when difficulties
 or dangers arise. As a rule, however, everyone knows his task, and
 everyone performs it in the normal course of events.
-
 A short outline of the concrete details referring to the distribution
 of canoes in the Trobriands must be given here. A glance at the map of
 Boyowa shows that various districts have not the same opportunities
@@ -608,7 +540,6 @@ canoe carvings come from there. In this description of canoes, this
 island, which really belongs to the Eastern rather than to the Western
 branch of the N. Massim, must be included in the account, since all
 Boyowan canoe mythology and canoe industry is associated with Kitava.
-
 There are at present some sixty-four Masawa canoes in the Trobriands
 and Kitava. Out of these, some four belong to the Northern district,
 where Kula is not practised; all the rest are built and used for the
@@ -617,18 +548,14 @@ that is, such groups of villages as carry on the Kula as a whole,
 sail together on overseas expeditions, and do their internal Kula
 with one another. We shall group the canoes according to the Kula
 community to which they belong.
-
-
-            Kiriwina                         8 canoes.
-            Luba                             3   ,,
-            Sinaketa                         8   ,,
-            Vakuta                          22   ,,
-            Kayleula               about    20   ,,
-            Kitava                 about    12   ,,
-                                            ----------
-            Total for all Kula communities  60 canoes.
-
-
+Kiriwina canoes.
+Luba ,,
+Sinaketa ,,
+Vakuta ,,
+Kayleula about ,,
+Kitava about ,,
+----------
+Total for all Kula communities canoes.
 To this number, the canoes of the Northern district must be added,
 but they are never used in the Kula. In olden days, this figure was,
 on a rough estimate, more than double of what it is now, because,
@@ -640,7 +567,6 @@ at least twenty, in Kitava thirty, in Kiriwina twenty, and in Luba
 ten. When all the canoes from Sinaketa and Vakuta sailed south, and
 some twenty to thirty more joined them from the Amphletts and Tewara,
 quite a stately fleet would approach Dobu.
-
 Turning now to the list of ownership in Kiriwina, the most important
 canoe is, of course, that owned by the chief of Omarakana. This
 canoe always leads the fleet; that is to say, on big ceremonial Kula
@@ -659,7 +585,6 @@ build or carve properly. The magic over the latter stages ought to
 have been recited by the present chief, To'uluwa, but as he has very
 little capacity for remembering spells, the magic was performed by
 one of his kinsmen.
-
 All the other canoes of Kiriwina are also housed in hangars, each
 on a beach of clean, white sand on the Eastern coast. The chief or
 headman of each village is the toliwaga. In Kasana'i, the sub-village
@@ -672,13 +597,11 @@ of Liluta, called Siya'i, which is the name of a Government station,
 where some people from Liluta were once imprisoned; Topusa--a flying
 fish; Yagwa'u--a scarecrow; Akamta'u--"I shall eat men," because the
 canoe was a gift from the cannibals of Dobu.
-
 In the district of Luba there are at present only three canoes; one
 belongs to the chief of highest rank in the village of Olivilevi. This
 is the biggest canoe in all the Trobriands. Two are in the village
 of Wawela, and belong to two headmen, each ruling over a section of
 the village; one of them is seen being relashed on Plate XXVII.
-
 The big settlement of Sinaketa, consisting of sectional villages,
 has also canoes. There are about four expert builders and carvers,
 and almost every man there knows a good deal about construction. In

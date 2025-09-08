@@ -18,7 +18,7 @@ from typing import Dict, Set
 
 
 class App(App):
-    """Searches a dictionary as-you-type using a local JSON file."""
+    """NLP Application Toolkit - Main interface for text processing and analysis tools."""
 
     CSS_PATH_2 = "modal01.tcss"
     BINDINGS = [("q", "request_quit", "Quit")]
@@ -26,43 +26,35 @@ class App(App):
     DATA_PATH = Path("data.json")
     
     def compose(self) -> ComposeResult:
-        # Create main menu with stacked buttons and descriptions
         with VerticalScroll(id="main-menu"):
             yield Label("NLP Application Toolkit", id="app-title")
             yield Label("Select a tool to get started:", id="subtitle")
             
-            # Text Preprocessor
             with Horizontal(classes="menu-item"):
-                yield Button("Text Preprocessor", id="preprocessor", variant="warning")
+                yield Button("Raw Text Processor", id="preprocessor", variant="warning")
                 yield Label("Convert and chunk text files for processing", classes="description")
             
-            # Data Preprocessing
             with Horizontal(classes="menu-item"):
-                yield Button("Data Preprocessing", id="executor", variant="primary")
-                yield Label("Run NER preprocessing pipeline on text files", classes="description")
+                yield Button("Spacy Pipeline", id="executor", variant="primary")
+                yield Label("Run spacy processing pipeline on text files", classes="description")
             
-            # Sentence Editor
             with Horizontal(classes="menu-item"):
                 yield Button("Sentence Editor", id="editor", variant="success")
                 yield Label("Edit and annotate sentences for NER training", classes="description")
             
-            # SpERT Trainer
             with Horizontal(classes="menu-item"):
                 yield Button("SpERT Trainer", id="trainer", variant="primary")
                 yield Label("Train SpERT models for entity and relation extraction", classes="description")
             
-            # SpERT Predictor
             with Horizontal(classes="menu-item"):
                 yield Button("SpERT Predictor", id="predictor", variant="success")
                 yield Label("Run predictions using trained SpERT models", classes="description")
             
-            # Entity Search
             with Horizontal(classes="menu-item"):
                 yield Button("Entity Search", id="entity", variant="warning")
                 yield Label("Search and explore entities in prediction files", classes="description")
 
     def on_mount(self) -> None:
-        """Initialize app when it starts"""
         pass
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
@@ -80,7 +72,6 @@ class App(App):
             self.push_screen(SpertPredictorScreen())
 
     def action_request_quit(self) -> None:
-        """Action to display the quit dialog."""
         self.push_screen(QuitScreen())
 
 if __name__ == "__main__":

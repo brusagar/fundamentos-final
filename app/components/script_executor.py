@@ -10,91 +10,73 @@ import os
 import tempfile
 
 class ScriptExecutorScreen(Screen):
-    """Screen for executing the NER script with custom parameters"""
-    
+    """Data preprocessing pipeline interface"""
+
     BINDINGS = [
-        Binding(key="e,E", action="execute", description="Execute Script"),
+        Binding(key="r,R", action="run_script", description="Run Script"),
         Binding(key="b,B", action="back", description="Back to Menu"),
         Binding(key="escape", action="blur_input", description="Exit Input/Back", show=False),
         Binding(key="tab", action="focus_next", description="Next Field", show=False),
     ]
-    
+
     def __init__(self):
         super().__init__()
-        self.selected_files = set()  # Track selected files
-    
-    def get_input_files(self):
-        """Get list of available input text files from app/data/preprocessed/"""
+        self.selected_files = set()
+
+    def get_text_files(self):
         script_dir = Path(__file__).parent.parent.parent
-        input_files = []
-        
-        # Check for text files in app/data/preprocessed/
         preprocessed_dir = script_dir / "app" / "data" / "preprocessed"
+        
+        text_files = []
+        
         if preprocessed_dir.exists():
-            # Look for .txt files in the main directory
             for txt_file in preprocessed_dir.glob("*.txt"):
-                relative_path = f"app/data/preprocessed/{txt_file.name}"
-                input_files.append((txt_file.name, relative_path))
+                text_files.append((txt_file.name, str(txt_file)))
             
-            # Also look for .json files in the main directory
             for json_file in preprocessed_dir.glob("*.json"):
-                relative_path = f"app/data/preprocessed/{json_file.name}"
-                input_files.append((json_file.name, relative_path))
+                text_files.append((json_file.name, str(json_file)))
             
-            # Look for files in subdirectories (like book_chunks/)
             for subdir in preprocessed_dir.iterdir():
                 if subdir.is_dir():
-                    # Look for .txt files in subdirectory
                     for txt_file in subdir.glob("*.txt"):
-                        relative_path = f"app/data/preprocessed/{subdir.name}/{txt_file.name}"
-                        display_name = f"{subdir.name}/{txt_file.name}"
-                        input_files.append((display_name, relative_path))
+                        relative_path = f"{subdir.name}/{txt_file.name}"
+                        text_files.append((relative_path, str(txt_file)))
                     
-                    # Look for .json files in subdirectory
                     for json_file in subdir.glob("*.json"):
-                        relative_path = f"app/data/preprocessed/{subdir.name}/{json_file.name}"
-                        display_name = f"{subdir.name}/{json_file.name}"
-                        input_files.append((display_name, relative_path))
+                        relative_path = f"{subdir.name}/{json_file.name}"
+                        text_files.append((relative_path, str(json_file)))
         
-        if not input_files:
-            return [("No preprocessed files found", "")]
+        if not text_files:
+            return [("No text files found", "")]
         
-        return input_files
-    
+        return text_files
+
     def get_gazeteer_files(self):
-        """Get list of available gazeteer/pattern files from app/data/gazeteer/"""
         script_dir = Path(__file__).parent.parent.parent
-        gazeteer_files = [("None (skip gazeteer)", "")]  # Option for no gazeteer
+        gazeteer_files = [("None (skip gazeteer)", "")]
         
-        # Check for JSON files in app/data/gazeteer/
         gazeteer_dir = script_dir / "app" / "data" / "gazeteer"
         if gazeteer_dir.exists():
             for json_file in gazeteer_dir.glob("*.json"):
-                relative_path = f"app/data/gazeteer/{json_file.name}"
-                gazeteer_files.append((json_file.name, relative_path))
+                gazeteer_files.append((json_file.name, str(json_file)))
         
         return gazeteer_files
-    
+
     def compose(self):
         with Vertical():
-            # Scrollable main content area
             with VerticalScroll(id="main-content"):
                 yield Label("NER Script Executor", id="executor-title")
                 
                 with Vertical(id="input-container"):
                     yield Label("Input Files (select multiple):")
                     
-                    # Create a SelectionList for file selection
                     file_options = self.get_input_files()
                     
-                    # Check if we have actual files or just the "no files found" message
                     if len(file_options) == 1 and file_options[0][1] == "":
                         yield Label("No preprocessed files found in app/data/preprocessed/", id="no-files-message")
                     else:
-                        # Create SelectionList with file options
                         selection_items = []
                         for i, (display_name, file_path) in enumerate(file_options):
-                            # Create selection items: (label, value, initially_selected)
                             selection_items.append((display_name, file_path, False))
                         
                         yield SelectionList[str](*selection_items, id="file-list")
@@ -130,30 +112,23 @@ class ScriptExecutorScreen(Screen):
             yield Footer()
 
     def on_mount(self) -> None:
-        """Set up the SelectionList border title after mounting"""
         try:
             file_list = self.query_one("#file-list", SelectionList)
             file_list.border_title = "Select files to process"
         except:
-            # SelectionList might not exist if no files found
             pass
 
     def action_execute(self):
-        """Execute script action"""
         self.run_script()
 
     def action_back(self):
-        """Back to menu action"""
         self.app.pop_screen()
 
     def action_blur_input(self):
-        """Exit input editing mode or go back"""
         focused = self.app.focused
         if focused and isinstance(focused, (Input,)):
-            # If an input is focused, blur it to exit editing mode
             focused.blur()
         else:
-            # If no input is focused, go back to previous screen
             self.app.pop_screen()
 
     def action_focus_next(self):
@@ -162,10 +137,8 @@ class ScriptExecutorScreen(Screen):
 
     def on_key(self, event) -> None:
         """Handle key presses globally"""
-        # Handle shortcuts even when widgets are focused
         focused = self.app.focused
         if focused and isinstance(focused, Input):
-            # Don't interfere with text input
             return
         
         if event.key.lower() == 'e':
@@ -176,23 +149,18 @@ class ScriptExecutorScreen(Screen):
             self.action_back()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
-        """Handle button presses (legacy support)"""
         if event.button.id == "execute":
             self.run_script()
         elif event.button.id == "back":
             self.app.pop_screen()
 
     def on_selection_list_selected_changed(self, event: SelectionList.SelectedChanged) -> None:
-        """Handle selection changes in the file list"""
-        # Get the selected file paths from the SelectionList
         file_list = self.query_one("#file-list", SelectionList)
         self.selected_files = set(file_list.selected)
 
     def join_files(self, file_paths):
-        """Join multiple files into a single temporary file and return the path"""
         script_dir = Path(__file__).parent.parent.parent
         
-        # Create temporary file
         temp_file = tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False)
         temp_path = temp_file.name
         
@@ -201,7 +169,6 @@ class ScriptExecutorScreen(Screen):
                 for i, file_path in enumerate(file_paths):
                     full_path = script_dir / file_path
                     if full_path.exists():
-                        # Add separator between files
                         if i > 0:
                             outfile.write("\n" + "="*50 + f" FILE: {full_path.name} " + "="*50 + "\n")
                         
@@ -217,35 +184,28 @@ class ScriptExecutorScreen(Screen):
 
     @work(thread=True)
     def run_script(self):
-        """Execute the preprocessing script using the local virtual environment"""
-        # Get paths - look for preprocessing script in current directory
         script_dir = Path(__file__).parent.parent.parent
         script_path = script_dir / "app/utils/preprocessing_script.py"
 
-        # For now, use the main venv - but could be changed to a separate one
         venv_path = script_dir / ".venv"
         python_path = venv_path / "bin" / "python"
 
         temp_file_path = None
         try:
             log = self.query_one("#output-log")
-            log.clear()  # Clear previous output
+            log.clear()
             log.write("Starting preprocessing script execution...\n")
             
-            # Get selected files
             if not self.selected_files:
                 log.write("Error: Please select at least one input file\n")
                 return
             
-            # Get other input values
             output_file = self.query_one("#output-file").value.strip()
             patterns_file = self.query_one("#patterns-file", Select).value
             coref_option = self.query_one("#coref-option", Select).value
             
-            # Ensure output goes to app/data/csv_data directory
-            # Extract just the filename if user provided a path
             if output_file:
-                output_filename = Path(output_file).name  # Extract just the filename
+                output_filename = Path(output_file).name
                 output_file = f"app/data/csv_data/{output_filename}"
                 
                 # Create the output directory if it doesn't exist

@@ -1,9 +1,9 @@
 Original file: book
 Total chunks: 23
 Processing options:
-  gutenberg_cleaning: False
+  gutenberg_cleaning: True
   split_method: chapters
   max_chunk_size: 500
   chapter_word: CHAPTER
   start_line: 1
-  end_line: 16908
+  end_line: 14800

@@ -1,15 +1,19 @@
 from textual.app import App, ComposeResult
 from textual.screen import Screen
 from textual.containers import VerticalScroll, Grid, Horizontal, Vertical
-from textual.widgets import Button, Input, Markdown, Label, Static, Select
+from textual.widgets import Button, Input, Markdown, Label, Static, Select, Footer
+from textual.binding import Binding
 from textual_autocomplete import AutoComplete as BaseAutoComplete
 from textual_autocomplete._autocomplete import DropdownItem, TargetState
 from utils.custom_autocomplete import CustomAutoComplete
+from utils.error_handler import SimpleProgressTracker, BasicErrorHandler
 from textual import log, work
 
 import json
 import pandas as pd
 from pathlib import Path
+from datetime import datetime
+import time
 
 class RowEditor(Static):
     DEFAULT_CSS = """
@@ -66,31 +70,45 @@ class RowEditor(Static):
             pass  # Skip autocomplete if it fails
 
 class NEREditorScreen(Screen):
+    
+    BINDINGS = [
+        Binding(key="escape", action="quit", description="Back"),
+        Binding(key="ctrl+z", action="undo", description="Undo"),
+        Binding(key="ctrl+s", action="save_current", description="Save"),
+        Binding(key="ctrl+n", action="skip_current", description="Skip"),
+    ]
+    
     def __init__(self, input_csv=None, output_filename="edited_output.csv"):
         super().__init__()
         self.input_csv = Path(input_csv) if input_csv else None
         
-        # Set output path to app/data/annotated_csv_data/
-        annotated_data_dir = Path(__file__).parent.parent / "data" / "annotated_csv_data"
-        annotated_data_dir.mkdir(parents=True, exist_ok=True)  # Create directory if it doesn't exist
+        self.error_handler = BasicErrorHandler()
+        self.progress_tracker = SimpleProgressTracker("Sentence Editor")
         
-        # Ensure the filename ends with .csv
+        self.undo_stack = []
+        self.max_undo_steps = 50
+        
+        self.auto_save_enabled = True
+        self.last_save_index = 0
+        
+        annotated_data_dir = Path(__file__).parent.parent / "data" / "annotated_csv_data"
+        annotated_data_dir.mkdir(parents=True, exist_ok=True)
+        
         if not output_filename.endswith('.csv'):
             output_filename += '.csv'
         
         self.output_csv = annotated_data_dir / output_filename
-        self.output_filename = output_filename  # Store just the filename for passing to new instances
+        self.output_filename = output_filename
         
         self.current_index = 0
-        self.saved_rows = []  # Rows that were saved (will be in output)
-        self.skipped_indices = set()  # Indices of rows that were skipped
-        self.processed_indices = set()  # All indices that have been processed
+        self.saved_rows = []
+        self.skipped_indices = set()
+        self.processed_indices = set()
         self.data = pd.DataFrame()
-        self.original_data = pd.DataFrame()  # Keep original for restoration
+        self.original_data = pd.DataFrame()
         self.total_sentences = 0
         self.file_selected = False
         
-        # If input_csv is provided, load it immediately
         if self.input_csv:
             self._load_csv_file(self.input_csv)
             self.file_selected = True
@@ -108,27 +126,26 @@ class NEREditorScreen(Screen):
         return [(f.name, f.name) for f in csv_files]
 
     def _load_csv_file(self, csv_path):
-        """Load the selected CSV file"""
         try:
-            # Read CSV with string type for all columns
+            if not Path(csv_path).exists():
+                self._show_message(f"File not found: {csv_path}", "error")
+                return
+            
+            self._show_message(f"Loading file: {csv_path}", "info")
+            
             self.data = pd.read_csv(
                 csv_path,
-                dtype=str,  # Force all columns to be strings
-                na_values=['nan', 'NaN', ''],  # Handle various null values
-                keep_default_na=False  # Don't interpret additional strings as NA
+                dtype=str,
+                na_values=['nan', 'NaN', ''],
+                keep_default_na=False
             )
-            # Replace NaN with empty strings
             self.data = self.data.fillna('')
             
-            # Keep a copy of original data
             self.original_data = self.data.copy()
             
-            # Handle different CSV formats
             if 'text' in self.data.columns and 'sentence' not in self.data.columns:
-                # Convert simple text format to sentence format
                 self.data['sentence'] = self.data['text']
             
-            # Add missing columns if they don't exist
             required_columns = ['sentence', 'entity1', 'entity1_label', 'entity2', 'entity2_label', 'relation']
             for col in required_columns:
                 if col not in self.data.columns:
@@ -139,8 +156,13 @@ class NEREditorScreen(Screen):
             self.saved_rows = []
             self.skipped_indices = set()
             self.processed_indices = set()
-        except FileNotFoundError:
-            self.notify("Input CSV file not found", severity="error")
+            self.undo_stack.clear()
+            
+            self._show_message(f"Successfully loaded {self.total_sentences} sentences", "success")
+            
+        except Exception as e:
+            self.error_handler.log_error(e, "Loading CSV file")
+            self._show_message(f"Error loading file: {str(e)}", "error")
             self.data = pd.DataFrame()
             self.original_data = pd.DataFrame()
             self.total_sentences = 0
@@ -166,10 +188,11 @@ class NEREditorScreen(Screen):
                     )
                 yield Button("Load File", id="load-file", variant="primary")
                 yield Button("Back", id="back", variant="warning")
+                yield Footer()
                 return
             
             # Show editing interface if file is loaded
-            self.notify(f"Loaded {self.total_sentences} sentences for editing", severity="information")
+            self._show_message(f"Loaded {self.total_sentences} sentences for editing", "info")
             if not self.data.empty and self.current_index < self.total_sentences:
                 row = self.data.iloc[self.current_index]
                 yield Label(f"Editing: {self.input_csv.name}")
@@ -186,10 +209,66 @@ class NEREditorScreen(Screen):
             else:
                 yield Label("No more sentences to edit")
                 yield Button("Finish", id="finish", variant="warning")
+            
+            yield Footer()
+            
         except Exception as e:
-            self.notify(f"Error in compose: {str(e)}", severity="error")
+            self._show_message(f"Error in compose: {str(e)}", "error")
             yield Label("Error loading content")
             yield Button("Finish", id="finish", variant="error")
+            yield Footer()
+
+    def _save_state_for_undo(self):
+        """Save current state for undo functionality"""
+        if self.data is not None and not self.data.empty:
+            state = {
+                'index': self.current_index,
+                'dataframe': self.data.copy(),
+                'saved_rows': self.saved_rows.copy(),
+                'skipped_indices': self.skipped_indices.copy(),
+                'processed_indices': self.processed_indices.copy(),
+                'timestamp': datetime.now()
+            }
+            
+            self.undo_stack.append(state)
+            
+            # Limit undo stack size
+            if len(self.undo_stack) > self.max_undo_steps:
+                self.undo_stack.pop(0)
+    
+    def action_undo(self):
+        """Undo last change"""
+        if not self.undo_stack:
+            self._show_message("No actions to undo", "warning")
+            return
+        
+        try:
+            last_state = self.undo_stack.pop()
+            
+            self.data = last_state['dataframe']
+            self.current_index = last_state['index']
+            self.saved_rows = last_state['saved_rows']
+            self.skipped_indices = last_state['skipped_indices']
+            self.processed_indices = last_state['processed_indices']
+            
+            # Refresh display
+            self._refresh_current_sentence()
+            self._show_message("Undid last action", "info")
+            
+        except Exception as e:
+            self._show_message(f"Undo failed: {str(e)}", "error")
+    
+    def action_quit(self):
+        """Quit the screen"""
+        self.app.pop_screen()
+    
+    def action_save_current(self):
+        """Save current sentence"""
+        self._save_current()
+    
+    def action_skip_current(self):
+        """Skip current sentence"""
+        self._skip_current()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
         """Handle button presses"""
@@ -211,28 +290,24 @@ class NEREditorScreen(Screen):
         try:
             csv_file = self.query_one("#csv-file-select", Select).value
             if not csv_file or csv_file == Select.BLANK:
-                self.notify("Please select a CSV file", severity="warning")
+                self._show_message("Please select a CSV file", "warning")
                 return
             
-            # Get the output filename from user input
             output_filename = self.query_one("#output-file-input", Input).value.strip()
             if not output_filename:
-                self.notify("Please enter an output filename", severity="warning")
+                self._show_message("Please enter an output filename", "warning")
                 return
             
-            # Ensure the filename ends with .csv
             if not output_filename.endswith('.csv'):
                 output_filename += '.csv'
             
-            # Build path to selected file
             csv_data_dir = Path(__file__).parent.parent / "data" / "csv_data"
             self.input_csv = csv_data_dir / csv_file
             
             if not self.input_csv.exists():
-                self.notify(f"File not found: {csv_file}", severity="error")
+                self._show_message(f"File not found: {csv_file}", "error")
                 return
             
-            # Set output path with user-specified filename
             annotated_data_dir = Path(__file__).parent.parent / "data" / "annotated_csv_data"
             annotated_data_dir.mkdir(parents=True, exist_ok=True)
             self.output_csv = annotated_data_dir / output_filename
@@ -246,16 +321,19 @@ class NEREditorScreen(Screen):
             self.app.push_screen(NEREditorScreen(self.input_csv, output_filename))
             
         except Exception as e:
-            self.notify(f"Error loading file: {str(e)}", severity="error")
+            self.error_handler.log_error(e, "Loading file")
+            self._show_message(f"Error loading file: {str(e)}", "error")
 
     def _skip_current(self) -> None:
         """Skip the current sentence (mark it as skipped and move to next)"""
+        # Save state for undo
+        self._save_state_for_undo()
+        
         self.skipped_indices.add(self.current_index)
         self.processed_indices.add(self.current_index)
-        self.notify(f"Sentence {self.current_index + 1} skipped", severity="information")
+        self._show_message(f"Sentence {self.current_index + 1} skipped", "info")
         
         # Small delay to prevent too-fast transitions that cause crashes
-        import time
         time.sleep(0.1)
         
         self._next_sentence()
@@ -269,7 +347,7 @@ class NEREditorScreen(Screen):
             self._refresh_current_sentence()
         else:
             self.current_index = self.total_sentences - 1  # Stay at last sentence
-            self.notify("No more sentences to edit", severity="warning")
+            self._show_message("No more sentences to edit", "warning")
 
     def _refresh_current_sentence(self) -> None:
         """Refresh the current sentence display without creating a new screen"""
@@ -318,6 +396,9 @@ class NEREditorScreen(Screen):
     def _save_current(self) -> None:
         """Save the current sentence edits and move to next"""
         try:
+            # Save state for undo
+            self._save_state_for_undo()
+            
             editor = self.query_one(RowEditor)
             current_row = self.data.iloc[self.current_index]
             
@@ -337,21 +418,23 @@ class NEREditorScreen(Screen):
             self.saved_rows.append(row_data)
             self.processed_indices.add(self.current_index)
             
-            # Save immediately to output CSV after each edit
-            df = pd.DataFrame(self.saved_rows)
-            # Remove the original_index column before saving
-            df_to_save = df.drop('original_index', axis=1, errors='ignore')
-            df_to_save.to_csv(self.output_csv, index=False)
-            
-            self.notify(f"Sentence saved to {self.output_csv}", severity="information")
+            # Save immediately to output CSV after each edit (if auto-save enabled)
+            if self.auto_save_enabled:
+                df = pd.DataFrame(self.saved_rows)
+                # Remove the original_index column before saving
+                df_to_save = df.drop('original_index', axis=1, errors='ignore')
+                df_to_save.to_csv(self.output_csv, index=False)
+                
+                self._show_message(f"Auto-saved to {self.output_csv.name}", "info")
+            else:
+                self._show_message("Sentence saved (will write on finish)", "info")
             
             # Small delay to prevent too-fast transitions that cause crashes
-            import time
             time.sleep(0.1)
             
             self._next_sentence()
         except Exception as e:
-            self.notify(f"Error saving sentence: {str(e)}", severity="error")
+            self._show_message(f"Error saving sentence: {str(e)}", "error")
 
     def _finish_editing(self) -> None:
         """Save final edits and update input file by removing processed sentences"""
@@ -362,7 +445,7 @@ class NEREditorScreen(Screen):
                 # Remove the original_index column before saving
                 df_to_save = df.drop('original_index', axis=1, errors='ignore')
                 df_to_save.to_csv(self.output_csv, index=False)
-                self.notify(f"Saved {len(self.saved_rows)} sentences to {self.output_csv}")
+                self._show_message(f"Saved {len(self.saved_rows)} sentences to {self.output_csv.name}", "success")
             
             # Update input file by removing all processed sentences (saved + skipped)
             if self.processed_indices and not self.original_data.empty:
@@ -372,11 +455,11 @@ class NEREditorScreen(Screen):
                 
                 if not remaining_data.empty:
                     remaining_data.to_csv(self.input_csv, index=False)
-                    self.notify(f"Updated {self.input_csv.name}: {len(remaining_data)} sentences remaining")
+                    self._show_message(f"Updated {self.input_csv.name}: {len(remaining_data)} sentences remaining", "info")
                 else:
                     # If no sentences remain, create empty file or remove it
                     remaining_data.to_csv(self.input_csv, index=False)
-                    self.notify(f"All sentences processed. {self.input_csv.name} is now empty.")
+                    self._show_message(f"All sentences processed. {self.input_csv.name} is now empty.", "info")
             
             # Show summary
             total_processed = len(self.processed_indices)
@@ -384,8 +467,20 @@ class NEREditorScreen(Screen):
             skipped_count = len(self.skipped_indices)
             remaining_count = self.total_sentences - total_processed
             
-            self.notify(f"Summary: {saved_count} saved, {skipped_count} skipped, {remaining_count} remaining")
+            self._show_message(f"Summary: {saved_count} saved, {skipped_count} skipped, {remaining_count} remaining", "success")
             self.app.pop_screen()
             
         except Exception as e:
-            self.notify(f"Error finishing editing: {e}", severity="error")
+            self._show_message(f"Error finishing editing: {e}", "error")
+    
+    def _show_message(self, message: str, msg_type: str = "info"):
+        """Show message to user with appropriate styling"""
+        severity_map = {
+            "info": "information",
+            "success": "information", 
+            "warning": "warning",
+            "error": "error"
+        }
+        
+        severity = severity_map.get(msg_type, "information")
+        self.notify(message, severity=severity)

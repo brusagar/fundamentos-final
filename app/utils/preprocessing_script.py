@@ -15,7 +15,6 @@ except ImportError:
     STANZA_AVAILABLE = False
 
 try:
-    # neuralcoref is broken on Python 3.11+, use spacy-experimental instead
     import spacy
     import spacy_experimental
     SPACY_EXPERIMENTAL_AVAILABLE = True
@@ -28,7 +27,6 @@ try:
 except ImportError:
     TRANSFORMERS_AVAILABLE = False
 
-# Print availability warnings only once
 if not STANZA_AVAILABLE:
     print("Warning: Stanza not available. Install with: pip install stanza")
 if not SPACY_EXPERIMENTAL_AVAILABLE:
@@ -37,7 +35,6 @@ if not TRANSFORMERS_AVAILABLE:
     print("Warning: Transformers not available. Install with: pip install transformers torch")
 
 def parse_arguments():
-    """Parse command line arguments"""
     parser = argparse.ArgumentParser(description='Process text for NER and relation extraction')
     parser.add_argument('--input', default="text.txt", help='Input text file')
     parser.add_argument('--output', default="relation_candidates_good.csv", help='Output CSV file')
@@ -49,11 +46,8 @@ def parse_arguments():
     return parser.parse_args()
 
 def main():
-    """Main function to run the NER and relation extraction pipeline."""
-    # Parse command line arguments
     args = parse_arguments()
     
-    # Use command line arguments or defaults
     INPUT_FILE = args.input
     OUTPUT_FILE = args.output
     PATTERNS_FILE = args.patterns
@@ -62,13 +56,11 @@ def main():
     print("NER PREPROCESSING PIPELINE STARTED")
     print("=" * 60)
     
-    # Check if input file exists
     input_path = Path(INPUT_FILE)
     if not input_path.exists():
         print(f"ERROR: Input file {INPUT_FILE} not found.")
         return
     
-    # Load and clean text
     print(f"[1/5] Loading text from {INPUT_FILE}...")
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         text = f.read()
@@ -77,11 +69,10 @@ def main():
     text = clean_text(text)
     print(f"      Text cleaned. Length: {len(text)} characters.")
     
-    # Apply coreference resolution
     print("[3/5] Applying coreference resolution...")
     if args.no_coref:
         print("      Skipping coreference resolution...")
-        resolved_text = text  # Use original text without coreference resolution
+        resolved_text = text
     elif args.stanza_coref:
         print("      Using Stanza coreference resolution...")
         resolved_text = safe_coref_resolution(text, "stanza")
@@ -92,17 +83,14 @@ def main():
         print("      Using Transformers coreference resolution...")
         resolved_text = safe_coref_resolution(text, "transformers")
     else:
-        # Default behavior: no coreference resolution
         print("      Skipping coreference resolution (default)...")
         resolved_text = text
     print(f"      Coreference processing completed.")
     
-    # Load spaCy model
     print("[4/5] Loading spaCy model...")
     nlp = load_spacy_model()
     print("      spaCy model loaded successfully.")
     
-    # Load and add patterns if available
     patterns = load_patterns(PATTERNS_FILE)
     if patterns:
         print(f"      Adding {len(patterns)} custom patterns...")
@@ -112,17 +100,14 @@ def main():
     else:
         print("      No custom patterns to add.")
     
-    # Process resolved text with NER
     print("[5/5] Processing text with NER...")
     resolved_doc = nlp(resolved_text)
     print("      NER processing completed.")
     
-    # Generate relation candidates
     print("Generating relation candidates...")
     rows = generate_relation_candidates(resolved_doc.sents)
     print(f"      Generated {len(rows)} relation candidates.")
     
-    # Save to CSV
     print(f"Saving results to {OUTPUT_FILE}...")
     save_to_csv(rows, OUTPUT_FILE)
     
@@ -131,43 +116,28 @@ def main():
     print("=" * 60)
 
 def clean_text(text: str) -> str:
-    """
-    Remove unwanted characters and patterns from the text.
-    Args:
-        text (str): Raw input text
-    Returns:
-        str: Cleaned text
-    """
-    # Define patterns to remove
+    """Remove unwanted characters and patterns from text."""
     patterns = [
-        r'\[\d+\]',          # Remove citation numbers like [63]
-        r'PLATE [IVXLC]+',   # Remove plate references like PLATE XII
-        r'PLATES [IVXLC]+',  # Remove plate references like PLATES XII
-        r'Fig\. \d+',        # Remove figure references like Fig. 12
-        r'\(\d+\)',          # Remove parenthetical numbers like (123)
-        r'§+',               # Remove section symbols
-        r'\*+',              # Remove asterisks
-        r'_{2,}',           # Remove multiple underscores
-        r'={2,}',           # Remove multiple equal signs
+        r'\[\d+\]',          
+        r'PLATE [IVXLC]+',   
+        r'PLATES [IVXLC]+',  
+        r'Fig\. \d+',        
+        r'\(\d+\)',          
+        r'§+',               
+        r'\*+',              
+        r'_{2,}',           
+        r'={2,}',           
     ]
     
-    # Combine all patterns
     combined_pattern = '|'.join(patterns)
-    
-    # Remove all matched patterns
     cleaned_text = re.sub(combined_pattern, '', text)
-    
-    # Remove extra whitespace
     cleaned_text = ' '.join(cleaned_text.split())
     
     return cleaned_text
 
 
 def chunk_text(text: str, max_chunk_size: int = 5000) -> List[str]:
-    """
-    Split text into smaller chunks for safer processing.
-    Tries to split on sentence boundaries when possible.
-    """
+    """Split text into smaller chunks for safer processing."""
     if len(text) <= max_chunk_size:
         return [text]
     
@@ -176,13 +146,11 @@ def chunk_text(text: str, max_chunk_size: int = 5000) -> List[str]:
     current_chunk = ""
     
     for sentence in sentences:
-        # If adding this sentence would exceed chunk size
         if len(current_chunk) + len(sentence) > max_chunk_size:
-            if current_chunk:  # Save current chunk if not empty
+            if current_chunk:
                 chunks.append(current_chunk.strip())
                 current_chunk = sentence
-            else:  # Single sentence too long, force split
-                # Split long sentence into smaller parts
+            else:
                 words = sentence.split()
                 temp_chunk = ""
                 for word in words:
@@ -191,7 +159,6 @@ def chunk_text(text: str, max_chunk_size: int = 5000) -> List[str]:
                             chunks.append(temp_chunk.strip())
                             temp_chunk = word
                         else:
-                            # Single word too long, just add it
                             chunks.append(word)
                     else:
                         temp_chunk += " " + word if temp_chunk else word
@@ -207,10 +174,7 @@ def chunk_text(text: str, max_chunk_size: int = 5000) -> List[str]:
 
 
 def safe_coref_resolution(text: str, method: str) -> str:
-    """
-    Safely apply coreference resolution with chunking for large texts.
-    """
-    # Define size limits for each method
+    """Apply coreference resolution with chunking for large texts."""
     size_limits = {
         "stanza": 30000,
         "spacy_experimental": 50000,
@@ -220,7 +184,6 @@ def safe_coref_resolution(text: str, method: str) -> str:
     max_size = size_limits.get(method, 50000)
     
     if len(text) <= max_size:
-        # Text is small enough, process directly
         if method == "stanza":
             return stanza_coref_resolution(text)
         elif method == "spacy_experimental":
@@ -230,7 +193,6 @@ def safe_coref_resolution(text: str, method: str) -> str:
         else:
             return text
     else:
-        # Text is too large, process in chunks
         print(f"      Text is large ({len(text)} chars), processing in chunks...")
         chunks = chunk_text(text, max_size)
         resolved_chunks = []
@@ -255,59 +217,44 @@ def safe_coref_resolution(text: str, method: str) -> str:
 
 
 def stanza_coref_resolution(text: str) -> str:
-    """
-    Proper coreference resolution using Stanza.
-    Memory-safe implementation with proper cleanup.
-    """
+    """Coreference resolution using Stanza with memory-safe implementation."""
     nlp_stanza = None
     try:
-        # Check if Stanza is available
         if not STANZA_AVAILABLE:
             print("      Stanza not available, falling back to original text...")
             return text
         
-        # Limit text size to prevent crashes
-        if len(text) > 50000:  # Limit to ~50KB
+        if len(text) > 50000:
             print("      Text too large for Stanza, using original text...")
             return text
         
-        # Initialize Stanza pipeline with coreference resolution
         print("      Initializing Stanza pipeline...")
         nlp_stanza = stanza.Pipeline('en', processors='tokenize,mwt,pos,lemma,ner,coref', use_gpu=False)
         
-        # Process the text
         print("      Processing text with Stanza...")
         doc = nlp_stanza(text)
         
-        # Resolve coreferences
         resolved_text = []
         
-        # Get sentences and tokens
         sentences = doc.sentences
         
-        # Create a mapping of token positions to resolved mentions
         token_replacements = {}
         
         if hasattr(doc, 'coref') and doc.coref:
             print(f"      Found {len(doc.coref)} coreference chains...")
             for coref_chain in doc.coref:
-                # Find the representative mention (usually the first or longest)
                 representative = None
                 for mention in coref_chain:
                     if representative is None or len(mention.text) > len(representative.text):
                         representative = mention
                 
-                # Replace all other mentions with the representative
                 for mention in coref_chain:
                     if mention != representative:
-                        # Map this mention's position to the representative text
                         start_pos = mention.start_char
                         end_pos = mention.end_char
                         token_replacements[(start_pos, end_pos)] = representative.text
         
-        # Apply replacements to the original text
         resolved_text = text
-        # Sort by position (descending) to avoid position shifts when replacing
         for (start, end), replacement in sorted(token_replacements.items(), reverse=True):
             resolved_text = resolved_text[:start] + replacement + resolved_text[end:]
         
@@ -319,7 +266,6 @@ def stanza_coref_resolution(text: str) -> str:
         return text
     
     finally:
-        # Memory cleanup
         if nlp_stanza is not None:
             del nlp_stanza
         gc.collect()
