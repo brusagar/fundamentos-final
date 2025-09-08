@@ -13,10 +13,8 @@ This application is a Textual-based GUI for Named Entity Recognition (NER) and R
 
 ## Prerequisites
 
-- Python 3.8+ 
+- Recommended Python3.11 
 - Git
-- Virtual environment support (venv)
-- At least 4GB RAM (8GB+ recommended for training)
 
 ## Project Structure After Setup
 
