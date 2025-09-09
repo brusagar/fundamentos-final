@@ -278,6 +278,28 @@ The application includes built-in tools for:
 
 ### Common Issues and Solutions
 
+**❌ SpERT AdamW Import Error**
+If you encounter `ImportError: cannot import name 'AdamW' from 'transformers'`, this is due to newer versions of the transformers library where `AdamW` has been moved to `torch.optim`. To fix this:
+
+1. In `spert/spert/spert_trainer.py`, change the import line from:
+   ```python
+   from transformers import AdamW, BertConfig
+   ```
+   to:
+   ```python
+   from torch.optim import Optimizer, AdamW
+   from transformers import BertConfig
+   ```
+
+2. Also in the same file, remove the deprecated `correct_bias=False` parameter from the AdamW optimizer initialization. Change:
+   ```python
+   optimizer = AdamW(optimizer_params, lr=args.lr, weight_decay=args.weight_decay, correct_bias=False)
+   ```
+   to:
+   ```python
+   optimizer = AdamW(optimizer_params, lr=args.lr, weight_decay=args.weight_decay)
+   ```
+
 **❌ `textual` command not found**
 ```bash
 # Solution: Use Python module syntax
