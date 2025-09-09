@@ -89,6 +89,12 @@ source .venv/bin/activate
 
 # Install dependencies
 pip install -r requirements-dev.txt
+
+#Bear in mind that if you need to do coreference resolution,
+yo should install the coref requirements. That includes installing
+a model, namely
+
+python -m spacy download en_core_web_sm
 ```
 
 ## Running the Application
