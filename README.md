@@ -64,6 +64,7 @@ cd spert
 # Create SpERT environment
 python -m venv .spert_env
 source .spert_env/bin/activate  # On Windows: .spert_env\Scripts\activate
+cd ..
 
 # Install custom SpERT dependencies
 pip install -r ./requirements-spert.txt
@@ -71,7 +72,6 @@ python -m spacy download en_core_web_sm
 
 # Return to main project
 deactivate
-cd ..
 ```
 
 ### 3. Set Up Main Application
