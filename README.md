@@ -302,8 +302,14 @@ If you encounter `ImportError: cannot import name 'AdamW' from 'transformers'`, 
    ```
 
 **❌ `textual` command not found**
+
 ```bash
-# Solution: Use Python module syntax
+# Solution 1: Install textual dev tools
+pip install textual-dev
+```
+
+```bash
+# Solution 2: Use Python module syntax
 python -m textual serve app/app.py
 python -m textual run app/app.py
 ```
