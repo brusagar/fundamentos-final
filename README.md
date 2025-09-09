@@ -70,12 +70,17 @@ python -m venv .spert_env
 source .spert_env/bin/activate  # On Windows: .spert_env\Scripts\activate
 
 # Install custom SpERT dependencies
-pip install -r ./requirements-spert.txt
+pip install -r ../requirements-spert.txt
 python -m spacy download en_core_web_sm
 
-# Return to main project
+# Return to main project and apply compatibility fixes
 deactivate
 cd ..
+
+# Apply SpERT compatibility fixes automatically
+python scripts/fix_spert_compatibility.py
+# OR use the shell script version:
+# bash scripts/fix_spert_compatibility.sh
 ```
 
 ### 3. Set Up Main Application
@@ -331,6 +336,39 @@ python -m textual serve app/app.py --port 8081
 - Ensure config files are in `spert/configs/`, not root `configs/`
 - Use forward slashes in paths, even on Windows
 - Check file paths exist relative to `spert/` directory
+
+**❌ SpERT AdamW Import Error**
+If you encounter `ImportError: cannot import name 'AdamW' from 'transformers'`, this is due to newer versions of the transformers library where `AdamW` has been moved to `torch.optim`. 
+
+**Quick Fix (Automated):**
+```bash
+# Run the automated fix script
+python scripts/fix_spert_compatibility.py
+# OR
+bash scripts/fix_spert_compatibility.sh
+```
+
+**Manual Fix:**
+To fix this manually:
+
+1. In `spert/spert/spert_trainer.py`, change the import line from:
+   ```python
+   from transformers import AdamW, BertConfig
+   ```
+   to:
+   ```python
+   from torch.optim import Optimizer, AdamW
+   from transformers import BertConfig
+   ```
+
+2. Also in the same file, remove the deprecated `correct_bias=False` parameter from the AdamW optimizer initialization. Change:
+   ```python
+   optimizer = AdamW(optimizer_params, lr=args.lr, weight_decay=args.weight_decay, correct_bias=False)
+   ```
+   to:
+   ```python
+   optimizer = AdamW(optimizer_params, lr=args.lr, weight_decay=args.weight_decay)
+   ```
 
 ### Getting Help
 
