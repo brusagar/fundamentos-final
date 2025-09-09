@@ -118,8 +118,8 @@ python app/app.py
 ## SpERT Configuration and Usage
 
 ---
-## ⚠️ IMPORTANT: Visualization-Only Users!
-If you are **just interested in visualization**, I recommend creating the folder `spert/data/model_predictions/` and moving the `./test_predictions.json` there.
+## IMPORTANT: Visualization-Only Users!
+If you are **just interested in testing visualization**, I recommend creating the folder `spert/data/model_predictions/` and moving the `./test_predictions.json` there.
 ---
 
 ### Creating Configuration Files
