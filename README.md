@@ -14,10 +14,6 @@ This application is a **Textual-based GUI** for Named Entity Recognition (NER) a
 - **Data Management**: Built-in tools for data preprocessing and annotation
 - **Multi-Environment**: Separate environments for main app and SpERT to avoid conflicts
 
----
-## ⚠️ IMPORTANT: Visualization-Only Users!
-If you are **just interested in visualization**, I recommend creating the folder `spert/data/model_predictions/` and moving the `./test_predictions.json` there.
----
 ## Prerequisites
 
 - **Python 3.11 recommended**
@@ -68,6 +64,7 @@ cd spert
 # Create SpERT environment
 python -m venv .spert_env
 source .spert_env/bin/activate  # On Windows: .spert_env\Scripts\activate
+cd ..
 
 # Install custom SpERT dependencies
 pip install -r ../requirements-spert.txt
@@ -125,6 +122,11 @@ python app/app.py
 ```
 
 ## SpERT Configuration and Usage
+
+---
+## IMPORTANT: Visualization-Only Users!
+If you are **just interested in testing visualization**, I recommend creating the folder `spert/data/model_predictions/` and moving the `./test_predictions.json` there.
+---
 
 ### Creating Configuration Files
 
@@ -283,9 +285,37 @@ The application includes built-in tools for:
 
 ### Common Issues and Solutions
 
+**❌ SpERT AdamW Import Error**
+If you encounter `ImportError: cannot import name 'AdamW' from 'transformers'`, this is due to newer versions of the transformers library where `AdamW` has been moved to `torch.optim`. To fix this:
+
+1. In `spert/spert/spert_trainer.py`, change the import line from:
+   ```python
+   from transformers import AdamW, BertConfig
+   ```
+   to:
+   ```python
+   from torch.optim import Optimizer, AdamW
+   from transformers import BertConfig
+   ```
+
+2. Also in the same file, remove the deprecated `correct_bias=False` parameter from the AdamW optimizer initialization. Change:
+   ```python
+   optimizer = AdamW(optimizer_params, lr=args.lr, weight_decay=args.weight_decay, correct_bias=False)
+   ```
+   to:
+   ```python
+   optimizer = AdamW(optimizer_params, lr=args.lr, weight_decay=args.weight_decay)
+   ```
+
 **❌ `textual` command not found**
+
 ```bash
-# Solution: Use Python module syntax
+# Solution 1: Install textual dev tools
+pip install textual-dev
+```
+
+```bash
+# Solution 2: Use Python module syntax
 python -m textual serve app/app.py
 python -m textual run app/app.py
 ```
