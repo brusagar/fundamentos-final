@@ -13,7 +13,7 @@ class ScriptExecutorScreen(Screen):
     """Data preprocessing pipeline interface"""
 
     BINDINGS = [
-        Binding(key="r,R", action="run_script", description="Run Script"),
+        Binding(key="e,E", action="run_script", description="Run Script"),
         Binding(key="b,B", action="back", description="Back to Menu"),
         Binding(key="escape", action="blur_input", description="Exit Input/Back", show=False),
         Binding(key="tab", action="focus_next", description="Next Field", show=False),
@@ -50,6 +50,42 @@ class ScriptExecutorScreen(Screen):
             return [("No text files found", "")]
         
         return text_files
+
+    def get_input_files(self):
+        """Get list of input files from preprocessed directory"""
+        script_dir = Path(__file__).parent.parent.parent
+        preprocessed_dir = script_dir / "app" / "data" / "preprocessed"
+        
+        input_files = []
+        
+        if preprocessed_dir.exists():
+            # Get text files from root preprocessed directory
+            for txt_file in preprocessed_dir.glob("*.txt"):
+                relative_path = f"app/data/preprocessed/{txt_file.name}"
+                input_files.append((txt_file.name, relative_path))
+            
+            # Get JSON files from root preprocessed directory
+            for json_file in preprocessed_dir.glob("*.json"):
+                relative_path = f"app/data/preprocessed/{json_file.name}"
+                input_files.append((json_file.name, relative_path))
+            
+            # Get files from subdirectories
+            for subdir in preprocessed_dir.iterdir():
+                if subdir.is_dir():
+                    for txt_file in subdir.glob("*.txt"):
+                        relative_path = f"app/data/preprocessed/{subdir.name}/{txt_file.name}"
+                        display_name = f"{subdir.name}/{txt_file.name}"
+                        input_files.append((display_name, relative_path))
+                    
+                    for json_file in subdir.glob("*.json"):
+                        relative_path = f"app/data/preprocessed/{subdir.name}/{json_file.name}"
+                        display_name = f"{subdir.name}/{json_file.name}"
+                        input_files.append((display_name, relative_path))
+        
+        if not input_files:
+            return [("No preprocessed files found", "")]
+        
+        return input_files
 
     def get_gazeteer_files(self):
         script_dir = Path(__file__).parent.parent.parent
